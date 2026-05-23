@@ -1,6 +1,6 @@
 filename = 'betterinvisibility-1.21.1-1.0.6.jar'
 name = 'Better Invisibility'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

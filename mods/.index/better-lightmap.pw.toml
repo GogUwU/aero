@@ -1,6 +1,6 @@
 filename = 'better-lightmap-2.0.0+1.21.1.jar'
 name = 'Better Lightmap'
-side = 'client'
+side = ''
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'

@@ -1,6 +1,6 @@
 filename = 'ImmersiveThunder-1.21.1+1.2.2.jar'
 name = 'ImmersiveThunder'
-side = 'client'
+side = ''
 x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'

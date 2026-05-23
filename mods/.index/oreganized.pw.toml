@@ -1,6 +1,6 @@
 filename = 'Oreganized 1.21.1-5.1.2.jar'
 name = 'Oreganized'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'

@@ -1,6 +1,6 @@
 filename = 'explosiveenhancement-neoforge-1.21.1-1.1.2.jar'
 name = 'Explosive Enhancement: Reforged'
-side = 'client'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]

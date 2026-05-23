@@ -1,6 +1,6 @@
 filename = 'async-locator-refined-neoforge-1.21.1-1.5.3.jar'
 name = 'Async Locator Refined'
-side = 'server'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

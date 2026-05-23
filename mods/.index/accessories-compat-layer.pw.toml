@@ -1,6 +1,6 @@
 filename = 'accessories_compat_layer-neoforge-0.1.12+1.21.1.jar'
 name = 'Accessories Compatibility Layer'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'

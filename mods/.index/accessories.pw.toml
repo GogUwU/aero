@@ -1,6 +1,6 @@
 filename = 'accessories-neoforge-1.1.0-beta.53+1.21.1.jar'
 name = 'Accessories'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'

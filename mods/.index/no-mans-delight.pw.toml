@@ -2,7 +2,7 @@ filename = 'nomansdelight-2.1.0.jar'
 name = "No Man's Delight"
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
 x-prismlauncher-version-number = '2.1.0'
 
@@ -15,3 +15,11 @@ url = 'https://cdn.modrinth.com/data/8ffHF0Dn/versions/8DEzYpD3/nomansdelight-2.
 [update.modrinth]
 mod-id = '8ffHF0Dn'
 version = '8DEzYpD3'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'kjZCvAn6'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'REQUIRED'

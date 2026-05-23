@@ -1,6 +1,6 @@
 filename = 'geckolib-neoforge-1.21.1-4.8.4.jar'
 name = 'Geckolib'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

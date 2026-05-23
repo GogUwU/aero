@@ -1,6 +1,6 @@
 filename = 'sophisticatedcore-1.21.1-1.4.41.1867.jar'
 name = 'Sophisticated Core'
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

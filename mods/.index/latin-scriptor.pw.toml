@@ -1,6 +1,6 @@
 filename = 'latin_scriptor-neoforge-1.0.0.jar'
 name = 'latin-scriptor'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'

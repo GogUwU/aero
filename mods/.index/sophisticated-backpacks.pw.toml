@@ -17,11 +17,15 @@ mod-id = 'TyCTlI4b'
 version = 'X2E1wFPd'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'WRaRZdTd'
+addonId = 'BAscRYKm'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'BAscRYKm'
+addonId = 'DMu0oBKf'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'WRaRZdTd'
 type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
@@ -39,10 +43,6 @@ type = 'OPTIONAL'
 [[x-prismlauncher-dependencies]]
 addonId = 'nmoqTijg'
 type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'DMu0oBKf'
-type = 'OPTIONAL'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'vRYk0bv7'

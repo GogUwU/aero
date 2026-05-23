@@ -1,7 +1,6 @@
 filename = 'unfocused-neoforge-0.3.2-1.21.1-sgd.jar'
 name = 'Unfocused'
-side = 'both'
-x-prismlauncher-dependencies = []
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
@@ -16,3 +15,7 @@ url = 'https://cdn.modrinth.com/data/BvsO32QY/versions/ncYxOQeH/unfocused-neofor
 [update.modrinth]
 mod-id = 'BvsO32QY'
 version = 'ncYxOQeH'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ordsPcFz'
+type = 'REQUIRED'

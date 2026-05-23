@@ -1,6 +1,6 @@
 filename = 'desire-1.1.1-1.21.1.jar'
 name = 'Desire'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'

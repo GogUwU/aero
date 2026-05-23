@@ -1,6 +1,6 @@
 filename = 'ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge.jar'
 name = "Ritchie's Projectile Library"
-side = 'both'
+side = ''
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
