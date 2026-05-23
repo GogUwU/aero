@@ -1,0 +1,100 @@
+{
+  "type": "nomansland:pond",
+  "config": {
+    "decorators": [
+      {
+        "type": "nomansland:cluster_on_water",
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:lily_pad"
+          }
+        },
+        "probability": 0.3,
+        "limit": 13
+      },
+      {
+        "type": "nomansland:feature_cluster",
+        "place_count": {
+          "type": "minecraft:uniform",
+          "min_inclusive": 6,
+          "max_inclusive": 13
+        },
+        "tries": 24,
+        "xz_spread": 1,
+        "y_spread": 1,
+        "features": [
+          {
+            "feature": {
+              "type": "minecraft:simple_block",
+              "config": {
+                "to_place": {
+                  "type": "minecraft:weighted_state_provider",
+                  "entries": [
+                    {
+                      "data": {
+                        "Name": "nomansland:cattail",
+                        "Properties": {
+                          "half": "lower"
+                        }
+                      },
+                      "weight": 2
+                    },
+                    {
+                      "data": {
+                        "Name": "nomansland:reeds",
+                        "Properties": {
+                          "half": "lower"
+                        }
+                      },
+                      "weight": 3
+                    }
+                  ]
+                }
+              }
+            },
+            "placement": [
+              {
+                "type": "minecraft:block_predicate_filter",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": ["minecraft:air", "minecraft:water"]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "num_pools": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 3
+    },
+    "pool_size": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 7,
+      "max_inclusive": 8
+    },
+    "pool_eccentricity": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 2
+
+    },
+    "pool_spread": 6,
+    "pool_depth": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 2
+    },
+    "pool_noise": 0.4,
+    "pool_steepness": 6,
+    "water_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:water"
+      }
+    }
+  }
+}

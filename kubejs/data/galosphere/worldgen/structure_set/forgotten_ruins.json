@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 87964965,
+    "separation": 24,
+    "spacing": 40
+  },
+  "structures": [
+    {
+      "structure": "galosphere:forgotten_ruins",
+      "weight": 1
+    }
+  ]
+}

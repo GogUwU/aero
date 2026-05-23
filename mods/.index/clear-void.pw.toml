@@ -1,0 +1,18 @@
+filename = 'clearvoid-mc1.21.1-1.3.1.jar'
+name = 'Clear Void'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.1'
+
+[download]
+hash = '762705e4c8d3c08cc96a0a00f616b502fbfc9a995870f40966ef61a636edd3a61a34c11ecf057c5a913867844f0c779fa91daa745979508802430fe086283d37'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xsFn8GIq/versions/kNr2s3Ct/clearvoid-mc1.21.1-1.3.1.jar'
+
+[update.modrinth]
+mod-id = 'xsFn8GIq'
+version = 'kNr2s3Ct'

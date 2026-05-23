@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "kubejs:inset_komatiite"
+    },
+    "title": "Unfinished work",
+    "description": "Find portal remains",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "find_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": [
+              "aeroland:ruined_portal_desert",
+              "aeroland:ruined_portal_jungle",
+              "aeroland:ruined_portal_mountain",
+              "aeroland:ruined_portal_nether",
+              "aeroland:ruined_portal_ocean",
+              "aeroland:ruined_portal_standard",
+              "aeroland:ruined_portal_swamp"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:add",
+	"argument1": "aeroland:base_noise_heights",
+	"argument2": {
+		"type": "minecraft:interpolated",
+		"argument": {
+			"type": "minecraft:add",
+			"argument1": {
+				"type": "minecraft:mul",
+				"argument1": 1.1,
+				"argument2": "aeroland:surface"
+			},
+			"argument2": "aeroland:island_heights"
+		}
+	}
+}

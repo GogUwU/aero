@@ -1,0 +1,18 @@
+filename = 'create_cardan_shafts-0.1.3.jar'
+name = 'Create Cardan Shafts'
+side = ''
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'create_cardan_shafts-0.1.3.jar'
+
+[download]
+hash = 'da38b5cdcb0fdda281eb6d73a81dc97cf05c5b23'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8121459
+project-id = 1546625

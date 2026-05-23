@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "aeroland:ridges",
+        "points": [
+          {
+            "location": -1.15,
+            "derivative": 0,
+            "value": -1
+          },
+          {
+            "location": -1.05,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 0.95,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 1,
+            "derivative": 0,
+            "value": -1
+          },
+          {
+            "location": 1.1,
+            "derivative": 0,
+            "value": 1.5
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "oreganized:scribe",
+  "from": {
+    "blocks": "kubejs:polished_komatiite"
+  },
+  "to": "kubejs:inset_komatiite"
+}

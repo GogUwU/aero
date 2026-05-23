@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -48,
+        "to_y": 256,
+        "from_value": -48,
+        "to_value": 256
+      },
+      "points": [
+        {
+          "location": -16,
+          "derivative": 0,
+          "value": -0.5
+        },
+        {
+          "location": 16,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 128,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 256,
+          "derivative": 0,
+          "value": 0.3
+        }
+      ]
+    }
+  },
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": {
+          "type": "minecraft:y_clamped_gradient",
+          "from_y": -48,
+          "to_y": 256,
+          "from_value": -48,
+          "to_value": 256
+        },
+        "points": [
+          {
+            "location": -16,
+            "derivative": 0,
+            "value": 0.4
+          },
+          {
+            "location": 16,
+            "derivative": 0,
+            "value": 1
+          },
+          {
+            "location": 128,
+            "derivative": 0,
+            "value": 1
+          },
+          {
+            "location": 256,
+            "derivative": 0,
+            "value": 0.5
+          }
+        ]
+      }
+    },
+    "argument2": "aeroland:continents"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "idle": {
+    "timeout": 120,
+    "condition": "none"
+  },
+  "battery_tracker": {
+    "notifications": false
+  },
+  "download_natives": false
+}

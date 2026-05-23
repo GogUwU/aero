@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "kubejs:block/airstone_pillar_top",
+    "side": "kubejs:block/airstone_pillar_side"
+  }
+}

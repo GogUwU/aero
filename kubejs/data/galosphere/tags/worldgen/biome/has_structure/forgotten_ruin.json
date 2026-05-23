@@ -1,0 +1,12 @@
+{
+  "values": [
+    "minecraft:deep_dark",
+    "minecraft:dripstone_caves",
+    "minecraft:lush_caves",
+    "nomansland:caves",
+    "nomansland:cave_depths",
+    "galosphere:crystal_canyons",
+    "galosphere:lichen_caves",
+    "galosphere:pink_salt_caves"
+  ]
+}

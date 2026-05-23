@@ -1,0 +1,40 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0.01,
+    "frequency_reduction_method": "legacy_type_2",
+    "salt": 0,
+    "separation": 0,
+    "spacing": 1
+  },
+  "structures": [
+    {
+      "structure": "aeroland:ruined_portal_desert",
+      "weight": 1
+    },
+    {
+      "structure": "aeroland:ruined_portal_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "aeroland:ruined_portal_mountain",
+      "weight": 1
+    },
+    {
+      "structure": "aeroland:ruined_portal_nether",
+      "weight": 1
+    },
+    {
+      "structure": "aeroland:ruined_portal_ocean",
+      "weight": 1
+    },
+    {
+      "structure": "aeroland:ruined_portal_standard",
+      "weight": 1
+    },
+    {
+      "structure": "aeroland:ruined_portal_swamp",
+      "weight": 1
+    }
+  ]
+}

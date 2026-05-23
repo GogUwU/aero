@@ -1,0 +1,13 @@
+{
+  "fireworkUseBehaviour": "COSMETIC",
+  "doCameraRoll": true,
+  "cameraRollScale": 1.0,
+  "cameraRollSpeed": 0.1,
+  "cloudskipperSpeedMultiplier": 1.0,
+  "cloudskipperCloudLevel": 226.0,
+  "smokestackAirRecharge": true,
+  "smokestackChargeTicks": 10,
+  "campfiresPushPlayers": true,
+  "campfirePushMaxStrength": 24.0,
+  "campfirePushBaseStrength": 10.0
+}

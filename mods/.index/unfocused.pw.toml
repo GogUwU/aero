@@ -1,0 +1,18 @@
+filename = 'unfocused-neoforge-0.3.2-1.21.1-sgd.jar'
+name = 'Unfocused'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.3.2-1.21.1-neoforge'
+
+[download]
+hash = '0103f0ad85abd0562443cfd3d69918139dae9d2415c1583b92140b320f13d927172ee9f13fa90af284ce1fe4e9936e95b0f6d2f0c0afa4201c519454f7910aab'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BvsO32QY/versions/ncYxOQeH/unfocused-neoforge-0.3.2-1.21.1-sgd.jar'
+
+[update.modrinth]
+mod-id = 'BvsO32QY'
+version = 'ncYxOQeH'

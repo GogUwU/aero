@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": "aeroland:continents",
+          "points": [
+            {
+              "location": -1.2,
+              "derivative": 0,
+              "value": -0.8
+            },
+            {
+              "location": -0.8,
+              "derivative": 0,
+              "value": -0.5
+            },
+            {
+              "location": -0.6,
+              "derivative": 0,
+              "value": 0.7
+            },
+            {
+              "location": -0.2,
+              "derivative": 0,
+              "value": 0.5
+            },
+            {
+              "location": 0.2,
+              "derivative": 0,
+              "value": -0.5
+            },
+            {
+              "location": 0.6,
+              "derivative": 0,
+              "value": -0.7
+            },
+            {
+              "location": 1,
+              "derivative": 0,
+              "value": -0.4
+            },
+            {
+              "location": 1.2,
+              "derivative": 0,
+              "value": 0.5
+            }
+          ]
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.6,
+        "argument2": "aeroland:smooth_noodle"
+      }
+    }
+  }
+}

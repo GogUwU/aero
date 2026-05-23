@@ -1,0 +1,7 @@
+{
+  "type": "oreganized:scribe",
+  "from": {
+    "blocks": "kubejs:komatiite_tiles"
+  },
+  "to": "kubejs:komatiite_bricks"
+}

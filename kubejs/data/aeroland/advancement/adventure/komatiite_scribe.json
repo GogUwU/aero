@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "kubejs:komatiite"
+    },
+    "title": "Portal sculptor",
+    "description": "Use scribe to change komatiite's appearance",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "aeroland:adventure/find_portal",
+  "criteria": {
+    "use_scribe_on_komatiite": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#frame_changer:portal_frames"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "oreganized:scribe"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
