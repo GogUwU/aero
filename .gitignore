@@ -35,3 +35,4 @@ usernamecache.json
 *.zip
 emi.json
 *.bak
+*.jar
