@@ -249,7 +249,8 @@
 
     { "id": "create:copycat_step", "required": false },
     { "id": "create:copycat_panel", "required": false },
-    { "id": "#create:table_cloths", "required": false }
-
+    { "id": "#create:table_cloths", "required": false },
+	
+	"architects_palette:pipe"
   ]
 }

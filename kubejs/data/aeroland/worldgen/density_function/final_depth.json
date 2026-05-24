@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:quarter_negative",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": 1.2,
+      "argument2": "aeroland:ridge_modifier"
+    }
+  },
+  "argument2": "aeroland:depth_heights"
+}

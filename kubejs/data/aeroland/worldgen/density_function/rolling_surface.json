@@ -1,17 +1,66 @@
 {
-  "type": "minecraft:quarter_negative",
+  "type": "minecraft:interpolated",
   "argument": {
     "type": "minecraft:add",
     "argument1": {
-      "type": "minecraft:y_clamped_gradient",
-      "from_y": -32,
-      "to_y": -8,
-      "from_value": 2,
-      "to_value": -2
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": {
+          "type": "minecraft:add",
+          "argument1": "minecraft:y",
+          "argument2": {
+            "type": "minecraft:spline",
+            "spline": {
+              "coordinate": "aeroland:continents",
+              "points": [
+                {
+                  "location": -1,
+                  "derivative": 0,
+                  "value": 20
+                },
+                {
+                  "location": -0.5,
+                  "derivative": 0,
+                  "value": 10
+                },
+                {
+                  "location": -0.4,
+                  "derivative": 0,
+                  "value": 2
+                },
+                {
+                  "location": 0,
+                  "derivative": 0,
+                  "value": 0
+                },
+                {
+                  "location": 0.3,
+                  "derivative": 0,
+                  "value": -4
+                },
+                {
+                  "location": 1,
+                  "derivative": 0,
+                  "value": -9
+                }
+              ]
+            }
+          }
+        },
+        "points": [
+          {
+            "location": -24,
+            "derivative": 0,
+            "value": 1
+          },
+          {
+            "location": -8,
+            "derivative": 0,
+            "value": -1
+          }
+        ]
+      }
     },
-    "argument2": {
-      "type": "minecraft:interpolated",
-      "argument": "aeroland:smooth_noodle"
-    }
+    "argument2": "aeroland:smooth_noodle"
   }
 }

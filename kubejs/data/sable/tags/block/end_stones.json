@@ -53,6 +53,13 @@
     { "id": "mcwfences:railing_end_brick_wall", "required": false },
     { "id": "mcwfences:end_brick_railing_gate", "required": false },
     { "id": "mcwfences:end_brick_pillar_wall", "required": false },
-    { "id": "mcwfences:end_brick_grass_topped_wall", "required": false }
+    { "id": "mcwfences:end_brick_grass_topped_wall", "required": false },
+	
+	"architects_palette:entwine_block",
+	"architects_palette:entwine_slab",
+	"architects_palette:entwine_stairs",
+	"architects_palette:entwine_pillar",
+	"architects_palette:entwine_bars",
+	"architects_palette:chiseled_entwine"
   ]
 }

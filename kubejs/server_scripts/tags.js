@@ -12,6 +12,9 @@ ServerEvents.tags('block', e => {
     e.add('c:stones','kubejs:airstone')
     e.add('c:cobblestones','kubejs:cobbled_airstone')
 
+    //pitchstone
+    e.add('c:stones','kubejs:pitchstone')
+    e.add('c:cobblestones','kubejs:cobbled_pitchstone')
 
     //remove obsidian from portal frame
     e.remove('frame_changer:portal_frames', 'minecraft:obsidian')
@@ -39,7 +42,7 @@ ServerEvents.tags('block', e => {
 })
 
 ServerEvents.tags('item', e => {
-    //airstone
+//airstone
     e.add('kubejs:airstone','kubejs:inset_airstone')
     e.add('kubejs:airstone','kubejs:chiseled_airstone')
     e.add('kubejs:airstone','kubejs:polished_airstone')
@@ -66,8 +69,4 @@ ServerEvents.tags('item', e => {
     e.add('kubejs:portable_engines', 'simulated:purple_portable_engine')
     e.add('kubejs:portable_engines', 'simulated:magenta_portable_engine')
     e.add('kubejs:portable_engines', 'simulated:pink_portable_engine')
-
-    //zipline tools
-    e.add('zipline:attachment' ,'supplementaries:wrench')
-
 })

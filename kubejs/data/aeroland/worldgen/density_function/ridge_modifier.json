@@ -2,7 +2,7 @@
   "type": "minecraft:mul",
   "argument1": {
     "type": "minecraft:add",
-    "argument1": 0.9,
+    "argument1": 0.8,
     "argument2": "aeroland:skyblobs"
   },
   "argument2": {

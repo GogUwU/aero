@@ -3,5 +3,15 @@
     "priority": 1000,
     "properties": {
         "sable:mass": 0.125
+    },
+
+    "overrides": {
+        "layers=2": { "sable:mass": 0.250 },
+        "layers=3": { "sable:mass": 0.375 },
+        "layers=4": { "sable:mass": 0.5 },
+        "layers=5": { "sable:mass": 0.625 },
+        "layers=6": { "sable:mass": 0.75 },
+        "layers=7": { "sable:mass": 0.875 },
+        "layers=8": { "sable:mass": 1.0 }
     }
 }

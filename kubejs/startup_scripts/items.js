@@ -3,4 +3,6 @@ StartupEvents.registry('item', e => {
 
     e.create('silver_sheet').texture('kubejs:item/silver_sheet')
     e.create('silver_wire').texture('kubejs:item/silver_wire')
+
+    e.create('electrum_sheet').texture('kubejs:item/electrum_sheet')
 })

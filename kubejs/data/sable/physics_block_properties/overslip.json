@@ -1,0 +1,7 @@
+{
+  "selector": "#sable:overslip",
+
+  "properties": {
+    "sable:friction": -0.08
+  }
+}

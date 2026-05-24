@@ -1,0 +1,7 @@
+{
+  "selector": "kubejs:counterweight_40",
+
+  "properties": {
+    "sable:mass": 40.0
+  }
+}
