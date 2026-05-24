@@ -36,6 +36,6 @@ usernamecache.json
 emi.json
 *.bak
 *.jar
-config/iris.properties
 config/fabric/indigo-renderer.properties
+config/iris.properties
 config/packetfixer.properties
