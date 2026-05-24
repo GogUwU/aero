@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/cube","textures":{"particle":"kubejs:block/counterweight/weight_mid","west":"kubejs:block/counterweight/weight_mid","east":"kubejs:block/counterweight/weight_mid","up":"kubejs:block/counterweight/weight_top","south":"kubejs:block/counterweight/weight_mid","down":"kubejs:block/counterweight/dumbell_top","north":"kubejs:block/counterweight/weight_mid"}}
