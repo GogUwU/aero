@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "bfbe2083afa4c8a53fd4093809855308512be55d13ee8843c4eb03d624f565fa"
+
+[[files]]
 file = "config/Dusty Decorations Config.toml"
 hash = "36eb12b560599ccaef1931db7583aaa77cbdc7f20e9ac2938b706e0fccc56620"
 
@@ -3306,11 +3310,6 @@ hash = "d2fe2f05bba92f4973cebf4b5b867365aa8af5767710cc206bda660638c234e3"
 metafile = true
 
 [[files]]
-file = "mods/incision.pw.toml"
-hash = "0235eed252ea93b4a5a4f7eca7167aafda1596ff52c2ebe427e1d6adef715b50"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 hash = "3afb3967824023f28525575ae4ce20f9727988b0bd441f2555b4c7dc1bf9da1a"
 metafile = true
@@ -3502,7 +3501,7 @@ metafile = true
 
 [[files]]
 file = "mods/portalnator-1.0.0.jar"
-hash = "22ee568bcd8eee4a66dea7fc196960ca70a3acd59eee2ae17f1f61814998aedb"
+hash = "6b14fd90616133e90c1aeb56168efd3b20a7d9b5962bc17ff5448d04b13530c0"
 
 [[files]]
 file = "mods/portfolio.pw.toml"
@@ -3531,7 +3530,7 @@ metafile = true
 
 [[files]]
 file = "mods/regions-unexplored.pw.toml"
-hash = "42c02709d57f80a3056060f2e54afe513971811fa2f145927e7f71ccbc64d998"
+hash = "1dff12e9b63565695133af67d99fedc0f92cb35387939a82f7fd11277c404847"
 metafile = true
 
 [[files]]
@@ -3647,6 +3646,16 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "53a05aa34d7407e20a68be8acd3eceb339d25efa03584cf3e35a2617fb1bfb3b"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
+metafile = true
+
+[[files]]
+file = "mods/terrablenderfix.pw.toml"
+hash = "001f677e29f6a3f5789a7171ed271fdf1e39bc7e3490901d6819dcbf16969ac8"
 metafile = true
 
 [[files]]
