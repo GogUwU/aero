@@ -1,18 +1,12 @@
-filename = 'Kerria-1.0.6+1.21.1-neoforge.jar'
-name = 'Kerria'
-side = ''
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.0.6+1.21.1-neoforge'
+name = "Kerria"
+filename = "Kerria-1.0.7+1.21.1-neoforge.jar"
 
 [download]
-hash = 'd4c949e1534c584741c7497c527e287bf60aac0dbebf569ff3d7ae88b99a861e3c2a305598676aaa17d49bc279455e1c1d4b54683dd76470504c38b7f43f0e4b'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/f0ruQTF7/versions/EJnlPzwh/Kerria-1.0.6%2B1.21.1-neoforge.jar'
+url = "https://cdn.modrinth.com/data/f0ruQTF7/versions/LitgXy0Y/Kerria-1.0.7%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "2d409ab740bb0abec8bc1365d80d01325320d68398d5bc8bccfb850e4f3c0b16ec11eaf28bd54e4c69c7e3262bad347fbafe3992cddd1acf782a4b71d5d23ff6"
 
+[update]
 [update.modrinth]
-mod-id = 'f0ruQTF7'
-version = 'EJnlPzwh'
+mod-id = "f0ruQTF7"
+version = "LitgXy0Y"

@@ -126,7 +126,7 @@ hash = "cf7e8f3ae75a942e0c8b62f14fa68df3963b47c9c38895c2d7ba59c2bcb079ab"
 
 [[files]]
 file = "config/c2me.toml"
-hash = "1b250cdd6c38c667eadf4df9394b631823d976cca88d68fa974af668db2e5222"
+hash = "f40503192fc84df03a42c9c19b11ceb61eef23424d7b2f0583472fdba51e9159"
 
 [[files]]
 file = "config/cccbridge/client.toml"
@@ -409,6 +409,10 @@ file = "config/extra_gauges-server.toml"
 hash = "6967be2354a821d42b93572dc97f725ce16e704fb7fca1412f4981c12331ddd5"
 
 [[files]]
+file = "config/fabric/indigo-renderer.properties"
+hash = "f8c8cb8f75559fb11db7c23d99a8f96d9e006a7818fe3e95f32f246b9be89177"
+
+[[files]]
 file = "config/fancymenu/animation_controller_states.json"
 hash = "390ec222878751d5a1cced69d481ea90e3d81d23385be44f2453ee2164e06360"
 
@@ -573,6 +577,10 @@ file = "config/fancymenu/legacy_checklist.txt"
 hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
+file = "config/fancymenu/options.txt"
+hash = "bfa242685cc9afa400562ed1699182fb19e60f58d124386ce5732398ca5d34c1"
+
+[[files]]
 file = "config/fancymenu/ui_themes/dark.json"
 hash = "3f1263eaf693fdb6a315099b06797ac18830faa66c620916a80337a5082fd850"
 
@@ -633,8 +641,12 @@ file = "config/flerovium.json"
 hash = "566a6c273c8d4854691a6829f20c433215e8a1b8f8fa01fd2ee394d5a54c9a24"
 
 [[files]]
-file = "config/flywheel-client.toml"
+file = "config/flywheel-client-1.toml.bak"
 hash = "cf802bcdb805f78b2254eca13ab89f0d36a2404124eeb4e743019f011c981807"
+
+[[files]]
+file = "config/flywheel-client.toml"
+hash = "9a8019a2819cf8f27a30c0788b458ed7e9b6d749faea23d8feafa0424c4bb568"
 
 [[files]]
 file = "config/fml.toml"
@@ -731,6 +743,10 @@ hash = "6dfc3f68fa85cd4943cee797c3a4e01ca8c604af3a7ce8d9fc259fe342361de4"
 [[files]]
 file = "config/iris-excluded.json"
 hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
+
+[[files]]
+file = "config/iris.properties"
+hash = "31e0410a0fe3189d69dc9e91a816d68bd558c458e424f0959649db8728b1e06b"
 
 [[files]]
 file = "config/ixeris.toml"
@@ -893,6 +909,10 @@ file = "config/oxide-common.toml"
 hash = "e7fc10ebe579ba3773d5650a6cb5912ed97543b6dd3b20174c9a491329b41be8"
 
 [[files]]
+file = "config/packetfixer.properties"
+hash = "2c95eec436a31c7ec5ced39cccf643dc7a567a8267db19c180b120572cec59d7"
+
+[[files]]
 file = "config/particle_core_config.toml"
 hash = "1222a4b13cb507032be534be7142dd9c460b37bb61ac5c5431078de85bb07f1f"
 
@@ -947,6 +967,18 @@ hash = "89a5a2302ca2d229e8799cc980a545dd9312e29eabee4f83a62ff9202631aa11"
 [[files]]
 file = "config/regions_unexplored/common.toml"
 hash = "aad884377950211d1f9318aeade782d1a2e8531c3d34f1951cc372c41b528c45"
+
+[[files]]
+file = "config/regions_unexplored/regions_unexplored-common.toml"
+hash = "7c1508cdbf15f83c1911cb310ca1d8643c43695ce9e398b3b6e9bef7035904df"
+
+[[files]]
+file = "config/regions_unexplored/regions_unexplored-primary-region.toml"
+hash = "a6b850baea0d114fcf60e9ea6eb340669e092f3344d3ece5a56fd8be7b7fc693"
+
+[[files]]
+file = "config/regions_unexplored/regions_unexplored-secondary-region.toml"
+hash = "836070cd015a3da88fcf83acc53b9f17d6962c81f0c6780c156575cb64e8f975"
 
 [[files]]
 file = "config/resourceful-config-web.json"
@@ -3056,7 +3088,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "f1ec2810d032d6a411badcfff689987fd0f90ad75ea713d86ea8e3dd509fca48"
+hash = "36bee3f35fa07856a30ca3608e83a3c1c788a84d884601e1ffcbb4a93ddba218"
 metafile = true
 
 [[files]]
@@ -3286,7 +3318,7 @@ metafile = true
 
 [[files]]
 file = "mods/gnetum.pw.toml"
-hash = "d8c6886fa85f58ffb30fdcd8bab9c896e653cc3582448d1ee73b5ae36cba3b78"
+hash = "485266d5f693c76b7d442afd94b5c73c07aed11d335f7aef5e43c1701e1a07ec"
 metafile = true
 
 [[files]]
@@ -3346,7 +3378,7 @@ metafile = true
 
 [[files]]
 file = "mods/kerria-opt.pw.toml"
-hash = "8550878a99b357060bb1b2709242f51a9a57b93c54f1547b056708763d27bea2"
+hash = "ae16cda2af8fe0334766412f55086e5d524eb5808cb23c6f14680a935c1475a5"
 metafile = true
 
 [[files]]
@@ -3406,7 +3438,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "7c32f7db4f2f0dafde992023b07b80feecfd95c6f513b74a234a539417e6a5d7"
+hash = "055b6c20a794c272be3ca9edde5ccc7eb841712bc80c90ae147e71e30b238101"
 metafile = true
 
 [[files]]
@@ -3565,7 +3597,7 @@ metafile = true
 
 [[files]]
 file = "mods/schematicians-goggles.pw.toml"
-hash = "6faf3441dfcc32437c7467a69800d453926de3d1761eb12d50ae7be817bd61af"
+hash = "5853511a87e4a883faa5fb705ec31b2b9297bb81346341624f2a76f7aa2d0e6d"
 metafile = true
 
 [[files]]
@@ -3605,12 +3637,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "499926a66879b467d29efcee42e65bcd4ebe33822eafb3a0f665a6ff155d3d44"
+hash = "2d366957c9a51025eb4b8160aef7dfdabff0854bb59a1f30487732674e327cdc"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "f69f0a212bc29e1a0c846214a78c6f7f1d6c361508495aa4af9f08c60810ede0"
+hash = "89453d4b2c251f030e2e358bed6bdcafa58878c3ad4438eb92b28ac6373d31b6"
 metafile = true
 
 [[files]]
@@ -3660,7 +3692,7 @@ metafile = true
 
 [[files]]
 file = "mods/tmrv.pw.toml"
-hash = "f96b6b23dda99fabfe36b70f20087c36aec5ad549768dc9b385ea6d7b40ad9d1"
+hash = "0ce1d05df90ef78a98bff81acacd2998af6795cb602fdf7567b9ff2c939f2078"
 metafile = true
 
 [[files]]
