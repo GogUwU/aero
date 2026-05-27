@@ -3193,7 +3193,7 @@ metafile = true
 
 [[files]]
 file = "mods/enderscape.pw.toml"
-hash = "627ace0b196fac3fc7526195691c7dffa55892cc6be7fb346eaae5016ad29db5"
+hash = "ac7df139ba50473742ea05509536023624d32eb6a2d434257cc19c02478a8a3c"
 metafile = true
 
 [[files]]
@@ -3238,7 +3238,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "539b8aae1993319614fe7fdb855bf97f1992ce20d110748afeeed811713c3aa3"
+hash = "2e4577cb7232fb6505a95add773fd78fa0dad4fe8f6a163aaa93b4aa24101350"
 metafile = true
 
 [[files]]
@@ -3468,7 +3468,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-mans-land.pw.toml"
-hash = "4dcc9e3ecc25bcdbd3a20827d2e211f62fec409f65de0e469a4443fd442b8627"
+hash = "9edc61298d5809b2bebc52a940973486d99d8b7d77814b7712321584ee96c918"
 metafile = true
 
 [[files]]
@@ -3557,12 +3557,12 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "3cc8164888eaa68bbe356ff3f018f202e8cf8d24cf0ac36a1344c66b94d4d052"
+hash = "8895dbe78bd18995c2f5d107492a992a977c7162d59ae3194551fa123dbd56b4"
 metafile = true
 
 [[files]]
 file = "mods/regions-unexplored.pw.toml"
-hash = "1dff12e9b63565695133af67d99fedc0f92cb35387939a82f7fd11277c404847"
+hash = "8580afe7f67d4b8258706000d919c4cf25e537f2d0ed017a93187735884172f6"
 metafile = true
 
 [[files]]
@@ -3632,7 +3632,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "e79139f362694836c402c4ca6cf7705b1c1bd5c219b32cb3b2ad8ff48b265a82"
+hash = "5c23f64b61f44a3d6c7fa0bc0c8b99f0dd858cc442d82018cc23c209c9eee004"
 metafile = true
 
 [[files]]
