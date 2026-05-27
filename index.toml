@@ -1817,16 +1817,64 @@ file = "kubejs/data/aeroland/recipe/scribe/polished_komatiite.json"
 hash = "ff311eedcfe922c5cb36a7cfd94c58dbbef6386c2de096e708cec881e6c68325"
 
 [[files]]
-file = "kubejs/data/aeroland/structure/customportal/craneportal/craneportal.nbt"
-hash = "ded913fdcbf876acf0160389270d330489a9667107517736584afe7251ef049e"
+file = "kubejs/data/aeroland/structure/customportal/crane/crane.nbt"
+hash = "f470a86bf7fa0296c90c548c1353568ac12343cebb1e85dc9392333da077df6d"
 
 [[files]]
-file = "kubejs/data/aeroland/structure/customportal/craneportal/craneportal_dif.nbt"
-hash = "85e1655e126de30584e9c1b89f0774b39662d79550cbe8380cec146620b3f65c"
+file = "kubejs/data/aeroland/structure/customportal/crane/crane_broken.nbt"
+hash = "2e7108490bc4d306eec3003521b5ba5477e677bbe7dbe5c1203300c7c1a595df"
 
 [[files]]
-file = "kubejs/data/aeroland/structure/customportal/craneportal/craneportal_ocean.nbt"
-hash = "5f7eca4d97abdb526ff7f14b3870b30df9b4ecd77272bf37be555e800c3e79fb"
+file = "kubejs/data/aeroland/structure/customportal/crane/crane_broken_ocean.nbt"
+hash = "4d1e5e1fe7145ce2be6786eea8a8834ad0edd4ac8bc9c82d8a6d916228bac5d4"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/crane/crane_broken_other.nbt"
+hash = "53a1551eb2f649a7a996a3ec74832a5b7cc7c21729b05dba1bdda1c12271bd75"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/crane/crane_ocean.nbt"
+hash = "f37f71eaa6fc165343cced0cfecf6e44d5cfffafd811991aae1dae12118a57a6"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/crane/crane_other.nbt"
+hash = "233ef42e2f066bb9153e161cb716defe0b1458c5d5ddefb4cca87a283a8dfd2f"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/lab/lab.nbt"
+hash = "208930ffefa8f1a77d73476f3fb24db073052b3b8f599898cf9274e26156a763"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/lab/lab_b1.nbt"
+hash = "ab36d02af9bbe872cfe4cdc1763d2986a366b39cda596de5f4ebfdc715d99107"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/lab/lab_b1_ocean.nbt"
+hash = "f11cbb470e73ec91b81b923fdaacf9fb65065164a9e32549ed9d280305e0ef31"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/lab/lab_b1_other.nbt"
+hash = "25df50756e271228fcbe8ca73b90fe5b14c2d85e0058a7630823851e280a8472"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/lab/lab_b2.nbt"
+hash = "f737a3e2e54c2d7cbde3340f07d2ec27c8c78e04b675b22e0af3d5d31c5da0f1"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/lab/lab_b2_ocean.nbt"
+hash = "40a99770ac52865d73afd1c2a6f0ca4bb7111d56191e877a9639cfe26083bb1c"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/lab/lab_b2_other.nbt"
+hash = "085e6acca6a5614a437a5f8c80a1e895c9d674d26dce635f9190d3b9ca8824bc"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/lab/lab_ocean.nbt"
+hash = "ec17f7b1b3f7af325cf9af378855281ef7859c427455dbb8811ac590d038c3df"
+
+[[files]]
+file = "kubejs/data/aeroland/structure/customportal/lab/lab_other.nbt"
+hash = "69d485d7e119c1e9198dcbc1ae88e9be1f3f22627e6739e594b39d0243db2248"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/configured_feature/airstone.json"
@@ -1858,7 +1906,7 @@ hash = "c74915be3e7595443728f1b00ae422439ac1433dfa658f9f619615d79aee8f4d"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/depth_heights.json"
-hash = "e296319f7c59c8c214a6dfbd856968fad1d6dd93cf9037e2a9e20681c7c0ec0c"
+hash = "fafcd0042b353379b1a7585bc010873a672fd7723625fc48d55c7ddc0842c8f7"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/erosion.json"
@@ -1870,7 +1918,7 @@ hash = "964045f0f7a43bccaba2cb002af18b1050ac481d9cc61179648a97cc1b8e2370"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/final_depth.json"
-hash = "0b6d7f4cf97f6815ff0c623da9204df31e108b45394dc1dc79a19c85cbd86fd4"
+hash = "7c502847c0f613f5bf801f9f74a88afd2683fa93e0b3ee4224e4d73736b7673a"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/island_coastal.json"
@@ -1886,11 +1934,15 @@ hash = "13bc04c8e106a48c820b86ca42b8b593c2144275c5e146c6fe9d0c31e7ae4a01"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/ridge_modifier.json"
-hash = "35874497ae0958044ce48a6a63c06725d269fa6e886e0c5b4f4ea2e2ca5971d6"
+hash = "178c54eb659e3c1d5e292100481d4c8f74cf1c9f4b404595a0427eb38cd83349"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/ridges.json"
 hash = "d7b2e0456b311f5db30f44dc24835a0a228aece5ee246275c318ed0ce064b799"
+
+[[files]]
+file = "kubejs/data/aeroland/worldgen/density_function/ring_ridge_depth.json"
+hash = "a5fdfa4d925193dd9444e54ed0576bddfa375665bb4e3089ecf4636ce1fbe2d0"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/ring_ridges.json"
@@ -1938,7 +1990,7 @@ hash = "c28d833d8383efac58971adb53e15e7f38788a0dcc60cd0cbb0099d0a0f3e61c"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/structure/ruined_portal_desert.json"
-hash = "49e54930f0267dee2b903a0aec5eedb4009e1c861054cc7fe4e4de7a967b1077"
+hash = "d91eeaea576ab298eceb3e4fe1c8b007a38da78f1944511402414ad6539e6948"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/structure/ruined_portal_jungle.json"
@@ -1946,7 +1998,7 @@ hash = "773fcceddb0441f5b9c71a3d266d8f965edf6eb6ff785adc4a912c08d9c66344"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/structure/ruined_portal_mountain.json"
-hash = "6b691c8e4e76f26cc9ca8e82cb981ea40425ab7616e9bbfa6deb5764f0053dd5"
+hash = "43e393db480a58d0436da8d8b51f3e25373c8a21acfb8d926e58f8ea64c5438b"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/structure/ruined_portal_nether.json"
@@ -1954,7 +2006,7 @@ hash = "07ca93b5cb36dae40ea13aef184d775dd35e605757a0620316242d97e57a69c5"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/structure/ruined_portal_ocean.json"
-hash = "ad0d18334c128479ba911e3c7ce05bd2badbe54dd975f956546cd5f75d189159"
+hash = "ede595a22d60660c0f72f6adb027cb32faecd8c16010acd75aac13cd8e0df6d2"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/structure/ruined_portal_standard.json"
@@ -1970,15 +2022,15 @@ hash = "64cf019f9f6879739f194e296151427087c19e76cbab2fedd8f8643ae62092e7"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/template_pool/ruined_portal.json"
-hash = "8f5b2af7517f2175b489d491998d1b73ca7ad10638a2db314f3f0455e2853189"
-
-[[files]]
-file = "kubejs/data/aeroland/worldgen/template_pool/ruined_portal_dif.json"
-hash = "4960e8ba32c6a23d9befc10c92f181bf219ad3dc7d6827048267c9859eef4a49"
+hash = "5c83381e0a7d76049695837c964653a95bd9fc8f88d24a18eea1a890671b3826"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/template_pool/ruined_portal_ocean.json"
-hash = "9ff6992ec826caa8d2900c7a5816289f41877b96e822b5638581d6017f9ca847"
+hash = "b1704524dfb5f72be2e16e266e5ebdd411c32e112cafcf3e35ba1f239784c99a"
+
+[[files]]
+file = "kubejs/data/aeroland/worldgen/template_pool/ruined_portal_other.json"
+hash = "48f306402d7bc57db58c2f9ab195c50d79edfc46eadc19018eaeb935c4fb195f"
 
 [[files]]
 file = "kubejs/data/aeronautics/recipe/crushing/end_stone_powder.json"
