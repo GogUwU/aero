@@ -3652,7 +3652,7 @@ metafile = true
 
 [[files]]
 file = "mods/spelunkery.pw.toml"
-hash = "a1fe63935e534dfbdbf97db2a83bb25aa7e3f87e893c8d4ddb8094ca9a2a0eaa"
+hash = "ef6f65735c9b94d2a1538318eb7801ab40b66184bfa70ae4602e24bfc07d264d"
 metafile = true
 
 [[files]]

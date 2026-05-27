@@ -4,7 +4,7 @@
   "step": "raw_generation",
   "terrain_adaptation": "beard_thin",
   "spawn_overrides": {},
-  "start_pool": "aeroland:ruined_portal",
+  "start_pool": "aeroland:ruined_portal_other",
   "size": 1,
   "start_height": {
     "absolute": 0

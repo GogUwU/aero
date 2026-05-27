@@ -7,7 +7,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "location": "aeroland:customportal/crane/crane_ocean",
+                "location": "aeroland:customportal/crane/crane_other",
                 "processors": []
             }
         },
@@ -16,7 +16,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "location": "aeroland:customportal/crane/crane_broken_ocean",
+                "location": "aeroland:customportal/crane/crane_broken_other",
                 "processors": []
             }
         },
@@ -25,7 +25,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "location": "aeroland:customportal/lab/lab_ocean",
+                "location": "aeroland:customportal/lab/lab_other",
                 "processors": []
             }
         },
@@ -34,7 +34,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "location": "aeroland:customportal/lab/lab_b1_ocean",
+                "location": "aeroland:customportal/lab/lab_b1_other",
                 "processors": []
             }
         },
@@ -43,7 +43,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "location": "aeroland:customportal/lab/lab_b2_ocean",
+                "location": "aeroland:customportal/lab/lab_b2_other",
                 "processors": []
             }
         }
