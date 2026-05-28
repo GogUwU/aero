@@ -541,6 +541,10 @@ file = "config/fancymenu/assets/singleplayer_button_static.png"
 hash = "bc12da9bddcca47a707539db082b0d9b9c367b9be343d5c4521b94ff42644971"
 
 [[files]]
+file = "config/fancymenu/assets/tips.txt"
+hash = "6598b910362f9ad4acc46968db11e13054f20eca9aa2196d5472cd89871f9132"
+
+[[files]]
 file = "config/fancymenu/assets/title.png"
 hash = "ea1161a9d6e79b820f256d60f0940cbd98de994e0f30e5f1831f4c269bae3f26"
 
@@ -558,15 +562,19 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "33a7538189b104668ba576efd64da9f2dfba1a8ec5e63c99a95eb2085175633a"
+hash = "3bb31bec102cb8d237f5de2748c74fa0e9e579f669335a0309d08affbd779a76"
+
+[[files]]
+file = "config/fancymenu/customization/loading_tip.txt"
+hash = "cc638f4b80f104c444dd7796e2dd544b91ca622be5e35348dd6a0b44986331cf"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "cd1047e4ce9266b929f748e767f28d95955d9c01005e897fd5cf3f11ecb93c2e"
+hash = "9bd7d2fc1dd8f8e94af259bf3bc4f5eafd8c5a399f5d9df91cd229fafa7306e4"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "6b94dcd696d2fa37f40166cc6efb18add264528f13fd617819fc2aa5a44c9bf5"
+hash = "2d3ec95b4f1895367ba88e2769df3f7d6b50cc5d35892a144747303709373faa"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -590,7 +598,7 @@ hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "90fc8941446c26f3b3c957fcd967ba6bdaadf16a54f23528a932074d7b95bfb9"
+hash = "de8a75f4bfb98a354aa83689c827ad7523a03fb2300b602ea1f7c4dc8db2b23a"
 
 [[files]]
 file = "config/fancytoasts/general.json"

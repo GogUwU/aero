@@ -39,6 +39,10 @@ ServerEvents.tags('block', e => {
     e.add('sable:heavy', 'createdieselgenerators:diesel_engine')
     e.add('sable:heavy', 'createdieselgenerators:modular_diesel_engine')
     e.add('sable:ultra_heavy', 'createdieselgenerators:huge_diesel_engine')
+
+    //spelunkery stuff
+    e.add('spelunkery:chisel_immune', '#frame_changer:portal_frames')
+    e.add('spelunkery:chisel_immune', '#aeronautics:levitite')
 })
 
 ServerEvents.tags('item', e => {

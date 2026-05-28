@@ -17,7 +17,7 @@
     }
   },
   "start_height": {
-    "absolute": 72
+    "absolute": 44
   },
   "start_pool": "galosphere:forgotten_ruins/starts",
   "step": "underground_structures",
