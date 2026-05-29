@@ -1798,7 +1798,7 @@ hash = "e8b781d54b149c2d9eb31f9f14c372b2579e19da52562cc636616d1268ae9099"
 
 [[files]]
 file = "kubejs/data/aeroland/advancement/adventure/find_portal.json"
-hash = "39af7d1db7deb45ea4c82f02998c6161ca773106238ddbcb2cdbd3efcf369bec"
+hash = "b4c8e1daf42f03ac496f67706a05aef6e31d97cbed11ba86b3c8533f8bcc0249"
 
 [[files]]
 file = "kubejs/data/aeroland/advancement/adventure/komatiite_scribe.json"
@@ -1978,7 +1978,7 @@ hash = "6921fdc022356a55f441b794e4fae3e95a9606dc088363fdc5bd61feafd8da02"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/placed_feature/airstone.json"
-hash = "6566a1b7f6b05f80f3a223d69d3b67c69737503983a2bf8c828e8150624c5e66"
+hash = "657aa194fbf061528ca8ace9c0efcda89578b64b8feb3a1adc73645161192c96"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/placed_feature/komatiite.json"
@@ -1986,7 +1986,7 @@ hash = "ff17b76869e6b8cf238048aee7d760f3aecd187aaecef9849d07babe6f646731"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/placed_feature/levitate_pond.json"
-hash = "542ab5cd4e4366c72cbc3e0d81955660e311154229a7801d77f1625e8743c06a"
+hash = "018327ad843c660af993c887c3cb2ae6034ac5ceefb0c327427e94bbb39322db"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/placed_feature/medium_pond.json"
@@ -2009,10 +2009,6 @@ file = "kubejs/data/aeroland/worldgen/structure/ruined_portal_mountain.json"
 hash = "43e393db480a58d0436da8d8b51f3e25373c8a21acfb8d926e58f8ea64c5438b"
 
 [[files]]
-file = "kubejs/data/aeroland/worldgen/structure/ruined_portal_nether.json"
-hash = "07ca93b5cb36dae40ea13aef184d775dd35e605757a0620316242d97e57a69c5"
-
-[[files]]
 file = "kubejs/data/aeroland/worldgen/structure/ruined_portal_ocean.json"
 hash = "ede595a22d60660c0f72f6adb027cb32faecd8c16010acd75aac13cd8e0df6d2"
 
@@ -2026,7 +2022,7 @@ hash = "106c2c908df5cb7768871c9e8498a5a5ee04eef0a24e4affb99d1cfb7ba511ce"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/structure_set/ruined_portal.json"
-hash = "64cf019f9f6879739f194e296151427087c19e76cbab2fedd8f8643ae62092e7"
+hash = "b15dde90e33bc90832d0c4009735ab44e8f3c00d4805cb48aadfacb51d74b50a"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/template_pool/ruined_portal.json"
@@ -2193,6 +2189,10 @@ file = "kubejs/data/dustydecorations/advancement/welcome_to_dusty_decor.json"
 hash = "8231d56eb91f1f5423e0b69409c94751b56fcf06aa47328b2b6baabd3a40aa52"
 
 [[files]]
+file = "kubejs/data/enderscape/worldgen/structure/stronghold.json"
+hash = "7b357dcb9d154151471f9198997ce2eb6c939a7fd244eecd9217e7754cc54290"
+
+[[files]]
 file = "kubejs/data/galosphere/placed_feature/allurite_ceiling_crystals.json"
 hash = "a17285b51055a276eed73aa11d6b1cecd7bdb4d247d371c3e645c90bb6e183ae"
 
@@ -2242,7 +2242,7 @@ hash = "9cd132ab9bd1f8fb4c4569ae52cb8cb83ab8bd139ba26aab87831b98ee7e6b53"
 
 [[files]]
 file = "kubejs/data/galosphere/worldgen/structure/forgotten_ruins.json"
-hash = "3267b99bc3d1e76b45845b9c8dc815276aca702531b2cd6378468035df26b20e"
+hash = "a5662f529b752fc2edcbe6b4a20fd147c6850b19de385794d7b943176cc61699"
 
 [[files]]
 file = "kubejs/data/galosphere/worldgen/structure_set/forgotten_ruins.json"
@@ -2466,7 +2466,7 @@ hash = "c59727bedb55f34646b254e4e26e31ec756ca5a18d68425cb826dec2f1d40c8f"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_coal_upper.json"
-hash = "ae6c38fa5c89cc056f4150bc95ff791fc5727c8af71050965192321c1a8f7826"
+hash = "7be713956f231e9920feccb3784faab6853d5e83211111fac7364d4ccd83ef04"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_copper.json"
@@ -2521,16 +2521,16 @@ file = "kubejs/data/minecraft/worldgen/placed_feature/ore_redstone_lower.json"
 hash = "d1db67218647fdff7caa6a4737782e7399db72d1155704f738dd848074ab0ba7"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/spring_water.json"
+hash = "87b4b088e3ef51ef49299be2536350f00e5af565f31855d221eb5dfcca30eb21"
+
+[[files]]
 file = "kubejs/data/minecraft/worldgen/structure/ancient_city.json"
-hash = "e7e7a31e8630c5e898d434168ab23a7298a04d45b1bdaddbb03f34bbf462e741"
+hash = "9d3ab942f8432cb94425e5fa6334226cd0e945714142f37a6607715e34856d8f"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure/desert_pyramid.json"
 hash = "c73ebb380b41088b31254df5f75d83d3c0fac6aa2d2abde7fa77155cfb5925aa"
-
-[[files]]
-file = "kubejs/data/minecraft/worldgen/structure/stronghold.json"
-hash = "2040ff702a3fd6efd075758bda74ecf8fdd51e6bf5b468c1ddbfa0078c18c812"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/ancient_cities.json"
@@ -2898,7 +2898,7 @@ hash = "775ea631a824bc27587eb41ceeffd36342a41ccafbc57fc158fccab8bbcdb381"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "a7f06c752a5df520b81ad20114900d27832ec787c60ff59f334d15e027229fa6"
+hash = "6cc773ee21b7cfcb8870b003f59cd2958cf0bba6aa7109334d5d676357cc07c2"
 
 [[files]]
 file = "kubejs/server_scripts/unify.js"
@@ -3358,7 +3358,7 @@ metafile = true
 
 [[files]]
 file = "mods/gallery.pw.toml"
-hash = "85f41b4b9c158f90c0e008d600e101e3ef4547d9c4d69a00376961206493b237"
+hash = "e832c26a02e4888cff0eb455eb3e9ddfbe2d7e13dc1fdec01af8e729cc3b7d57"
 metafile = true
 
 [[files]]
@@ -3408,7 +3408,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "9b5b8998fc08482913f71545267839419e1d6c4839a34c5e90ca982a405d185f"
+hash = "a2e935a6c0452ace65fa970d8b1bf09595f671581973b08225cb27aff005cca6"
 metafile = true
 
 [[files]]
