@@ -2457,12 +2457,32 @@ file = "kubejs/data/minecraft/worldgen/biome/warped_forest.json"
 hash = "ebdddcc9206d663661da7eb7445f173715cbb3f91e610973ff97b71829ad1af8"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/disk_clay.json"
+hash = "5a95fc6a556e3bb69b8b30aade3fbcca64502f3de95caf04bd6fc94a741eee3b"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/configured_feature/ore_andesite.json"
+hash = "add2247bb7e9e9395deeb5571f0329fda9c781d70d1e24641c45bd50984ba009"
+
+[[files]]
 file = "kubejs/data/minecraft/worldgen/noise_settings/overworld.json"
 hash = "22bee01295a4932df40a1b836a092651873308aad026404ad272634de9db29f0"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/disk_clay.json"
+hash = "5178e5b5b6968f4378b9f03aed46be99005dba1f94b6437b1ff509fb4b538852"
+
+[[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/glow_lichen.json"
 hash = "c59727bedb55f34646b254e4e26e31ec756ca5a18d68425cb826dec2f1d40c8f"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_andesite_lower.json"
+hash = "80acad3053cd03e871e36bff3e03e347abc2418a2beffa0bdf49fb39e38fe977"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_andesite_upper.json"
+hash = "ce18f7c52c3d10ad77e436c2185a6f9e7129f5d6be5f7725d7cc4b2e4f82fa1d"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_coal_upper.json"
@@ -2475,6 +2495,18 @@ hash = "6b210d27ad72bd6d6b6c442e8899d3572dfb8b60a0f1f03b8ab5d773c2f0a596"
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_copper_large.json"
 hash = "4d46f9d31e0b2bec9a1f5a4d68c6bfd5f3c894c6c00f0f2a4d05af96097b93c3"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diorite_lower.json"
+hash = "f509765632416a5ac760595d43d1fba011ab7dcbde1518f6219f31599b89cbcd"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_diorite_upper.json"
+hash = "82a6fdc8a030f4652da4479eda19d0ce769a389645da747bab2727dd2c5ed6f4"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_dirt.json"
+hash = "ac4fc3a1458dfaa73a365797f8da605ab41e216e19d99cb2e515c21246dfbf02"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_emerald.json"
@@ -2491,6 +2523,18 @@ hash = "3ed2ba7ba91578b788a6b6d9b264da31324db38da1837a33daad0355cc0e0926"
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_gold_lower.json"
 hash = "135c896741687b9e7717d378c671d91d82e94f486d0a39309f4b790794f24665"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_granite_lower.json"
+hash = "55252dbf46a51ea5fef6e4ca0d4ab5391ed23e6759c8e102e4089d156f8c6367"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_granite_upper.json"
+hash = "e7ba30ad82f524a524b83d97a156194c84885b11d9e5d695c24e0b817901f40f"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_gravel.json"
+hash = "dc299db28d6473efb88c511b61fd4960a2fb9f7ed082066029265f120246bec3"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_iron_middle.json"
@@ -2521,28 +2565,16 @@ file = "kubejs/data/minecraft/worldgen/placed_feature/ore_redstone_lower.json"
 hash = "d1db67218647fdff7caa6a4737782e7399db72d1155704f738dd848074ab0ba7"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/placed_feature/ore_tuff.json"
+hash = "b2dbbef1ea374643e7a2f2c7c24314b3982344d446b7bb19e093604baaa52eeb"
+
+[[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/spring_water.json"
 hash = "87b4b088e3ef51ef49299be2536350f00e5af565f31855d221eb5dfcca30eb21"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/structure/ancient_city.json"
-hash = "9d3ab942f8432cb94425e5fa6334226cd0e945714142f37a6607715e34856d8f"
-
-[[files]]
 file = "kubejs/data/minecraft/worldgen/structure/desert_pyramid.json"
 hash = "c73ebb380b41088b31254df5f75d83d3c0fac6aa2d2abde7fa77155cfb5925aa"
-
-[[files]]
-file = "kubejs/data/minecraft/worldgen/structure_set/ancient_cities.json"
-hash = "711795eca8b83b29aa487dd5abc0cd4bd842bae4ae5c01d6e9b224fd2cdb6c9b"
-
-[[files]]
-file = "kubejs/data/minecraft/worldgen/structure_set/buried_treasures.json"
-hash = "ceebbdf4e44c459dff9aaeca1652f1c6919b28ed816179911d3267f12b3bdf96"
-
-[[files]]
-file = "kubejs/data/minecraft/worldgen/structure_set/jungle_temples.json"
-hash = "2134dcbf6720b409b86454b71790148af7a4ab1d879839890335f12175055bed"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/ocean_monuments.json"
@@ -2553,12 +2585,8 @@ file = "kubejs/data/minecraft/worldgen/structure_set/ruined_portals.json"
 hash = "4b9bdfdbedf4b096308cbca83df8cddfdda7c93f5e9b615bd56a6d5c66495bdb"
 
 [[files]]
-file = "kubejs/data/minecraft/worldgen/structure_set/swamp_huts.json"
-hash = "e68fbe7b9c07c15c59703eeea525162535eb69ad67e2a505a42fb46452707a04"
-
-[[files]]
-file = "kubejs/data/minecraft/worldgen/structure_set/trail_ruins.json"
-hash = "cd8c4c9683be6239fa69891b4e7325c66a3f51674e7e6464562811aa2df984b4"
+file = "kubejs/data/minecraft/worldgen/structure_set/shipwrecks.json"
+hash = "fafc29e4467144bed19946e72d2ffa36708ce49355d5f564818df61be6b39d86"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/structure_set/trial_chambers.json"
@@ -2659,6 +2687,14 @@ hash = "c6509ea375ddc1905ee96fcb2e5406deadd46879b713b697186dd18e7a73516a"
 [[files]]
 file = "kubejs/data/nomansland/worldgen/structure/small_dungeon.json"
 hash = "b98e64cf18d0b2d6aa5b86bd78629c3d8d54a14985d7d21772a362fc57625cb5"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/advancement/parent.json"
+hash = "5b20f39c0418a4d1a5e686f0bfe9234d34201c845dc687e217b4b46d7f073ca7"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/placed_feature/hyacinth_rocks.json"
+hash = "88d43b48addc787eed6e78ed8862a52a7a8c02a15feecd02287510acb5ac53dc"
 
 [[files]]
 file = "kubejs/data/sable/floating_materials/selflift.json"
@@ -2898,7 +2934,7 @@ hash = "775ea631a824bc27587eb41ceeffd36342a41ccafbc57fc158fccab8bbcdb381"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "6cc773ee21b7cfcb8870b003f59cd2958cf0bba6aa7109334d5d676357cc07c2"
+hash = "deaf7d70a9ce5ca0b6cc9101ebd52a5c76ba9e329c3c718acfb3641260c7a9b9"
 
 [[files]]
 file = "kubejs/server_scripts/unify.js"
@@ -2915,6 +2951,11 @@ hash = "4da22c89aedd91ae5a82d3752a63edfa57b38ee463ea3f8086cd0a424b991ed0"
 [[files]]
 file = "kubejs/startup_scripts/items.js"
 hash = "b8eaece658484b15c03888f42b1857bbc1349e20455cca55b4994c2d511d5783"
+
+[[files]]
+file = "mods/accents.pw.toml"
+hash = "23a56a6a2054167c1b834a8bed6e547369ea171d0a7ba7dc3ebf318bad7c1b45"
+metafile = true
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
@@ -3207,6 +3248,11 @@ hash = "4d373718f51f9a975f192f884b65b0b62b484e2856f95f7a203c38d32c878906"
 metafile = true
 
 [[files]]
+file = "mods/darker-depths.pw.toml"
+hash = "cfb13da265cf6d699a92b932d2729a91e670f9a35cecf4290ce6d82cb64fd469"
+metafile = true
+
+[[files]]
 file = "mods/deployer.pw.toml"
 hash = "69a3d55f515e0b49ba59f820fb73a86b58885a1c486c1f1b4ade999b642c5591"
 metafile = true
@@ -3344,6 +3390,11 @@ metafile = true
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "e55e53e488fa9d5be0cb4352cd399d2b72822f4179f930f6bc742bd3683ddb97"
+metafile = true
+
+[[files]]
+file = "mods/fragmentum.pw.toml"
+hash = "85ba6f016d7447b4ba0013eab45ecfffd4349e99acd892d46c16bf0d2411f8cc"
 metafile = true
 
 [[files]]
