@@ -43,6 +43,8 @@ ServerEvents.tags('block', e => {
     //spelunkery stuff
     e.add('spelunkery:chisel_immune', '#frame_changer:portal_frames')
     e.add('spelunkery:chisel_immune', '#aeronautics:levitite')
+    //clay
+    e.add('minecraft:stone_ore_replaceables', 'minecraft:clay')
 })
 
 ServerEvents.tags('item', e => {
