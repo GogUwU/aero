@@ -1,6 +1,6 @@
 name = "Aeroland"
 author = "Gog, PirateSee, bananapix"
-version = "1.0.0-dev4"
+version = "1.0.0-dev5"
 pack-format = "packwiz:1.1.0"
 
 [index]

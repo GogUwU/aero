@@ -2,6 +2,8 @@ ServerEvents.recipes(e => {
     //remove
     e.remove({id:'createadditionallogistics:crafting/kinetics/flexible_shaft'})
     e.remove({id:'galosphere:rope_dart'})
+    e.remove({id:'accents:sewing_kit'})
+    e.remove({id:'sophisticatedbackpacks:upgrade_base'})
 
     // rebalances
 
@@ -589,6 +591,65 @@ ServerEvents.recipes(e => {
             {
             "count": 6,
             "id": 'createdeco:industrial_iron_ingot'
+            }
+        ]
+    })
+
+    // prismarine recycling
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+            "item": "minecraft:prismarine"
+            }
+        ],
+        "processing_time": 150,
+        "results": [
+            {
+            "count": 3,
+            "id": "minecraft:prismarine_shard"
+            },
+            {
+            "chance": 0.5,
+            "id": "minecraft:prismarine_shard"
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+            "item": "minecraft:prismarine_bricks"
+            }
+        ],
+        "processing_time": 150,
+        "results": [
+            {
+                "count": 7,
+                "id": "minecraft:prismarine_shard"
+            },
+            {
+                "count": 2,
+                "chance": 0.5,
+                "id": "minecraft:prismarine_shard"
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:compacting",
+        "ingredients": [
+            {
+                "item": "minecraft:prismarine_shard"
+            },
+            {
+                "item": "minecraft:glowstone_dust"
+            }
+        ],
+        "results": [
+            {
+                "id": 'minecraft:prismarine_crystals'
             }
         ]
     })

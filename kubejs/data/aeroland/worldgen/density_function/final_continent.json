@@ -10,7 +10,7 @@
     },
     "points": [
       {
-        "location": 8,
+        "location": 0,
         "derivative": 0,
         "value": {
           "coordinate": "aeroland:continents",
@@ -29,7 +29,7 @@
         }
       },
       {
-        "location": 32,
+        "location": 8,
         "derivative": 0,
         "value": {
           "coordinate": "aeroland:continents",
@@ -48,7 +48,7 @@
         }
       },
       {
-        "location": 128,
+        "location": 64,
         "derivative": 0,
         "value": {
           "coordinate": "aeroland:continents",

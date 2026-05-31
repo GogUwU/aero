@@ -22,12 +22,12 @@
             {
               "location": -0.6,
               "derivative": 0,
-              "value": 0.7
+              "value": 0.6
             },
             {
               "location": -0.2,
               "derivative": 0,
-              "value": 0.5
+              "value": 0.4
             },
             {
               "location": 0.2,
@@ -47,14 +47,14 @@
             {
               "location": 1.2,
               "derivative": 0,
-              "value": 0.5
+              "value": 0.4
             }
           ]
         }
       },
       "argument2": {
         "type": "minecraft:mul",
-        "argument1": 0.6,
+        "argument1": 0.5,
         "argument2": "aeroland:smooth_noodle"
       }
     }
