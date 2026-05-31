@@ -1986,11 +1986,11 @@ hash = "ff17b76869e6b8cf238048aee7d760f3aecd187aaecef9849d07babe6f646731"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/placed_feature/levitate_pond.json"
-hash = "018327ad843c660af993c887c3cb2ae6034ac5ceefb0c327427e94bbb39322db"
+hash = "8b6922acb6520b9b5bdba28c1dec8ab0cd2d229e25799e3503d159d7da2a19c0"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/placed_feature/medium_pond.json"
-hash = "f4e290781da35b95dccc45c3a66a490a6a67c6f876a4061cf49e874bf8c8a037"
+hash = "68a02b5a517fb1eb9973f0e0a4a4558adb69d9e9ce56105f6a47e640bb344533"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/placed_feature/medium_pond_swamp.json"
@@ -2573,6 +2573,10 @@ file = "kubejs/data/minecraft/worldgen/placed_feature/spring_water.json"
 hash = "87b4b088e3ef51ef49299be2536350f00e5af565f31855d221eb5dfcca30eb21"
 
 [[files]]
+file = "kubejs/data/minecraft/worldgen/structure/ancient_city.json"
+hash = "d8b773257b26536d80181cd748aac350058b2ed4deb9f1470cbad1d469c91766"
+
+[[files]]
 file = "kubejs/data/minecraft/worldgen/structure/desert_pyramid.json"
 hash = "c73ebb380b41088b31254df5f75d83d3c0fac6aa2d2abde7fa77155cfb5925aa"
 
@@ -2687,14 +2691,6 @@ hash = "c6509ea375ddc1905ee96fcb2e5406deadd46879b713b697186dd18e7a73516a"
 [[files]]
 file = "kubejs/data/nomansland/worldgen/structure/small_dungeon.json"
 hash = "b98e64cf18d0b2d6aa5b86bd78629c3d8d54a14985d7d21772a362fc57625cb5"
-
-[[files]]
-file = "kubejs/data/regions_unexplored/advancement/parent.json"
-hash = "5b20f39c0418a4d1a5e686f0bfe9234d34201c845dc687e217b4b46d7f073ca7"
-
-[[files]]
-file = "kubejs/data/regions_unexplored/worldgen/placed_feature/hyacinth_rocks.json"
-hash = "88d43b48addc787eed6e78ed8862a52a7a8c02a15feecd02287510acb5ac53dc"
 
 [[files]]
 file = "kubejs/data/sable/floating_materials/selflift.json"
@@ -3574,12 +3570,12 @@ metafile = true
 
 [[files]]
 file = "mods/no-mans-delight.pw.toml"
-hash = "1890024f7019595f1bf20df715b61954dff75951dd794ede1a18f13aedd701c4"
+hash = "1fee6f65c5f5d2acef1de97905f372b7ab32540e6119b454f0da9b1053464837"
 metafile = true
 
 [[files]]
 file = "mods/no-mans-land.pw.toml"
-hash = "9edc61298d5809b2bebc52a940973486d99d8b7d77814b7712321584ee96c918"
+hash = "2f26d5f6a3bcda0a3e5331a5521ebdf4f7f222b51bdca07e389b6ecab923704d"
 metafile = true
 
 [[files]]
@@ -3673,7 +3669,7 @@ metafile = true
 
 [[files]]
 file = "mods/regions-unexplored.pw.toml"
-hash = "8580afe7f67d4b8258706000d919c4cf25e537f2d0ed017a93187735884172f6"
+hash = "69cf64b8170a3a783f47e6192ede5a42a73cac639793a8ef4f07fb2ef2bbec69"
 metafile = true
 
 [[files]]
@@ -3789,16 +3785,6 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "53a05aa34d7407e20a68be8acd3eceb339d25efa03584cf3e35a2617fb1bfb3b"
-metafile = true
-
-[[files]]
-file = "mods/terrablender.pw.toml"
-hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
-metafile = true
-
-[[files]]
-file = "mods/terrablenderfix.pw.toml"
-hash = "001f677e29f6a3f5789a7171ed271fdf1e39bc7e3490901d6819dcbf16969ac8"
 metafile = true
 
 [[files]]
