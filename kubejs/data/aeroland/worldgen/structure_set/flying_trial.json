@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "aeroland:flying_trial",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "separation": 16,
+        "spacing": 30,
+        "salt": 87635
+    }
+}
