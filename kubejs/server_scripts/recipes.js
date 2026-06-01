@@ -82,7 +82,7 @@ ServerEvents.recipes(e => {
     ], {
         E: 'powergrid:electrical_gizmo',
         G: 'minecraft:tinted_glass',
-        P: 'oreganized:electrum_ingot',
+        P: 'create:brass_ingot',
         B: 'powergrid:battery'
     })
 
@@ -103,7 +103,7 @@ ServerEvents.recipes(e => {
     ], {
         E: 'powergrid:crt',
         G: 'minecraft:tinted_glass',
-        P: 'oreganized:electrum_ingot'
+        P: 'create:brass_ingot'
     })
 
     e.remove({id: 'computercraft:cable'})
@@ -139,7 +139,7 @@ ServerEvents.recipes(e => {
     ], {
         R: 'create:transmitter',
         E: 'minecraft:ender_eye',
-        P: 'oreganized:electrum_ingot'
+        P: 'create:brass_ingot'
     })
 
     e.remove({id: 'computercraft:printer'})
@@ -264,7 +264,7 @@ ServerEvents.recipes(e => {
         I: 'galosphere:palladium_ingot'
     })
 
-    e.remove('create:sequenced_assembly/precision_mechanism')
+    /*e.remove('create:sequenced_assembly/precision_mechanism')
     e.custom({
     "type": "create:sequenced_assembly",
     "ingredient": {
@@ -360,7 +360,7 @@ ServerEvents.recipes(e => {
     "transitional_item": {
         "id": "create:incomplete_precision_mechanism"
     }
-    })
+    })*/
 
     e.remove({id: "simulated:redstone_magnet"})
     e.shapeless('simulated:redstone_magnet', ['create:industrial_iron_block','powergrid:copper_coil','minecraft:redstone'])
@@ -395,7 +395,7 @@ ServerEvents.recipes(e => {
     e.custom({
     "type": "create:sequenced_assembly",
     "ingredient": {
-        "item": "create:brass_sheet"
+        "item": "kubejs:electrum_sheet"
     },
     "loops": 3,
     "results": [
@@ -405,10 +405,10 @@ ServerEvents.recipes(e => {
         },
         {
             "chance": 8.0,
-            "id": "create:brass_sheet"
+            "id": "kubejs:electrum_sheet"
         },
         {
-            "chance": 8.0,
+            "chance": 7.0,
             "id": "create:andesite_alloy"
         },
         {
@@ -420,7 +420,10 @@ ServerEvents.recipes(e => {
             "id": "create:crushed_raw_iron"
         },
         {
-            "id": "minecraft:compass"
+            "id": "oreganized:speedometer"
+        },
+        {
+            "id": "minecraft:clock"
         }
     ],
     "sequence": [
@@ -493,11 +496,13 @@ ServerEvents.recipes(e => {
     e.shaped('create_mobile_packages:robo_bee', [
         'PRP',
         'ISI',
+        ' E '
     ], {
         R: 'create:transmitter',
         I: 'minecraft:honeycomb',
         P: 'create:propeller',
-        S: 'create:item_vault'
+        S: 'create:item_vault',
+        E: 'kubejs:electrum_sheet'
     })
 
     e.remove({id: 'create_mobile_packages:portable_stock_ticker'})
@@ -515,7 +520,7 @@ ServerEvents.recipes(e => {
         S: 'kubejs:electrum_sheet'
     })
 
-    e.remove([{id: 'sophisticatedbackpacks:stack_upgrade_omega_tier'}, {id: 'sophisticatedbackpacks:stack_upgrade_starter_tier'}, {id: 'sophisticatedbackpacks:stack_upgrade_tier_1'}, {id: 'sophisticatedbackpacks:stack_upgrade_tier_2'}, {id: 'sophisticatedbackpacks:stack_upgrade_tier_3'}, {id: 'sophisticatedbackpacks:stack_upgrade_tier_4'}, {id: 'sophisticatedbackpacks:stack_upgrade_tier_1_from_starter'}])
+    e.remove([{id: 'sophisticatedbackpacks:stack_upgrade_omega_tier'}, {id: 'sophisticatedbackpacks:inception_upgrade'}, {id: 'sophisticatedbackpacks:stack_upgrade_starter_tier'}, {id: 'sophisticatedbackpacks:stack_upgrade_tier_1'}, {id: 'sophisticatedbackpacks:stack_upgrade_tier_2'}, {id: 'sophisticatedbackpacks:stack_upgrade_tier_3'}, {id: 'sophisticatedbackpacks:stack_upgrade_tier_4'}, {id: 'sophisticatedbackpacks:stack_upgrade_tier_1_from_starter'}])
     e.shaped('sophisticatedbackpacks:stack_upgrade_starter_tier', [
         'SSS',
         ' U ',
@@ -527,35 +532,97 @@ ServerEvents.recipes(e => {
 
     e.shaped('sophisticatedbackpacks:stack_upgrade_tier_1', [
         'SSS',
-        'VUV',
+        'LVU',
         'SSS'
     ], {
         U: 'sophisticatedbackpacks:upgrade_base',
+        L: 'sophisticatedbackpacks:stack_upgrade_starter_tier',
         V: 'create:item_vault',
         S: 'minecraft:iron_block'
     })
 
     e.shaped('sophisticatedbackpacks:stack_upgrade_tier_2', [
         'SSS',
-        'VUV',
+        'LVU',
         'SSS'
     ], {
         U: 'sophisticatedbackpacks:upgrade_base',
+        L: 'sophisticatedbackpacks:stack_upgrade_tier_1',
         V: 'create:item_vault',
         S: 'createbigcannons:steel_block'
     })
 
     e.shaped('sophisticatedbackpacks:stack_upgrade_tier_3', [
         'SSS',
-        'VUV',
+        'LVU',
         'SSS'
     ], {
         U: 'sophisticatedbackpacks:upgrade_base',
+        L: 'sophisticatedbackpacks:stack_upgrade_tier_2',
         V: 'create:item_vault',
         S: 'createbigcannons:nethersteel_block'
     })
 
-    e.remove({id: 'create:industrial_iron_block_from_ingots_iron_stonecutting'})
+    e.remove([{id: 'sophisticatedbackpacks:everlasting_upgrade'}, {id: 'sophisticatedbackpacks:magnet_upgrade'}, {id: 'sophisticatedbackpacks:advanced_magnet_upgrade_from_basic'}])
+
+    e.shaped('sophisticatedbackpacks:everlasting_upgrade', [
+        'SSS',
+        'SUS',
+        'SSS'
+    ], {
+        U: 'sophisticatedbackpacks:upgrade_base',
+        S: 'createbigcannons:steel_ingot'
+    })
+
+    e.shaped('sophisticatedbackpacks:magnet_upgrade', [
+        'SSS',
+        'SUS',
+        'S S'
+    ], {
+        U: 'sophisticatedbackpacks:upgrade_base',
+        S: 'powergrid:magnet'
+    })
+
+    e.shaped('sophisticatedbackpacks:advanced_magnet_upgrade', [
+        'SSS',
+        'SUS',
+        'S S'
+    ], {
+        U: 'sophisticatedbackpacks:advanced_pickup_upgrade',
+        S: 'powergrid:magnet'
+    })
+
+    let backpackUpgrade = (ID) =>
+    {
+        e.remove({id: 'sophisticatedbackpacks:advanced_'+ID+'_upgrade'})
+        e.shaped('sophisticatedbackpacks:advanced_'+ID+'_upgrade', [
+            ' D ',
+            'EUE',
+            'PBP'
+        ], {
+            U: 'sophisticatedbackpacks:'+ID+'_upgrade',
+            E: 'oreganized:electrum_ingot',
+            P: 'galosphere:palladium_ingot',
+            D: 'minecraft:diamond',
+            B: 'sophisticatedbackpacks:upgrade_base'
+        })
+    }
+
+    backpackUpgrade('filter')
+    backpackUpgrade('pickup')
+    backpackUpgrade('magnet')
+    backpackUpgrade('feeding')
+    backpackUpgrade('compacting')
+    backpackUpgrade('void')
+    backpackUpgrade('restock')
+    backpackUpgrade('deposit')
+    backpackUpgrade('refill')
+    backpackUpgrade('jukebox')
+    backpackUpgrade('tool_swapper')
+    backpackUpgrade('pump')
+    backpackUpgrade('alchemy')
+
+    /*e.remove({id: 'create:industrial_iron_block_from_ingots_iron_stonecutting'})
     e.custom({
         "type": "create:compacting",
         "ingredients": [
@@ -593,7 +660,7 @@ ServerEvents.recipes(e => {
             "id": 'createdeco:industrial_iron_ingot'
             }
         ]
-    })
+    })*/
 
     // prismarine recycling
     e.custom({
