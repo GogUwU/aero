@@ -1885,12 +1885,16 @@ file = "kubejs/data/aeroland/structure/customportal/lab/lab_other.nbt"
 hash = "69d485d7e119c1e9198dcbc1ae88e9be1f3f22627e6739e594b39d0243db2248"
 
 [[files]]
+file = "kubejs/data/aeroland/structure/trial/trial_big.nbt"
+hash = "a234c393a82ba3361a87d02c6465bd1aab44e11aa3d46c5b14166b86f485266e"
+
+[[files]]
 file = "kubejs/data/aeroland/structure/trial/trial_medium.nbt"
-hash = "94b81f60eecf6941a09a34c2e6e7817fc1c33dbb0d2c6f892366c546d90078d7"
+hash = "ca3f9e8cd364afee30582861f0a39910b14bf3d07218e6151ea16cfea493855e"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/trial/trial_small.nbt"
-hash = "f1f3d53401c970a47d8487f1ea965934e5a480ebd0f35cc75e895955cf7fee59"
+hash = "088a5a5f5a73b17c761811faa137f09f71af964d4fbdf07131d07495b487a257"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/configured_feature/airstone.json"
@@ -1922,7 +1926,7 @@ hash = "c74915be3e7595443728f1b00ae422439ac1433dfa658f9f619615d79aee8f4d"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/depth_heights.json"
-hash = "92e60c0c85414674646a5587165c5b3a90fe3141803062fd79c16f037ab534a8"
+hash = "fafcd0042b353379b1a7585bc010873a672fd7723625fc48d55c7ddc0842c8f7"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/erosion.json"
@@ -1930,7 +1934,7 @@ hash = "2a8362e112253c0655f1a5eb2bef6b638d6ae81116694f9c33248993da99f714"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/final_continent.json"
-hash = "136e0edc22f46344a3851bc06b68a559a9f93955ea7c574a7d07103e0f16c181"
+hash = "964045f0f7a43bccaba2cb002af18b1050ac481d9cc61179648a97cc1b8e2370"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/final_depth.json"
@@ -1938,7 +1942,7 @@ hash = "7c502847c0f613f5bf801f9f74a88afd2683fa93e0b3ee4224e4d73736b7673a"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/island_coastal.json"
-hash = "54f8416f6c582b9de91bd0471b6b4c4c4b81ccea6cf0e10332e190f367b25ff4"
+hash = "786797c45f3f7e5e9ec400651cecb3ecec03894b6713d02cc641cf0ec2a59a9d"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/island_heights.json"
@@ -1950,7 +1954,7 @@ hash = "13bc04c8e106a48c820b86ca42b8b593c2144275c5e146c6fe9d0c31e7ae4a01"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/ridge_modifier.json"
-hash = "66bd44ba7de437a366404ff8ff22be755648129af5430f2a31d2dd33dd9862e2"
+hash = "178c54eb659e3c1d5e292100481d4c8f74cf1c9f4b404595a0427eb38cd83349"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/ridges.json"
@@ -1962,7 +1966,7 @@ hash = "a5fdfa4d925193dd9444e54ed0576bddfa375665bb4e3089ecf4636ce1fbe2d0"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/ring_ridges.json"
-hash = "575e6bd9757200271956a1644e8dcb5cab83763098b40af578429c6bdc0b6209"
+hash = "a4d68ee9ecb2095340dd8ce4733a0c547e674b4b09ad07546566484b35dc4be0"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/rolling_surface.json"
@@ -2042,7 +2046,7 @@ hash = "419758863c78315b9f3382492849763783ffa639ac951d2da225025b0555deea"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/template_pool/flying_trial.json"
-hash = "96654e10774818e9824ac634a616c5be1faab372dc670d3fbdf71316c0cef58e"
+hash = "16087b95b76335dd654e88a3538ae9891d9dea0b70822334f11f5b9128f05a6d"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/template_pool/ruined_portal.json"
@@ -2277,18 +2281,6 @@ file = "kubejs/data/minecraft/dimension_type/overworld.json"
 hash = "e7fba7bbb768b13880e67106b2695a206d2df4737651b4e6a9f088e3dd75cecf"
 
 [[files]]
-file = "kubejs/data/minecraft/loot_table/chests/trial_chambers/reward_common.json"
-hash = "7b7bd40801620ebb7a4f73e086f1c18cc5634e48a69c558e363b209b6aa5f727"
-
-[[files]]
-file = "kubejs/data/minecraft/loot_table/chests/trial_chambers/reward_ominous_common.json"
-hash = "ddf6412b9d26c917375e9cc3adae534571bd13084bfe3202a798a789e35bc6e3"
-
-[[files]]
-file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber.json"
-hash = "e6cbc153ffd8afc40f535ba050db2f6e938e376855d7f9615a63744bc0afb5cd"
-
-[[files]]
 file = "kubejs/data/minecraft/tags/worldgen/biome/has_structure/buried_treasure.json"
 hash = "def63b0fb90b66a774072b367bfdd7757c597faf5994460e27ebd2b9309170f2"
 
@@ -2498,7 +2490,7 @@ hash = "add2247bb7e9e9395deeb5571f0329fda9c781d70d1e24641c45bd50984ba009"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/noise_settings/overworld.json"
-hash = "36a5dc30cbbed1396dd997229167ef81b491b1636a6c51d55a5c1f5c9b6493cb"
+hash = "22bee01295a4932df40a1b836a092651873308aad026404ad272634de9db29f0"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/disk_clay.json"
@@ -2633,10 +2625,6 @@ file = "kubejs/data/minecraft/worldgen/structure_set/trial_chambers.json"
 hash = "dcea5aa5490b13bf0713a2e822cda22bc2ed8cae4b6cd3d6c454e57b143d10aa"
 
 [[files]]
-file = "kubejs/data/nomansland/loot_table/chests/small_dungeon_core.json"
-hash = "78cae5a0df3f935ec28fd2dac6a9262a9020208a82cc0654ba32bb9fe6728369"
-
-[[files]]
 file = "kubejs/data/nomansland/worldgen/biome/autumnal_forest.json"
 hash = "001e463b7806e319031c5f03637cb049dada1e4b405d6b4ee090220068744b91"
 
@@ -2731,14 +2719,6 @@ hash = "c6509ea375ddc1905ee96fcb2e5406deadd46879b713b697186dd18e7a73516a"
 [[files]]
 file = "kubejs/data/nomansland/worldgen/structure/small_dungeon.json"
 hash = "b98e64cf18d0b2d6aa5b86bd78629c3d8d54a14985d7d21772a362fc57625cb5"
-
-[[files]]
-file = "kubejs/data/regions_unexplored/advancement/parent.json"
-hash = "5b20f39c0418a4d1a5e686f0bfe9234d34201c845dc687e217b4b46d7f073ca7"
-
-[[files]]
-file = "kubejs/data/regions_unexplored/worldgen/placed_feature/hyacinth_rocks.json"
-hash = "88d43b48addc787eed6e78ed8862a52a7a8c02a15feecd02287510acb5ac53dc"
 
 [[files]]
 file = "kubejs/data/sable/floating_materials/selflift.json"
@@ -3573,7 +3553,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "bcf82754f18ef838cf91a9133ab06873f0e275501af96e92d37bd95d20973262"
+hash = "eec0715d020c6079c430338684d4cd752aa55231cb7887174b361481834e3ac4"
 metafile = true
 
 [[files]]
