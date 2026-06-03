@@ -19,6 +19,15 @@
                 "location": "aeroland:trial/trial_medium",
                 "processors": []
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "aeroland:trial/trial_big",
+                "processors": []
+            }
         }
     ]
 }

@@ -1289,6 +1289,10 @@ file = "kubejs/assets/kubejs/models/block/dumbell_top.json"
 hash = "b9062264c1b4cf703c1fd9c3904f0ee67204091d8833e1185864a182be49c915"
 
 [[files]]
+file = "kubejs/assets/kubejs/models/block/pontoon.json"
+hash = "7a65540773e7a8e78fe90c2e64f7fa629c4055cba9f95f4471cddf53749815e8"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/airstone/airstone.png"
 hash = "0c078693a888f8c34d9bc715bd69d652607163d5d894d22512e7630e17ae32f1"
 
@@ -1423,6 +1427,18 @@ hash = "7b14ce5df60e75493698c6bed18908fdd8c9c9ed69d272123998ae64d10d7520"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/pitchstone/smooth_pitchstone.png"
 hash = "02a0f42064d223411df68380af69301371a6c7de0844766a0bde9811d49d9267"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/pontoon_bottom.png"
+hash = "146c1f1e372d1b1c5a53f84f3929bd960b95625b775ce62b9ef23e3614492fc2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/pontoon_side.png"
+hash = "639bd667c7c5dae5e0eda5918b2fd60b36a84491c2703749ec96ee5336420cad"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/pontoon_top.png"
+hash = "b3b2314bf0069adb8b955a95bcc4db1231f6ba420102b1c9a51a266cb8c9eb1b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/broken_scribe.png"
@@ -1774,7 +1790,7 @@ hash = "c8f6fe62c01c357a814223d4ab6a368e5122c195fa2671e585fa24988557a505"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
-hash = "33750bd6a36c8186bf0c65011cb402bedc06e5c77b4eb7a5acd459ec5ab598e9"
+hash = "f480177980622283b89e2706da3de9a5d9562630070e54ba13ef866e3a8f5675"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -1890,11 +1906,11 @@ hash = "a234c393a82ba3361a87d02c6465bd1aab44e11aa3d46c5b14166b86f485266e"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/trial/trial_medium.nbt"
-hash = "ca3f9e8cd364afee30582861f0a39910b14bf3d07218e6151ea16cfea493855e"
+hash = "94b81f60eecf6941a09a34c2e6e7817fc1c33dbb0d2c6f892366c546d90078d7"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/trial/trial_small.nbt"
-hash = "088a5a5f5a73b17c761811faa137f09f71af964d4fbdf07131d07495b487a257"
+hash = "f1f3d53401c970a47d8487f1ea965934e5a480ebd0f35cc75e895955cf7fee59"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/configured_feature/airstone.json"
@@ -1917,6 +1933,10 @@ file = "kubejs/data/aeroland/worldgen/configured_feature/medium_pond_swamp.json"
 hash = "fd18ec03213ea9970a324a0249342a4f1e4d1167b495af0e64dfa65745c8a7eb"
 
 [[files]]
+file = "kubejs/data/aeroland/worldgen/configured_feature/pitchstone.json"
+hash = "f0a597b636e746ebd0b613ef2d1ca51cc22f327e1b9dfb9a5a0e03b8758f8d99"
+
+[[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/base_noise_heights.json"
 hash = "e8c1b224700911f8d1218f5f497d45bbb1ee994a695097a58a2ec37bf054ac59"
 
@@ -1926,7 +1946,7 @@ hash = "c74915be3e7595443728f1b00ae422439ac1433dfa658f9f619615d79aee8f4d"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/depth_heights.json"
-hash = "fafcd0042b353379b1a7585bc010873a672fd7723625fc48d55c7ddc0842c8f7"
+hash = "80eb68af900f8d93575a3882beb17c179618c04688451e18c2001fd89754cdf1"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/erosion.json"
@@ -1934,15 +1954,15 @@ hash = "2a8362e112253c0655f1a5eb2bef6b638d6ae81116694f9c33248993da99f714"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/final_continent.json"
-hash = "964045f0f7a43bccaba2cb002af18b1050ac481d9cc61179648a97cc1b8e2370"
+hash = "2e83dca234873dcd183869e86d23fe939eac16d3abfb62170b432a3d06f79336"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/final_depth.json"
-hash = "7c502847c0f613f5bf801f9f74a88afd2683fa93e0b3ee4224e4d73736b7673a"
+hash = "23d8bd616e483ed602903ac9e06edfb7cc2a272c811a46243a4f01f650999b69"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/island_coastal.json"
-hash = "786797c45f3f7e5e9ec400651cecb3ecec03894b6713d02cc641cf0ec2a59a9d"
+hash = "54f8416f6c582b9de91bd0471b6b4c4c4b81ccea6cf0e10332e190f367b25ff4"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/island_heights.json"
@@ -1954,7 +1974,7 @@ hash = "13bc04c8e106a48c820b86ca42b8b593c2144275c5e146c6fe9d0c31e7ae4a01"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/ridge_modifier.json"
-hash = "178c54eb659e3c1d5e292100481d4c8f74cf1c9f4b404595a0427eb38cd83349"
+hash = "66bd44ba7de437a366404ff8ff22be755648129af5430f2a31d2dd33dd9862e2"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/ridges.json"
@@ -1966,7 +1986,7 @@ hash = "a5fdfa4d925193dd9444e54ed0576bddfa375665bb4e3089ecf4636ce1fbe2d0"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/ring_ridges.json"
-hash = "a4d68ee9ecb2095340dd8ce4733a0c547e674b4b09ad07546566484b35dc4be0"
+hash = "575e6bd9757200271956a1644e8dcb5cab83763098b40af578429c6bdc0b6209"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/rolling_surface.json"
@@ -2009,6 +2029,10 @@ file = "kubejs/data/aeroland/worldgen/placed_feature/medium_pond_swamp.json"
 hash = "c28d833d8383efac58971adb53e15e7f38788a0dcc60cd0cbb0099d0a0f3e61c"
 
 [[files]]
+file = "kubejs/data/aeroland/worldgen/placed_feature/pitchstone.json"
+hash = "2918e5a71d5806b6ba90bb3b4a6e4280a3bc57f0cfea4e6ac2fe5c4c758876b9"
+
+[[files]]
 file = "kubejs/data/aeroland/worldgen/structure/flying_trial.json"
 hash = "ac2f6237deae021653f11241eb90206ab924c0a19214f62bd3a8d0679dc54d7b"
 
@@ -2046,7 +2070,7 @@ hash = "419758863c78315b9f3382492849763783ffa639ac951d2da225025b0555deea"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/template_pool/flying_trial.json"
-hash = "16087b95b76335dd654e88a3538ae9891d9dea0b70822334f11f5b9128f05a6d"
+hash = "96654e10774818e9824ac634a616c5be1faab372dc670d3fbdf71316c0cef58e"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/template_pool/ruined_portal.json"
@@ -2281,16 +2305,64 @@ file = "kubejs/data/minecraft/dimension_type/overworld.json"
 hash = "e7fba7bbb768b13880e67106b2695a206d2df4737651b4e6a9f088e3dd75cecf"
 
 [[files]]
+file = "kubejs/data/minecraft/loot_table/chests/trial_chambers/reward_common.json"
+hash = "7b7bd40801620ebb7a4f73e086f1c18cc5634e48a69c558e363b209b6aa5f727"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_table/chests/trial_chambers/reward_ominous_common.json"
+hash = "ddf6412b9d26c917375e9cc3adae534571bd13084bfe3202a798a789e35bc6e3"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber.json"
+hash = "e6cbc153ffd8afc40f535ba050db2f6e938e376855d7f9615a63744bc0afb5cd"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber_helmets.json"
+hash = "2cc6dd86d94d59809208d7bd5266074c49b52404f51866e8eb3d0299fcdfdd89"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber_melee_normal.json"
+hash = "5b330b12dcb122b0f7a42ba5a699d8c8b191d18edbb0b944b0f7eca3c6e83f92"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber_ranged_normal.json"
+hash = "ce93a0a3defd4b684031d24759927dff6ef16a394e1cbb0a70e93ada8ecfa5a1"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/trial_chambers/spawner/melee/husk.nbt"
+hash = "1bbfc4378646f547820f52871a16685ee715e2929ffd985f4a696169fc5268c1"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/trial_chambers/spawner/melee/zombie.nbt"
+hash = "b861868aad18164553f627c5e19b359b6c2fb4394177b5062fb8433318345069"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/trial_chambers/spawner/ranged/poison_skeleton.nbt"
+hash = "7cfa1dd64d67e50d1c5e7e415cef2adc6a493814446645fa4ae7475cda159a62"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/trial_chambers/spawner/ranged/skeleton.nbt"
+hash = "05026a20fac19b02dd1b52325cf3fea350ba78d392b30e562981b777bee6e4c9"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/trial_chambers/spawner/ranged/stray.nbt"
+hash = "6d562593f375c02a2e651a0f4742ba16b14c879b306b98db28a651e758ab5142"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/trial_chambers/spawner/small_melee/baby_zombie.nbt"
+hash = "29a0975f8acf63733093befa70c2e2d82be055f968bab74bd9fd7724cba22f23"
+
+[[files]]
 file = "kubejs/data/minecraft/tags/worldgen/biome/has_structure/buried_treasure.json"
 hash = "def63b0fb90b66a774072b367bfdd7757c597faf5994460e27ebd2b9309170f2"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/badlands.json"
-hash = "ecdfdf567deda7622691882085a6964e0c16d31eca7c16c9d2152c86ab04cd8d"
+hash = "e00d0969c141a8ca471c0d5a49c53a1915f252f328680b1d4f83f84f0924cc2e"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/bamboo_jungle.json"
-hash = "1e17366118807925f072735d96b8c4e198e80ad2ec6b62ee96510daeca5fe536"
+hash = "6f9ae64fb4b2bcc3a0dae60ca53c7dd5c42c03aa1fc1abd53412c1c44ff7d8aa"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/basalt_deltas.json"
@@ -2298,19 +2370,19 @@ hash = "c6ba8d3902b052895678d35c62c00797d8a42b14ea85403b380b0718fb02f039"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/beach.json"
-hash = "00ef4cb5dfe0774206b5452a1105a7a2fc2fb6e8e8958baefd79d718b304aad2"
+hash = "0218b5f90982309b7f5ed07f5a70580d64fad3d85bb8f4bb54b67a00a0339de4"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/birch_forest.json"
-hash = "fcd8b442e36c63e5d5fcb9271e90fae0a01e27fd4cceb2f595a3d6de6ca5d85c"
+hash = "af074c0b77837b7da49491d83e6a7ba28e88c73d6d90f5c0755a423034bd4ca5"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/cherry_grove.json"
-hash = "f9e374a28285b1e690a9ae5a1db1308a5c45dddc3a17e1bd95ca36f79c3d9d95"
+hash = "0566179277358f56124131d6b89c53ab00467825ef7d5bcb8adff524d655f6ee"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/cold_ocean.json"
-hash = "6e987f79a76c0082db1e84334e9ffbe0cd7c978061fb070de98b5dfc908851ff"
+hash = "662946e3b9826df2f27547eb50c71034dd51a3767f22da6a0cc7342154baf221"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/crimson_forest.json"
@@ -2318,79 +2390,91 @@ hash = "14cc654f47467515b81292c64830d64ca4ece593c232cc9b80627993b2b4dcec"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/dark_forest.json"
-hash = "225f596dd1d616561d1902856969d6e6dc995f7c534600a842beb41b56d5739c"
+hash = "15b42d03967b3e8828c8bcc587e6357585acfebce2e5e068a82c860fe60388f7"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/deep_cold_ocean.json"
-hash = "f6e3a79dd753955b4952ab749052fd530f3ca1eac45851c7f23de7160c3e02a0"
+hash = "1bc243673ad53891b8f63a9c6e830bd2f981e31b019dd90041f06593ce4672c5"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/deep_dark.json"
+hash = "6b34d1aa94d88ba2b1accfbed62f9f7600b08f11c104d833aaae7a3a0a2c9dd1"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/deep_frozen_ocean.json"
-hash = "d99aed7a37103f7c16c672870edd2caca86ccab523699050edab2e61942f9669"
+hash = "4763552440022a9e6c00e4ee279c9a536b7aeaf6b68acb71c5ee3a74f503bd09"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/deep_lukewarm_ocean.json"
-hash = "597871dc9f2e93280150c9262b948b15371ba04a20d4552175353ec643f4b09e"
+hash = "204bcd8792b1d4ff89bc4f7cfab096e56c81413d2162201ab20c761ab2d3fb67"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/deep_ocean.json"
-hash = "384396da252b3e28ea629cbf11dc9c2787656e1d1e7f77717ac9a31716e93619"
+hash = "54e0bd455410ed8cfb7c4e670004392b9584c7e50c9f2f2dab18565ac15ec8d4"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/desert.json"
-hash = "3dbe75302f88433443f0024afa1a889d0f53014131c6e20a712c6c3216cac461"
+hash = "d4571dc6199926177ce6eccf16abbb569f1569b8b8f9cb42dd1a4b999a879d01"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/dripstone_caves.json"
+hash = "5d75ee86e4fe53298bd3ff0e7fe528a194eea262e78e57e3adddc17efb44ac58"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/eroded_badlands.json"
-hash = "ecdfdf567deda7622691882085a6964e0c16d31eca7c16c9d2152c86ab04cd8d"
+hash = "b238fe1a3f8250a1d48ba65f133656097b189d443daa83ab03cb7c45ffed0c39"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/flower_forest.json"
-hash = "b0e4554a45a24cbda9344ea02a4852c62011024d81cd7015bc770301e6173ea1"
+hash = "0760caeb641ad78439add81568419277709ab99f66330693b00d98f513242447"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/forest.json"
-hash = "3985162553a2e6193242598e512b2085d407832dfe3156c4b392c2eaaf71b590"
+hash = "ae9e1c46c9b555e82528b4849ad5757de5177f0e06eda20fd02101194d06e4ce"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/frozen_ocean.json"
-hash = "48c356f7d5be949f140dcc322ffba7dbadc58720453f3ddf2055933b1cb57634"
+hash = "54cd06f88233732062c5c44101480f91e01222ae7e83be7c749d15692280fd8c"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/frozen_peaks.json"
-hash = "f59c6508c79bf71731fcb5eca1332b72427daa4532629d83ce1181a27d7eac51"
+hash = "8ab8b946be7d2659f9a00020d844c583fc3235d992bd91f47d8b2dea79b0dabc"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/grove.json"
-hash = "132cf1fa483b31d1db7556aa51fe95d6db655edb45f7fe08537d1ce95b0a98da"
+hash = "c4814b3bec1fd5e8cb64181c76d527a771f14b2344d24555d8229c30010f2fe7"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/ice_spikes.json"
-hash = "c9b26200b4093f4e701bfd2a8860a289d91d7c6cbbb155b0fcb919f877fd9946"
+hash = "28f79be95d6b8f2d9844dd26adb2e7026f7940903b3ce478beb5d019d38955eb"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/jagged_peaks.json"
-hash = "f87e18a133a1508cd962ce8a5b5af1835fa3b5f138706f9abbe825454cad103c"
+hash = "12038044ba1c00a22881e75ab7fca008ca03514b4b77d885ed687511c090ca5c"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/jungle.json"
-hash = "7af755ef071e9a67feacd1626ec813a6f03650325b6e71cbb3564a0d8e28f87a"
+hash = "40355919ee507e1be4597d629f7a84f5ab959be24e012a780cff69d312f44c76"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/lukewarm_ocean.json"
-hash = "888462469b249c0597a2d07e8bbf2a8106858fe4f88ae82eeeb4e818a3b6f6eb"
+hash = "3947387798bd95d2938100aa1f666fd715f6ae5d48a4dc0b980ee15a5fcd6d6a"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/biome/lush_caves.json"
+hash = "dc967d742f266ae31905cd20a3ccd007622791405b1b38945c6baa5f5c3ee1a0"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/mangrove_swamp.json"
-hash = "38bc634c8b4503240e780a94a93f706239892473361ff73f40bcd4894b290ea5"
+hash = "9075f1094fb02ff5613ec9e21dda59a9f908f9b66942e368ea72c55d3ec2fa0a"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/meadow.json"
-hash = "a8cb255fce52cf2256228cf6815e8850bbd235d0e50c8abba2609d28e251839c"
+hash = "63123a726c3c8cd0d1c24387a3997e3f0bf61bafed465c8cd25ea3352f500636"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/mushroom_fields.json"
-hash = "545b73b8b9f0be8c3b921048f8a28ed706aac9d2e1a5a19bddbfa694e27f3d3b"
+hash = "ce91a9c3e719e3207de385290c5caadf4465324911e1679d7eea2e6ca1e072ab"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/nether_wastes.json"
@@ -2398,23 +2482,23 @@ hash = "13dcd9e10c161fdb987af9fcb96bac9feaa48ddd9a935a59c447e620bdc9cacf"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/ocean.json"
-hash = "826a0371c78f0546c2d4fe33cf6790bfed15bb9e47cffbadc6f3790ad6c1f2ef"
+hash = "fcb353f5e8c7554c0ae8fe85b8c30f5ea2537691034f74a069355cb98efddc02"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/old_growth_birch_forest.json"
-hash = "6a639c0d19551bbdc13ccfc6da4b5b937a48dca1ed6d357de28b2949fccbe449"
+hash = "07e4ead5fa159ae28fd152b05b1c67845d12c95ee752647eac000582d19ad706"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/old_growth_pine_taiga.json"
-hash = "897d29838b03cdb3fc28010a5d797371cf94e476bc060396be0eac37e075edb3"
+hash = "5d0e1b3deb1e91e31041a9257108663376d2fab02cfe03271de83bc1277667bd"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/old_growth_spruce_taiga.json"
-hash = "28f9a113783cb849b14e97cfcf0096398fbeb77c93ed20acff25c1b82d7cd75d"
+hash = "998923f9a1907f8156e0cbee924c99fe007529860dc807521f93e5f88182e0b6"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/plains.json"
-hash = "ae6eb4c2ec10efd24a01f1b202a73273d684487ce7f5fc09b4de932f66872d38"
+hash = "ed576eece334757fe9dbc83b62a13163469264318bc447a989cbdfb775587526"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/river.json"
@@ -2422,27 +2506,27 @@ hash = "324907f865190137e17843143aefadfc72faadc58ed035b4b8a32bf241b39c9c"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/savanna.json"
-hash = "aa91066be838a89c1187afe095cbbe6e78d6ca02e9684aae6f60ebf3bb633397"
+hash = "d2d53fbfeb13d7f731ddb4e26923fa9240ba5bad2e8602b5fe0710038e0fe84c"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/savanna_plateau.json"
-hash = "75f6695a868f3ddb37e5542086ec522d4b28b8a013b6da7fa8e56cda5b4948bd"
+hash = "73b553a259005dc49769600545d6e2815593a61ad4f8ac98ad7858930c6a3d08"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/snowy_beach.json"
-hash = "77cad0b9f108eba0c35384919af389e381bb92f8935bfbd492153a2fa6a4fc97"
+hash = "7f4d0bc824753bd8fc8364f4863b2d10853406cac8db2b867ad2d96576e5a976"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/snowy_plains.json"
-hash = "8ad57be5959c014adf719949f6471045c51cf203b9a680cbd5ae647a46c56036"
+hash = "9eda0da435dcc6e2acd549a9472a87f80e91d65fa4df6c7ba8cfcf61371701d8"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/snowy_slopes.json"
-hash = "64c7e5f029df82d0a0835bb748eb6b8c6de31e1a3ca60d9673df05a10702e3a8"
+hash = "650e2a39fdded7cdd0111ab5719ee94372b64c145789ddda2bdd352e255bcd68"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/snowy_taiga.json"
-hash = "13e75e83ff65d3d4e47b36cc2beec727e161eeec7cd27d2a74b63e7928480493"
+hash = "76e2f6b2bb8de4e3586a0a4e9812031c0dd90edeee29baf3af26111d0de03f81"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/soul_sand_valley.json"
@@ -2450,31 +2534,31 @@ hash = "24ae589f77eaab020649989bf7581e1f716e457db739be441f7ed35e45b1fa51"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/sparse_jungle.json"
-hash = "410bddaede615e859ba5f4f93cc094b3064427bbd1a64f8973a535fa2daf7f3f"
+hash = "e20ed3f49a070bf933f9ca190796732f9b9d36b561c283cd46480e91f3f383f6"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/stony_peaks.json"
-hash = "57a86bea1417881a18189a40685c72f76a5e83637cd7a01b5e777ed466cf5b0c"
+hash = "b72e429dc2f0129a51d4be0e22b709205a2fb69e52f9d5ee2407a80a4112246d"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/stony_shore.json"
-hash = "d183000010a4d61bc63dad674b23dc6102aa23258abf1dc7d616af50964344b5"
+hash = "8237a35f043197fbdfea277514c4e0396bfa7aae3cafb04dce7bd14257a95186"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/sunflower_plains.json"
-hash = "465917058c5da195190f5c686480ac6068d3dba1b120e9eeae75af4d34ffaa27"
+hash = "23859fef539f53f250ecf39fb0e0841ecaa551425fd3a61fd100259eb84d88d7"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/swamp.json"
-hash = "7bcf5d40d77fab6d88a54cf6bae5b419ff4786e38093e2c4820bf1b387332441"
+hash = "f3af8da0d0500c16dc858ae8ff6e3f93a8cd36d92d79df7e52683b41ea1783bf"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/taiga.json"
-hash = "ff21f420e7574202d162255d60ee30bc1784233652f8e982040e50b14a3d6439"
+hash = "b4e10e681b541b66475243c770df87c8538f6437a996b18397b83bf643751650"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/warm_ocean.json"
-hash = "cd7818096ffae8657f3195b32d55206edb74687131ad3abff1f9a3d6d1a81810"
+hash = "10b6cef8bbf40fd2ef9661f6280c2d076ce7710eb1141a615c4c3ce789ebad9b"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/biome/warped_forest.json"
@@ -2490,7 +2574,7 @@ hash = "add2247bb7e9e9395deeb5571f0329fda9c781d70d1e24641c45bd50984ba009"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/noise_settings/overworld.json"
-hash = "22bee01295a4932df40a1b836a092651873308aad026404ad272634de9db29f0"
+hash = "36a5dc30cbbed1396dd997229167ef81b491b1636a6c51d55a5c1f5c9b6493cb"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/disk_clay.json"
@@ -2626,11 +2710,11 @@ hash = "dcea5aa5490b13bf0713a2e822cda22bc2ed8cae4b6cd3d6c454e57b143d10aa"
 
 [[files]]
 file = "kubejs/data/nomansland/worldgen/biome/autumnal_forest.json"
-hash = "001e463b7806e319031c5f03637cb049dada1e4b405d6b4ee090220068744b91"
+hash = "72273961beb95ae76111df1ae3e492113ffe162798a803297ef84ebacc8fbfaa"
 
 [[files]]
 file = "kubejs/data/nomansland/worldgen/biome/bayou.json"
-hash = "8626c2b0e6bbf369dbac1f5c5c352c26101340144c648cde7a35a44bb8e634ab"
+hash = "b588765bbfab2fd8f4e3f1e17403fea42af4e75b2adc26b58eb64d8cf7e43b19"
 
 [[files]]
 file = "kubejs/data/nomansland/worldgen/biome/blackwater_river.json"
@@ -2638,11 +2722,11 @@ hash = "7705ad9d99ace0896eb481c87e5062aeaa546cb1d763bd8c36e38105ec177734"
 
 [[files]]
 file = "kubejs/data/nomansland/worldgen/biome/bog.json"
-hash = "7ad266017d85c6e58f3597dda87b84f2a8095b825f6f866b58be202beb3f5207"
+hash = "27f28af8425d64c43160ee0676985540bcbfb31d3638dcf8934a3852a54c4d9b"
 
 [[files]]
 file = "kubejs/data/nomansland/worldgen/biome/boreal_forest.json"
-hash = "0a7e54c40c72c442e9fdbab1cee45a77e0b228d639c205457ea4f661b7af4090"
+hash = "9f4b03512477ec67cd3c192928e37da49bc5536aa7e1f8032076a0c9e9ea4f05"
 
 [[files]]
 file = "kubejs/data/nomansland/worldgen/biome/cave_depths.json"
@@ -2654,7 +2738,7 @@ hash = "bd776efc8af8f64b63a39e56f14779de5433e177cddda4d126ab459c23648397"
 
 [[files]]
 file = "kubejs/data/nomansland/worldgen/biome/dark_swamp.json"
-hash = "29c72f4afe480e0537b1490f20e86d4e3a02b20d491d9bc58f59996e9f0da417"
+hash = "5f1839520e21423e8aa8783118361257e6b113ae43e3aa1cb8359cf260727589"
 
 [[files]]
 file = "kubejs/data/nomansland/worldgen/biome/dark_taiga.json"
@@ -2717,8 +2801,304 @@ file = "kubejs/data/nomansland/worldgen/biome/tropical_beach.json"
 hash = "c6509ea375ddc1905ee96fcb2e5406deadd46879b713b697186dd18e7a73516a"
 
 [[files]]
+file = "kubejs/data/nomansland/worldgen/configured_feature/cobblestone_boulder.json"
+hash = "0e132a3cf563836da62899e5a7b2220a2ae47c91fe3ab7ae0494a3d8478ab3d5"
+
+[[files]]
+file = "kubejs/data/nomansland/worldgen/configured_feature/stone_boulder.json"
+hash = "8511bce54bffc509d6b699e387d0d6d079b45f7de22964a9ef8a89f27e0d5c55"
+
+[[files]]
+file = "kubejs/data/nomansland/worldgen/configured_feature/tuff_boulder.json"
+hash = "bdbb97bacb36a62a80d8fc05859f860eb8e473a9f603c25af909ce6975931677"
+
+[[files]]
 file = "kubejs/data/nomansland/worldgen/structure/small_dungeon.json"
 hash = "b98e64cf18d0b2d6aa5b86bd78629c3d8d54a14985d7d21772a362fc57625cb5"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/alpha_grove.json"
+hash = "92cec5473a4c6a931fecc9d483a1762fd313f34e8b6180964774034868a9dc5c"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/ancient_delta.json"
+hash = "4c3892a0a2ef13132a4e4e2b1e3bd440e1481f8b94a9a6075b4bf696f33d5b23"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/arid_mountains.json"
+hash = "4f6127f2631ca15c3b777064a27e85259bf6418738cf732c32b08be190c1d3c7"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/ashen_woodland.json"
+hash = "b91a5e8ddbc87f11af99c7bf2be1ba698f41718bb098aa1c750755cc64a0a04c"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/autumnal_maple_forest.json"
+hash = "205bb8df4b1bab8f3a52c0f25e8ed81153d6518df501e9df34cc446eb8089409"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/bamboo_forest.json"
+hash = "772c4a105c397504642d3ce2e1174177217273f54d85fd7e4c4d0324bb01cfb0"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/baobab_savanna.json"
+hash = "31f4556d0e0de62503991b19a2a318e9b815dedf6be36606d08fa173fcf924d9"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/barley_fields.json"
+hash = "2fced4e7a36d39f406f3e822d8696be208f04df3e216c839dcd5197bd9415124"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/bayou.json"
+hash = "30340e579b28b85ca24051b5d041e79a1a161843c831c3ffe51120bb6d039ab5"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/bioshroom_caves.json"
+hash = "0fe782caf7154a36c8b6754af8e0cfc2e6cc2e7a321b835c96683af4172a668c"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/blackstone_basin.json"
+hash = "5c22a5d9c86ee2f9f35e5f6e64b2041c083534cb751d0b4f7abead6003f5b6e8"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/blackwood_taiga.json"
+hash = "1a0a0b187b2821f4c3b5c6c2e52ea56ab41e7bbfc4fc922f0be8aed8d55673f2"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/boreal_taiga.json"
+hash = "495e04a77979640c65b81ad9b1b593fca09e2e7f3949c01f05b85acace22d95b"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/chalk_cliffs.json"
+hash = "6d2ab21992e5dc2c4051f14331c3c4ade0ee959c3ce407bb35fec48571e9744f"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/clover_plains.json"
+hash = "3e205febcc5379ad5d383bf0d4530afe28f01dfa6c5bc0b01ccc5885164e3de8"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/cold_boreal_taiga.json"
+hash = "c1ca67168c554e7662e10a85ef452ebb7dc458a7f7adfa8a7fb186cca3a59262"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/cold_deciduous_forest.json"
+hash = "eb9b79a979bf146dac944d9bcad133caa51c6c5104a13ec27b29508b28bc43bb"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/cold_river.json"
+hash = "e1ddd703d7bb9f865fcdc6aec815778706c8b1e9cb757c6a1e3d7f655f067c5d"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/deciduous_forest.json"
+hash = "b45179caac9833f3304785aa6ec0095cc3fe534288a83bcbf41d20d138849967"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/dry_bushland.json"
+hash = "f6c7a10e5e10eeaa6ff60bab34f5d5062780b89c66cda0bace61f1a79efb8614"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/eucalyptus_forest.json"
+hash = "7212659ac44b413911dc7bfbdc0a89891bd335503810f69b75a6da087f491a24"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/fen.json"
+hash = "6a83043b63481cf39c1156f5579c76ee30eb7798809470610d4cfc41be2e5b17"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/flower_fields.json"
+hash = "c45ed7c1d29a8e1727a310f1329179b6b101142a60b96414936eb5a80a278ff0"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/frozen_pine_taiga.json"
+hash = "09c456d85e64fbec52b4148af914d3eef850d7fcda9b6344ffff4852cb51b486"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/frozen_tundra.json"
+hash = "18b570233b6dcc45ea9e9b1dfc6de471efbb2b2049b3de99238388e86f1f5de3"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/fungal_fen.json"
+hash = "2af40f8a09b72a06aed3c082f2e9ffcc70ae703a671976868dff97be0cbde94a"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/glistering_meadow.json"
+hash = "124f338bc8391314a74cd33bed3b459167f3deab2c9b06239910c183eecf604d"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/golden_boreal_taiga.json"
+hash = "f2e41188e77b1b90c2dadd57b64f8329daa659a65d69121b9804df2dfd130011"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/grassland.json"
+hash = "b0c76f77cb23488e0ecc634221d1ba17c2645af5db9c7a1a936efcad8d147f3a"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/grassy_beach.json"
+hash = "98b946f230cee9fe0ff1170bb10362c7da644c33c5548771eccd5b873fc97c85"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/gravel_beach.json"
+hash = "2a64960b5b1b34daec92e24f11f53bdf9be2d5dc037ac9993523c13213b3c806"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/highland_fields.json"
+hash = "ee1dee8de41cd1cfd434fe028d4aa2f15e2b3bbcc4822d1f75cf968f1ae7b837"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/hyacinth_deeps.json"
+hash = "a281b505b872a4d01d07f28fbc08f9823b784e18fa672780828957b8035c27db"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/icy_heights.json"
+hash = "569cff106c889b2a2f8a1cf9f7da8ea0e49162dc97b8399b3fcd6162284bacca"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/infernal_holt.json"
+hash = "dc46391b2fed7efeaffba50c166a756bce8625b6f462ec513a3cbef02c6f7d57"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/joshua_desert.json"
+hash = "23f00c396c84f6b5e49259d701c5a6cfcc90734835706e01a6335f7721803fd3"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/magnolia_woodland.json"
+hash = "e0757153a0beb6e4e818a75106e49a82797001728280b6c36fbdcc72990c5578"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/maple_forest.json"
+hash = "117e9ddb9a1151d4b5cdde2c426eb6bdad430514d215d5b5c4d3c11c7a572b38"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/marsh.json"
+hash = "90cc4a22a3adf2904a32d98df9cca6dfb0fda8877b910d18df58396c61828342"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/mauve_hills.json"
+hash = "21c2cbfc6aba82aeaa20002cb531664f68a0ac7aebdbe5c1312da76f003e9578"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/mountains.json"
+hash = "ee5ca744efc55206df5696b0a7a5b15954d66b63e6f931ba72b967ab09a9783d"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/muddy_river.json"
+hash = "942a76d7119bda6739d881c4c0427f75ce643fa16394ccd7c7c078754e9bb732"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/mycotoxic_undergrowth.json"
+hash = "08eb4d3254736eed1499022e5d21b746da84ef03a41c9396f60c514186330369"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/old_growth_bayou.json"
+hash = "1cd300d64119774796551fedea7fd69b6dc1f4d5d03c9d038c52c10def7c73da"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/orchard.json"
+hash = "d746bca328c29ae69c2238c52ebff3cdc7cf62e9f428740ea7af0820d3e705b7"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/outback.json"
+hash = "35c1b3841adbcecc52f707d85c79d14660d8e0ddd22f2b837fe7dbd5eabf26bc"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/pine_slopes.json"
+hash = "8cf5941a41a07aca2f93e70851b5375cab50e523e8e36942b711e295321787c1"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/pine_taiga.json"
+hash = "cbffac83e12d3996ef6eb4d836b372878b278fef549051b1517d24f2c6d944ac"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/poppy_fields.json"
+hash = "d34fba02e9f39839f7227ab95eba10074f93d423c7d049dde27e3d007f0ec333"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/prairie.json"
+hash = "bbedb079b94728e8d8086bf1eeee797862ee875c582f7464376669721ad44ec5"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/prismachasm.json"
+hash = "2cf32d236376c9c7c983f0e6e916bbbcf644e2d8f622cbcd0c5d931f3272a029"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/pumpkin_fields.json"
+hash = "d6d2e9d3632f19b5a0f42575674c579a694197bd9571c8308f414257d64f0f42"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/rainforest.json"
+hash = "a7cfd8d0e594d7dfa2c4ed560fd99c038700c2f0318dce8dd7296ff6fa859d5f"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/redstone_abyss.json"
+hash = "84253dd0e21bc9a883a74d0fa8b101c8a4f1ad6dda2efc672d85620232191890"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/redstone_caves.json"
+hash = "fbeed5ba89aceff922098ecfe6a19c723c54d66694585bad3f109c0f83a78a5e"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/redwoods.json"
+hash = "26117e72401ef7450352ec81699bb97353d10bf8e2be0fccd83b8b487854c63a"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/rocky_meadow.json"
+hash = "bae7120d55570d065c54266dddd9be5382612b2b051815339a77e5d1fd5b1359"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/rocky_reef.json"
+hash = "1b22ccaa85aa2c74e5548de32f12e5b141d7bc776ab1ad6895bc69b350c751cb"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/saguaro_desert.json"
+hash = "0413a701e63bb91955cf7ad56b287297b857d0bf5022aa50fcb764fc977935f7"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/scorching_caves.json"
+hash = "6270ae39d15791ddcdb7f3f3f002619de3e2da24cb10402f04ef8a50833b8cd8"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/shrubland.json"
+hash = "87f1c649d165c278f55c159da7095415fd65ece89ed749c37bc1e910c959aeba"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/silver_birch_forest.json"
+hash = "432a8b7181043e36e99ac8d35227b183e8deec758f61a3975f2ee147233add20"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/sparse_rainforest.json"
+hash = "ae1437f4d7a2d1aaebdb46ea13ee6550e7f5c2c2a173a6f168eec6d4cbd2e603"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/sparse_redwoods.json"
+hash = "0d0a5be48f7e89b582da077e975acc98f52723c0458c25e3b7df3cb42346f8d2"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/spires.json"
+hash = "0d165166370961401596b8e084c2fd389e78af98ab4241368b700572e8875005"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/steppe.json"
+hash = "5e0c5c63f1e76583261094a286dbf3cec33c5917c9a8ae7065b32e2b3ac56193"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/temperate_grove.json"
+hash = "d99c4366987de60b957c62570f286f00be2855081c4bdffb7649010269b534c0"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/towering_cliffs.json"
+hash = "db8ebf5a5e1e7b6c94de9a85a24846b6dbb2943aacc0f31d37f2d85771095b4d"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/tropical_river.json"
+hash = "e32dc9ccb46a73946d9ca9e048dcf0e095f205df3506ba0e8fd9af0a2bb67f59"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/tropics.json"
+hash = "fd6947e5746ad190fdb892c6bc9dfbf64caf7a25a9def49fea0afbb3f4327a84"
+
+[[files]]
+file = "kubejs/data/regions_unexplored/worldgen/biomes/willow_forest.json"
+hash = "14241a59e2bd68c5148be6af77b9e57315e92e15e43439e1b7861171554dfec1"
 
 [[files]]
 file = "kubejs/data/sable/floating_materials/selflift.json"
@@ -2950,11 +3330,11 @@ hash = "bc9ccab2ef0d8e958c2d2a310aa8c3ac002e928f454d847268d012a020ae141d"
 
 [[files]]
 file = "kubejs/server_scripts/custom_item_recipe.js"
-hash = "0be1296c88c9e0e4d55c946e1b56cf2d4186b3a8d777ae6a2e0401c1ef02d594"
+hash = "b5642dd1a5513b075f879d32e1ff5fbc17f50916493787c22ae7c5a9b759c0dd"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "0a6ccd1ffe2712d1dff66d478d8c3f934e77fd5fe5ea556b96400589a5dd8795"
+hash = "4a419d9e8c9556c025c0ab833aaee7fd6fad48e60be413562ec81cd4912175cc"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -2966,7 +3346,7 @@ hash = "e211550799ef7cae4ba82fb2d729225a1f72a95d4c2c90f29098599bf074e99b"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "b3401116caed7f5145eea1130001e1502ef368a24c2fdb2888219969ee914692"
+hash = "c50f67fafd57c1a1b6b201b4601468cca407e9499aa7f972210b605fe4038e3c"
 
 [[files]]
 file = "kubejs/startup_scripts/create_madness.js"
@@ -2975,6 +3355,10 @@ hash = "4da22c89aedd91ae5a82d3752a63edfa57b38ee463ea3f8086cd0a424b991ed0"
 [[files]]
 file = "kubejs/startup_scripts/items.js"
 hash = "b8eaece658484b15c03888f42b1857bbc1349e20455cca55b4994c2d511d5783"
+
+[[files]]
+file = "mods/AxesAreWeapons-1.10.2-neoforge-1.21.jar"
+hash = "665cae05ddc3f822ef677829dbca928e0f3f7707f1b1cd33b9fb735e2f18f16b"
 
 [[files]]
 file = "mods/accents.pw.toml"
@@ -2994,11 +3378,6 @@ metafile = true
 [[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "f956d8251c9ea496306e97b1eb8782ca86243adcd0db932dbb8795d6104c3deb"
-metafile = true
-
-[[files]]
-file = "mods/aileron.pw.toml"
-hash = "7c27d3884a02978fbda684269d791f7869faec7a9d076601b949f586ca346198"
 metafile = true
 
 [[files]]
@@ -3085,6 +3464,10 @@ metafile = true
 file = "mods/biome-replacer.pw.toml"
 hash = "74614f1dfda229e1c4239a8f21fcb0069186642d0a928978bf354df4126ed26f"
 metafile = true
+
+[[files]]
+file = "mods/biomereplacer-2.2-hippo-neo.jar"
+hash = "1bc7bb3249cce62517363b4d91d13051f6b2e6e1fa88e1b13d7ca94d6e6c59cb"
 
 [[files]]
 file = "mods/blueprint.pw.toml"
@@ -3202,6 +3585,11 @@ hash = "b0bc13b70c1633a6e837b8129d2784e827a99f7c8b0822079f88d6451e5a9240"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-x-curios-api-compat.pw.toml"
+hash = "18a234289ea5a4d7055a0d892e69651f6d556bdff40f98f959827e43aa70182d"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "10d897052cbd424224a984783b46434b9ac6ab5098d367f97ad4ea63ec764c82"
 metafile = true
@@ -3252,6 +3640,11 @@ hash = "f934424c0a9cc545b4e2eb1f4c02fd0b0ff3b6146cf534154f6e77f01ca9dde3"
 metafile = true
 
 [[files]]
+file = "mods/create-nowheel.pw.toml"
+hash = "8205f415e163e4e5f70a997d17e68bc8d71758e081307a78837b9d41010846ab"
+metafile = true
+
+[[files]]
 file = "mods/create-ore-excavation.pw.toml"
 hash = "0c5721119d7fcf823a544cbf744829e62323127e7ef4d3489ac3882e03ae8e41"
 metafile = true
@@ -3268,8 +3661,12 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "b420b4a8c3a5d1a0fe9d9deb0fef78fc4bbfe31cd7490d8a3bf6f5ab2760818b"
+hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
+
+[[files]]
+file = "mods/create_oxidized-0.1.3.jar"
+hash = "9221f4caa70036d05a04e83e6b57844fa03b60cdef6ade1491c37c0f7800d063"
 
 [[files]]
 file = "mods/curios.pw.toml"
@@ -3278,7 +3675,7 @@ metafile = true
 
 [[files]]
 file = "mods/darker-depths.pw.toml"
-hash = "cfb13da265cf6d699a92b932d2729a91e670f9a35cecf4290ce6d82cb64fd469"
+hash = "87421843c73a7d6d7ec8284ad1e5e947b10acda1eec46067ad68dd752f5e9a37"
 metafile = true
 
 [[files]]
@@ -3334,11 +3731,6 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "da20cefb53774989c065a790bbbd0f0fb31e5c81714d823d9335929f79c7f33f"
-metafile = true
-
-[[files]]
-file = "mods/envelope.pw.toml"
-hash = "ce4dbe1c54572f88280bc8ab73d1a1c4a94e16d8fe663123ba3f37fb9eb6a992"
 metafile = true
 
 [[files]]
@@ -3462,6 +3854,11 @@ hash = "485266d5f693c76b7d442afd94b5c73c07aed11d335f7aef5e43c1701e1a07ec"
 metafile = true
 
 [[files]]
+file = "mods/huge-structure-blocks.pw.toml"
+hash = "fd956baa3bfe64c1f49e71a61332294c292231de4298fb4052105bdec4f44a7b"
+metafile = true
+
+[[files]]
 file = "mods/ichunutil.pw.toml"
 hash = "5cf87c9ab5e93a52fe31cb9d315b45ab653095e908a60f52d22e16e708de9370"
 metafile = true
@@ -3488,7 +3885,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "a2e935a6c0452ace65fa970d8b1bf09595f671581973b08225cb27aff005cca6"
+hash = "81573110dc010e36f0c55835413d9e8261bfd61cb03027885e7a205ccdc31ec3"
 metafile = true
 
 [[files]]
@@ -3518,7 +3915,7 @@ metafile = true
 
 [[files]]
 file = "mods/kerria-opt.pw.toml"
-hash = "ae16cda2af8fe0334766412f55086e5d524eb5808cb23c6f14680a935c1475a5"
+hash = "6dcba6731da82d1f84068744127a233ba8a8bcd3a62190fd25b3de20459d2670"
 metafile = true
 
 [[files]]
@@ -3552,9 +3949,8 @@ hash = "066f6a045997818a603a1733d13115c17f9dc7b0c91e6a976ba3734dc8071d36"
 metafile = true
 
 [[files]]
-file = "mods/lithostitched.pw.toml"
-hash = "eec0715d020c6079c430338684d4cd752aa55231cb7887174b361481834e3ac4"
-metafile = true
+file = "mods/lithostitched-1.7.9-neoforge-21.1.jar"
+hash = "9da5826e349f8a58dca526f7afcec9cdd7d6906577945242c87462aa6debcdee"
 
 [[files]]
 file = "mods/lootr.pw.toml"
@@ -3608,7 +4004,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-mans-land.pw.toml"
-hash = "2f26d5f6a3bcda0a3e5331a5521ebdf4f7f222b51bdca07e389b6ecab923704d"
+hash = "a4fdd69c8e456050f328594def3a3947dbc75cddddeb095ac83b54cdca314d59"
 metafile = true
 
 [[files]]
@@ -3762,7 +4158,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "1f45c0b41a09ac91635975df7c80948d93a3a130a7808fddcb815f3b3bdbeff6"
+hash = "0fb16e3657de111c67848c2b1c09e7d98d9daf9f3307daca5d3c142e71e6717f"
 metafile = true
 
 [[files]]
@@ -3818,6 +4214,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "b7d9b03fd46f3c100d1b47f2add49b8cda0b8120eaacd57154c79fa90180feda"
+metafile = true
+
+[[files]]
+file = "mods/tax-free-levels.pw.toml"
+hash = "cef9baaf46284a07c5e56b2db5ff13d9240983cddeadad78e7129f6312b6bb18"
 metafile = true
 
 [[files]]
@@ -3881,31 +4282,19 @@ hash = "abfc4ab3841d9ced7740839d752baa6b51b6ef13a6f92c8b730dd3a3d2f67658"
 metafile = true
 
 [[files]]
-file = "resourcepacks/.index/computercraft-greentech.pw.toml"
+file = "resourcepacks/computercraft-greentech.pw.toml"
 hash = "4600d9679fc31bdef8415d57c870fdbd4c9b0225b5d3c3d378c1f3458ed55f54"
 metafile = true
 
 [[files]]
-file = "resourcepacks/.index/fancy-crops.pw.toml"
+file = "resourcepacks/fancy-crops.pw.toml"
 hash = "bb1065b7cbbdb82e9f94ae8e31a507918f24e678ef68696e2766d8854a425189"
 metafile = true
 
 [[files]]
-file = "resourcepacks/.index/fluffy-carpets.pw.toml"
+file = "resourcepacks/fluffy-carpets.pw.toml"
 hash = "f62c1e4d5d9d528e6228d72236dfa718650b7bd8af3cdd300224b327906ecf70"
 metafile = true
-
-[[files]]
-file = "resourcepacks/CC Greentech V2.0.zip"
-hash = "ec8eead4ef985275d06183fcd4542115559bea934b36cac716b4875e2bc54f21"
-
-[[files]]
-file = "resourcepacks/Fancy Crops v1.3.zip"
-hash = "0c26af02ec87d523e195cab9638391febbc0ce39bff3a8978d44b88e28771755"
-
-[[files]]
-file = "resourcepacks/Fluffy Carpets v1.1.zip"
-hash = "f3273f7b3716adf16fa7262a58972b2f2794a22ea1d7ec02fda2c639c3e72807"
 
 [[files]]
 file = "servers.dat"
