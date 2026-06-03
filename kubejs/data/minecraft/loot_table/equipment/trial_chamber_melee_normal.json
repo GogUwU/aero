@@ -1,0 +1,40 @@
+{
+	"type": "minecraft:equipment",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:equipment/trial_chamber_helmets"
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 12
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:stone_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_shovel",
+					"weight": 2
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:equipment/trial_chamber_melee"
+}

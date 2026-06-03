@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:equipment",
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chainmail_helmet",
+					"weight": 4,
+					"functions": [
+						{
+							"components": {
+								"minecraft:trim": {
+									"material": "minecraft:copper",
+									"pattern": "minecraft:bolt"
+								}
+							},
+							"function": "minecraft:set_components"
+						}
+					]
+				}
+			]
+		}
+	],
+	"rolls": 1
+}
