@@ -74,7 +74,8 @@
       "minecraft:disk_gravel"
     ],
     ["aeroland:levitate_pond",
-      "aeroland:airstone"],
+      "aeroland:airstone",
+	  "aeroland:pitchstone"],
     [
       "nomansland:biome_trees/trees_autumnal_forest",
       "nomansland:flower_patches/flowers_autumnal_forest",

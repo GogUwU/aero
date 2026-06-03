@@ -296,7 +296,12 @@ ServerEvents.recipes(e => {
 
     e.shapeless('kubejs:counterweight_40', ['kubejs:counterweight_20','kubejs:counterweight_20'])
 
-
+    e.shaped('kubejs:pontoon', [
+        'SWS'
+    ], {
+        W: '#minecraft:wool',
+        S: 'create:iron_sheet'
+    })
 
     // processing
     e.custom({

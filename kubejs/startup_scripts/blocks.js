@@ -471,6 +471,13 @@ StartupEvents.registry('block', e => {
         .tagBlock('minecraft:needs_iron_tool').requiresTool(true)
         .fullBlock(true)
 
+    e.create('pontoon')
+        .soundType('wood')
+        .hardness(3).resistance(2)
+        .tagBlock('minecraft:mineable/axe')
+        .tagBlock('minecraft:needs_iron_tool').requiresTool(true)
+        .fullBlock(true)
+
     e.create('glissant')
         .soundType('sculk')
         .hardness(2.8).resistance(2.8).slipperiness(1.1)

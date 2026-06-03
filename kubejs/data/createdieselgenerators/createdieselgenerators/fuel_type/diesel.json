@@ -2,17 +2,17 @@
   "fluid": "#c:diesel",
   "normal": {
     "speed": 96.0,
-    "strength": 8192.0,
+    "strength": 6144.0,
     "burn_rate": 0.05
   },
   "modular": {
     "speed": 96.0,
-    "strength": 8192.0,
+    "strength": 6144.0,
     "burn_rate": 0.05
   },
   "huge": {
     "speed": 224.0,
-    "strength": 24576.0,
+    "strength": 18432.0,
     "burn_rate": 0.1
   },
   "sound_pitch": 0.9,

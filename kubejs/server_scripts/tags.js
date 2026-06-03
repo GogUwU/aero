@@ -35,12 +35,10 @@ ServerEvents.tags('block', e => {
     e.add('sable:light', 'oreganized:lead_trapdoor')
 
     e.add('sable:heavy', 'create:steam_engine')
-    e.add('sable:heavy', 'create:fluid_tank')
-    e.add('sable:heavy', 'create_connected:fluid_vessel')
 
     e.add('sable:heavy', 'createdieselgenerators:diesel_engine')
-    e.add('sable:heavy', 'createdieselgenerators:large_diesel_engine')
-    e.add('sable:super_heavy', 'createdieselgenerators:huge_diesel_engine')
+    e.add('sable:heavy', 'createdieselgenerators:modular_diesel_engine')
+    e.add('sable:ultra_heavy', 'createdieselgenerators:huge_diesel_engine')
 
     //spelunkery stuff
     e.add('spelunkery:chisel_immune', '#frame_changer:portal_frames')

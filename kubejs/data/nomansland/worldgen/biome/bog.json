@@ -73,8 +73,10 @@
       "minecraft:underwater_magma",
       "minecraft:disk_clay"
     ],
-    ["aeroland:levitate_pond",
-      "aeroland:airstone"],
+    [ "aeroland:levitate_pond",
+      "aeroland:medium_pond",
+      "aeroland:airstone",
+	  "aeroland:pitchstone"],
     [
       "nomansland:biome_trees/trees_bog",
       "nomansland:flower_patches/flowers_bog",

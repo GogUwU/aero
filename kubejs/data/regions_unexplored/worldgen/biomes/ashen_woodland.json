@@ -6,20 +6,32 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.5,
+  "downfall": 0.0,
   "effects": {
-    "fog_color": 15134448,
-    "grass_color": 9542993,
-    "foliage_color": 11967320,
+    "fog_color": -6384241,
+    "foliage_color": 15326658,
+    "grass_color": 12434605,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-    "sky_color": 8434919,
-    "water_color": 3105423,
-    "water_fog_color": 197898
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.forest"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.005
+    },
+    "sky_color": 11644572,
+    "water_color": 9147546,
+    "water_fog_color": -11585236
   },
   "features": [
     [],
@@ -29,17 +41,17 @@
     ],
     [
       "minecraft:amethyst_geode",
-      "minecraft:forest_rock"
+      "regions_unexplored:patch/ash_vents"
     ],
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
     [],
-    [ "aeroland:levitate_pond",
+    [],
+	[ "aeroland:levitate_pond",
       "aeroland:airstone",
 	  "aeroland:pitchstone"],
-    [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -67,9 +79,9 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "regions_unexplored:disk_sand",
+      "regions_unexplored:disk_clay",
+      "regions_unexplored:disk_gravel"
     ],
     [],
     [
@@ -77,16 +89,14 @@
       "minecraft:spring_lava"
     ],
     [
-      "nomansland:biome_trees/trees_boreal_forest",
-      "nomansland:flower_patches/flowers_autumnal_forest",
-      "nomansland:flower_patches/flowerbed_red",
-      "nomansland:patch_grass_old_growth",
-      "minecraft:patch_large_fern",
-      "nomansland:patch_rose_bush",
-      "minecraft:brown_mushroom_taiga",
-      "minecraft:red_mushroom_taiga",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:glow_lichen",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "regions_unexplored:tree/group/ashen_woodland",
+      "regions_unexplored:wilting_trillium",
+      "regions_unexplored:patch/ashen_grass",
+      "regions_unexplored:patch/smouldering_ashen_grass",
+      "regions_unexplored:ashen_shrub"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -104,70 +114,9 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 4
-      },
-      {
-        "type": "minecraft:pig",
-        "maxCount": 6,
-        "minCount": 4,
-        "weight": 16
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 8,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "minecraft:fox",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 2
-      },
-      {
-        "type": "minecraft:wolf",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 4
-      },
-      {
-        "type": "minecraft:rabbit",
-        "maxCount": 3,
-        "minCount": 2,
-        "weight": 10
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
-      {
-        "type": "minecraft:spider",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
-      {
-        "type": "minecraft:zombie",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 95
-      },
-      {
-        "type": "minecraft:zombie_villager",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:skeleton",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
       {
         "type": "minecraft:creeper",
         "maxCount": 4,
@@ -175,22 +124,10 @@
         "weight": 100
       },
       {
-        "type": "minecraft:slime",
+        "type": "minecraft:husk",
         "maxCount": 4,
         "minCount": 4,
         "weight": 100
-      },
-      {
-        "type": "minecraft:enderman",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:witch",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
       }
     ],
     "underground_water_creature": [
@@ -204,5 +141,5 @@
     "water_ambient": [],
     "water_creature": []
   },
-  "temperature": 0.4
+  "temperature": 2.0
 }

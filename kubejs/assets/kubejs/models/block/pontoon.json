@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/cube","textures":{"particle":"kubejs:block/pontoon_side","west":"kubejs:block/pontoon_side","east":"kubejs:block/pontoon_side","up":"kubejs:block/pontoon_top","south":"kubejs:block/pontoon_side","down":"kubejs:block/pontoon_bottom","north":"kubejs:block/pontoon_side"}}

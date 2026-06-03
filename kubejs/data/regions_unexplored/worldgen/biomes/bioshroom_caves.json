@@ -6,12 +6,11 @@
       "minecraft:canyon"
     ]
   },
-  "downfall": 0.8,
+  "downfall": 0.9,
   "effects": {
-    "fog_color": 10996903,
-    "sky_color": 7715315,
-    "foliage_color": 6523436,
-    "grass_color_modifier": "swamp",
+    "fog_color": 12638463,
+    "foliage_color": -11093361,
+    "grass_color": -11093410,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -22,10 +21,11 @@
       "max_delay": 24000,
       "min_delay": 12000,
       "replace_current_music": false,
-      "sound": "minecraft:music.overworld.swamp"
+      "sound": "minecraft:music.overworld.lush_caves"
     },
-    "water_color": 5012327,
-    "water_fog_color": 3822399
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "features": [
     [],
@@ -37,17 +37,14 @@
       "minecraft:amethyst_geode"
     ],
     [
-      "minecraft:fossil_upper",
-      "minecraft:fossil_lower",
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
     [],
-    [ "aeroland:levitate_pond",
-      "aeroland:medium_pond_swamp",
+    [],
+	[ "aeroland:levitate_pond",
       "aeroland:airstone",
 	  "aeroland:pitchstone"],
-    [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -75,31 +72,29 @@
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
       "minecraft:underwater_magma",
-      "minecraft:disk_clay"
+      "regions_unexplored:disk_sand",
+      "regions_unexplored:disk_clay",
+      "regions_unexplored:disk_gravel"
     ],
-    [
-      "nomansland:biome_trees/trees_dark_swamp",
-      "nomansland:flower_patches/flowers_maple",
-      "nomansland:flower_patches/flowerbed_red",
-      "nomansland:patch_rose_bush",
-      "minecraft:patch_grass_normal",
-      "minecraft:patch_dead_bush",
-      "minecraft:patch_waterlily",
-      "minecraft:brown_mushroom_swamp",
-      "minecraft:red_mushroom_swamp",
-      "minecraft:brown_mushroom_old_growth",
-      "minecraft:red_mushroom_normal",
-      "nomansland:shelf_mushroom_dark_forest",
-      "minecraft:patch_sugar_cane_swamp",
-      "minecraft:patch_pumpkin"
-    ],
+    [],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:seagrass_swamp"
+      "minecraft:patch_tall_grass_2",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin",
+      "regions_unexplored:tree/giant_green_bioshroom",
+      "regions_unexplored:tree/giant_blue_bioshroom",
+      "regions_unexplored:cave_grass",
+      "regions_unexplored:cave_tall_grass",
+      "regions_unexplored:blue_bioshroom",
+      "regions_unexplored:green_bioshroom",
+      "regions_unexplored:pink_bioshroom"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -116,39 +111,15 @@
         "weight": 10
       }
     ],
-    "axolotls": [],
-    "creature": [
+    "axolotls": [
       {
-        "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 14
-      },
-      {
-        "type": "minecraft:chicken",
+        "type": "minecraft:axolotl",
         "maxCount": 6,
         "minCount": 4,
-        "weight": 8
-      },
-      {
-        "type": "minecraft:rabbit",
-        "maxCount": 4,
-        "minCount": 3,
-        "weight": 2
-      },
-      {
-        "type": "minecraft:wolf",
-        "maxCount": 6,
-        "minCount": 2,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:frog",
-        "maxCount": 5,
-        "minCount": 2,
-        "weight": 8
+        "weight": 10
       }
     ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
@@ -198,18 +169,6 @@
         "maxCount": 1,
         "minCount": 1,
         "weight": 5
-      },
-      {
-        "type": "minecraft:slime",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 1
-      },
-      {
-        "type": "minecraft:bogged",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 30
       }
     ],
     "underground_water_creature": [
@@ -220,8 +179,15 @@
         "weight": 10
       }
     ],
-    "water_ambient": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:tropical_fish",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 25
+      }
+    ],
     "water_creature": []
   },
-  "temperature": 0.7
+  "temperature": 1.25
 }
