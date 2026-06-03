@@ -72,7 +72,8 @@
     ],
     [ "aeroland:levitate_pond",
       "aeroland:medium_pond",
-      "aeroland:airstone"],
+      "aeroland:airstone",
+	  "aeroland:pitchstone"],
     [
       "minecraft:glow_lichen",
       "minecraft:mushroom_island_vegetation",

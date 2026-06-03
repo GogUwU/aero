@@ -75,8 +75,9 @@
     [
       "minecraft:ore_infested"
     ],
-    ["aeroland:levitate_pond",
-      "aeroland:airstone"],
+    [ "aeroland:levitate_pond",
+      "aeroland:airstone",
+	  "aeroland:pitchstone"],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava",

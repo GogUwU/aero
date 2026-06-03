@@ -72,7 +72,10 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
-    ["aeroland:levitate_pond"],
+    [ "aeroland:levitate_pond",
+      "aeroland:medium_pond",
+      "aeroland:airstone",
+	  "aeroland:pitchstone"],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava",

@@ -75,7 +75,8 @@
     ],
     [ "aeroland:levitate_pond",
       "aeroland:medium_pond",
-      "aeroland:airstone"],
+      "aeroland:airstone",
+	  "aeroland:pitchstone"],
     [
       "minecraft:ore_infested"
     ],

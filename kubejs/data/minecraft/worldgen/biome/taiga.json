@@ -70,8 +70,9 @@
       "minecraft:spring_water",
       "minecraft:spring_lava"
     ],
-    ["aeroland:levitate_pond",
-      "aeroland:airstone"],
+    [ "aeroland:levitate_pond",
+      "aeroland:airstone",
+	  "aeroland:pitchstone"],
     [
       "minecraft:glow_lichen",
       "minecraft:patch_large_fern",

@@ -72,8 +72,9 @@
       "minecraft:disk_gravel",
       "minecraft:ore_emerald"
     ],
-    ["aeroland:levitate_pond",
-      "aeroland:airstone"],
+    [ "aeroland:levitate_pond",
+      "aeroland:airstone",
+	  "aeroland:pitchstone"],
     [
       "minecraft:ore_infested"
     ],
