@@ -53,14 +53,14 @@
                 "value": 0.15
               },
               {
-                "location": 0.6,
+                "location": 0.5,
                 "derivative": 0,
-                "value": 0.7
+                "value": 0.5
               },
               {
                 "location": 1,
                 "derivative": 0,
-                "value": 1.5
+                "value": 0.8
               }
             ]
           }
@@ -89,12 +89,12 @@
               {
                 "location": 0.6,
                 "derivative": 0,
-                "value": 0.4
+                "value": 0.8
               },
               {
                 "location": 1,
                 "derivative": 0,
-                "value": 1
+                "value": 1.5
               }
             ]
           }
