@@ -697,10 +697,6 @@ file = "config/oxide-common.toml"
 hash = "e7fc10ebe579ba3773d5650a6cb5912ed97543b6dd3b20174c9a491329b41be8"
 
 [[files]]
-file = "config/packetfixer.properties"
-hash = "e5c57a8d2d0ad49fe121ab9d91cb6ec6642d37ea0c3813039871885aac2c4ad3"
-
-[[files]]
 file = "config/particle_core_config.toml"
 hash = "1222a4b13cb507032be534be7142dd9c460b37bb61ac5c5431078de85bb07f1f"
 
@@ -2009,70 +2005,6 @@ file = "kubejs/data/createdieselgenerators/createdieselgenerators/fuel_type/plan
 hash = "bfc682eba5f8531b7d07bcdeea93559625094186eb97ae3b60dab387ffcb0be5"
 
 [[files]]
-file = "kubejs/data/createoreexcavation/recipe/extractor/water.json"
-hash = "c206413f3c3d50f5e2257290770890e4d6e7ea1d526ff1cf2949e619623569da"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/coal.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/copper.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/diamond.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/emerald.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/glowstone.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/gold.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/hardened_diamond.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/iron.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/lapis.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/nether_gold.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/netherite.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/quartz.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/redstone.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/water.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
-file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/zinc.json"
-hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
-
-[[files]]
 file = "kubejs/data/dustydecorations/advancement/welcome_to_dusty_decor.json"
 hash = "8231d56eb91f1f5423e0b69409c94751b56fcf06aa47328b2b6baabd3a40aa52"
 
@@ -2662,7 +2594,7 @@ hash = "bdbb97bacb36a62a80d8fc05859f860eb8e473a9f603c25af909ce6975931677"
 
 [[files]]
 file = "kubejs/data/nomansland/worldgen/structure/bell_sanctuary.json"
-hash = "3b3f24cdb810af8b92ef0cd0689232777e1d3652570a35ca79c97e9642d0f075"
+hash = "a35bd27bc70e61a899e51bac8181c5e2d54f2c12b2b7de63b5899d023a7f0c11"
 
 [[files]]
 file = "kubejs/data/nomansland/worldgen/structure/small_dungeon.json"
@@ -3194,7 +3126,7 @@ hash = "b5642dd1a5513b075f879d32e1ff5fbc17f50916493787c22ae7c5a9b759c0dd"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "4a419d9e8c9556c025c0ab833aaee7fd6fad48e60be413562ec81cd4912175cc"
+hash = "8f389973adf176f3068eda497598fcf6dbd7e7aaf24bbe82add46142c445fd79"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -3432,6 +3364,11 @@ metafile = true
 [[files]]
 file = "mods/corpse.pw.toml"
 hash = "bac1ce0445c28fbbd71915bf4af19864bef37f8e3a190b862273ef5680f9f2da"
+metafile = true
+
+[[files]]
+file = "mods/cosmetic-armor-reworked-forked.pw.toml"
+hash = "a46ca4af9976720616c93d993965bd15317ed82746230c702c55eaf447be88fd"
 metafile = true
 
 [[files]]
@@ -3899,11 +3836,6 @@ metafile = true
 [[files]]
 file = "mods/oxide.pw.toml"
 hash = "a7afc76d6b9b855ea566a953a5c199a9be431e507edb71c11687897d0e3543f4"
-metafile = true
-
-[[files]]
-file = "mods/packet-fixer.pw.toml"
-hash = "806459146551a7fb1aff85427578b5f44f199cfc76e31390d02fbaf02cfc0d1e"
 metafile = true
 
 [[files]]

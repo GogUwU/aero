@@ -10,10 +10,10 @@
   "start_height": {
     "type": "biased_to_bottom",
     "max_inclusive": {
-      "absolute": 44
+      "absolute": 50
     },
     "min_inclusive": {
-      "absolute": 38
+      "absolute": 46
     }
   },
   "use_expansion_hack": false,
