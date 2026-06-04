@@ -1,0 +1,27 @@
+{
+  "type": "nomansland:alchemist_ruins",
+  "start_pool":"nomansland:bell_sanctuary/center",
+  "size": 4,
+  "max_distance_from_center": 42,
+  "biomes": "#galosphere:has_structure/forgotten_ruin",
+  "step": "underground_structures",
+  "terrain_adaptation": "encapsulate",
+  "liquid_settings": "ignore_waterlogging",
+  "start_height": {
+    "type": "biased_to_bottom",
+    "max_inclusive": {
+      "absolute": 44
+    },
+    "min_inclusive": {
+      "absolute": 38
+    }
+  },
+  "use_expansion_hack": false,
+  "spawn_overrides": {},
+  "feature_placeholders": {
+    "minecraft:blue_concrete": "nomansland:pots/pots_alchemist_treasure",
+    "minecraft:red_concrete": "nomansland:pots/pots_alchemist_potions",
+    "minecraft:yellow_concrete": "nomansland:pots/pots_alchemist_alchemy",
+    "minecraft:orange_concrete": "nomansland:pots/pots_alchemist_artisanship"
+  }
+}

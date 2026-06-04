@@ -478,7 +478,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "bfa242685cc9afa400562ed1699182fb19e60f58d124386ce5732398ca5d34c1"
+hash = "c2ce309f5d1747f05433045e9db884ffcdab584197d600ad37fcb7d83478bf11"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -1578,11 +1578,11 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "9808ed567ce2145fa10375536c5443570a277f9461304588cafe83887ec89b9a"
+hash = "42e78c31d3dcb1680e6a8c29c17b08fb922bd8d3235031647481562c547df327"
 
 [[files]]
 file = "kubejs/config/packicon.png"
-hash = "a61e4a31c89474390b3eeee9a89b9a127a2fdccc6fccbef5d4648c9a36408bdd"
+hash = "517fcafc2cd709d96da360f0906f9498af9b812deddb5ea946be50fac45358d2"
 
 [[files]]
 file = "kubejs/config/web_server.json"
@@ -1842,7 +1842,7 @@ hash = "1622f3a602ee496c7fee2945626c3169d62c67741cd42e15f0872a321c8b04dd"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/structure_set/ruined_portal.json"
-hash = "419758863c78315b9f3382492849763783ffa639ac951d2da225025b0555deea"
+hash = "71fc916879fce51be864d27d816fde170d1cf638e571250fa71288c44e3c2ce1"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/template_pool/flying_trial.json"
@@ -2589,6 +2589,10 @@ file = "kubejs/data/nomansland/worldgen/configured_feature/tuff_boulder.json"
 hash = "bdbb97bacb36a62a80d8fc05859f860eb8e473a9f603c25af909ce6975931677"
 
 [[files]]
+file = "kubejs/data/nomansland/worldgen/structure/bell_sanctuary.json"
+hash = "3b3f24cdb810af8b92ef0cd0689232777e1d3652570a35ca79c97e9642d0f075"
+
+[[files]]
 file = "kubejs/data/nomansland/worldgen/structure/small_dungeon.json"
 hash = "b98e64cf18d0b2d6aa5b86bd78629c3d8d54a14985d7d21772a362fc57625cb5"
 
@@ -2722,7 +2726,7 @@ hash = "ee1dee8de41cd1cfd434fe028d4aa2f15e2b3bbcc4822d1f75cf968f1ae7b837"
 
 [[files]]
 file = "kubejs/data/regions_unexplored/worldgen/biomes/hyacinth_deeps.json"
-hash = "a281b505b872a4d01d07f28fbc08f9823b784e18fa672780828957b8035c27db"
+hash = "400bc231a0f98d29d2189630cb2511b6a453815ce784dca49b2b3fed8adc4957"
 
 [[files]]
 file = "kubejs/data/regions_unexplored/worldgen/biomes/icy_heights.json"
