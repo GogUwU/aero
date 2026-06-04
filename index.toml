@@ -238,7 +238,7 @@ hash = "6b87e43f057460f167d20bd2cb0ac968be0565df049b2ece98921179cf4ccd0e"
 
 [[files]]
 file = "config/createoreexcavation-server.toml"
-hash = "af9f2fc843387f89071c35ab9f184ad3fedd7686ca2cbd2a6247d72b69152fe0"
+hash = "e2890a1ddc5f81b0044e514e0cb756141fc2d03bbab4b505a8c4a399ad815b5c"
 
 [[files]]
 file = "config/ctm.toml"
@@ -1678,15 +1678,15 @@ hash = "69d485d7e119c1e9198dcbc1ae88e9be1f3f22627e6739e594b39d0243db2248"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/trial/trial_big.nbt"
-hash = "a234c393a82ba3361a87d02c6465bd1aab44e11aa3d46c5b14166b86f485266e"
+hash = "10555789cdcdbe4eaa13c2fd5b9c6bfcbe5545f76568d4057a539fac0d837f00"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/trial/trial_medium.nbt"
-hash = "cf93e658f04fb6578370bc7b0fb220ea90212b652813b9fa4c5c8999cff5d6a6"
+hash = "ab6fdc20f59e1f21266602550148615ca6caf74c355c954cf0662fffdd753e06"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/trial/trial_small.nbt"
-hash = "85f2b7fc85ee2646f5f1da89a0297e2ba8e7508e507dd5dc36d46b846e9c6e54"
+hash = "6e3ea5f22470a61083ba0e0721e858e98f5fa34281aa96da36420fba3ee3a06b"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/configured_feature/airstone.json"
@@ -2009,6 +2009,70 @@ file = "kubejs/data/createdieselgenerators/createdieselgenerators/fuel_type/plan
 hash = "bfc682eba5f8531b7d07bcdeea93559625094186eb97ae3b60dab387ffcb0be5"
 
 [[files]]
+file = "kubejs/data/createoreexcavation/recipe/extractor/water.json"
+hash = "c206413f3c3d50f5e2257290770890e4d6e7ea1d526ff1cf2949e619623569da"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/coal.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/copper.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/diamond.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/emerald.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/glowstone.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/gold.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/hardened_diamond.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/iron.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/lapis.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/nether_gold.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/netherite.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/quartz.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/redstone.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/water.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
+file = "kubejs/data/createoreexcavation/recipe/ore_vein_type/zinc.json"
+hash = "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+
+[[files]]
 file = "kubejs/data/dustydecorations/advancement/welcome_to_dusty_decor.json"
 hash = "8231d56eb91f1f5423e0b69409c94751b56fcf06aa47328b2b6baabd3a40aa52"
 
@@ -2091,6 +2155,14 @@ hash = "ddf6412b9d26c917375e9cc3adae534571bd13084bfe3202a798a789e35bc6e3"
 [[files]]
 file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber.json"
 hash = "e6cbc153ffd8afc40f535ba050db2f6e938e376855d7f9615a63744bc0afb5cd"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber_drowned.json"
+hash = "8c928c113c68c35ba7018d407fec547bac962e37608a0fd3987b6df9f2baaff1"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber_drowned_normal.json"
+hash = "2df5b6987731d3c4e388f32114606bc1747960931f44b3c0114a9a0da23f2718"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber_helmets.json"
@@ -2929,6 +3001,10 @@ file = "kubejs/data/sable/physics_block_properties/half_slippery.json"
 hash = "d350eaa735ee0d791fe1bf6ce5e40cbd2693b026152fac1ffdf508eb8cf1c5f2"
 
 [[files]]
+file = "kubejs/data/sable/physics_block_properties/high_volume.json"
+hash = "65a86aafee98ac6daa52e85e988de176cbf535cf43faf4203dd4c19777eb22c8"
+
+[[files]]
 file = "kubejs/data/sable/physics_block_properties/negative_friction.json"
 hash = "c729fa82403300609694ec4111bd3154b4f6d8e0e5aeb78e727b83adf5a04bbd"
 
@@ -3023,6 +3099,10 @@ hash = "44c1dec0889df7e7aec0d9e26bbc89257bd63bc7b236b7aeb7b2bcd22c7f022f"
 [[files]]
 file = "kubejs/data/sable/tags/block/heavy.json"
 hash = "36bd3b3027a1a5451aa16c8318ca8fa404546e774e549614dcfde6c1f2581d87"
+
+[[files]]
+file = "kubejs/data/sable/tags/block/high_volume.json"
+hash = "be1d92eb0a741cbf2afe3bab702c32d94a257ee0d15ab72c02f254bd53420384"
 
 [[files]]
 file = "kubejs/data/sable/tags/block/light.json"

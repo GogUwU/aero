@@ -11,7 +11,7 @@ defaultInfinite = true
 #Max number of extractor per ore vein, Set to 0 for infinite
 # Default: 0
 # Range: 0 ~ 64
-maxExtractorsPerVein = 0
+maxExtractorsPerVein = 8
 #Vein Finder 'Found Nearby' range in chunks
 # Default: 1
 # Range: 1 ~ 8
