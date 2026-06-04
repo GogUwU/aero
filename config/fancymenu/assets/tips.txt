@@ -5,3 +5,5 @@ Many biomes are around the islands. The undersides may have cave biomes too.
 Trains are quite fast and can be used for cross-dimension transport.
 Trial chambers can be found floating, filled with loot for those strong enough.
 Deep caverns exist in the thin layer below the ocean. Rare minerals can be found within.
+Nether portals must be at least 15 blocks big. A 3x5 is the most efficent.
+There are hidden veins of ore-bearing rock only accessable with drillling machines.
