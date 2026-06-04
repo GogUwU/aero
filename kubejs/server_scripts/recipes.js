@@ -4,8 +4,8 @@ ServerEvents.recipes(e => {
     e.remove({id:'galosphere:rope_dart'})
     e.remove({id:'accents:sewing_kit'})
     e.remove({id:'sophisticatedbackpacks:upgrade_base'})
-
-    //remove ore veins
+	
+	//remove ore veins
     e.remove({id:'createoreexcavation:ore_vein_type/coal'})
     e.remove({id:'createoreexcavation:ore_vein_type/lapis'})
     e.remove({id:'createoreexcavation:ore_vein_type/redstone'})
@@ -35,6 +35,7 @@ ServerEvents.recipes(e => {
     e.remove({id:'createoreexcavation:drilling/zinc'})
     e.remove({id:'createoreexcavation:drilling/emerald'})
     e.remove({id:'createoreexcavation:drilling/iron'})
+
     // rebalances
 
     e.remove({id: 'create:crafting/materials/electron_tube'})
@@ -747,6 +748,28 @@ ServerEvents.recipes(e => {
         "results": [
             {
                 "id": 'minecraft:prismarine_crystals'
+            }
+        ]
+    })
+
+    e.remove({id: 'create:splashing/galosphere/crushed_raw_silver'})
+    e.remove([{id: 'oreganized:crushing/glance_recycling'}, {id: 'oreganized:crushing/glance'}])
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "oreganized:glance"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+            "chance": 0.8,
+            "id": "create:crushed_raw_lead"
+            },
+            {
+            "chance": 0.8,
+            "id": 'spelunkery:raw_lead_nugget'
             }
         ]
     })

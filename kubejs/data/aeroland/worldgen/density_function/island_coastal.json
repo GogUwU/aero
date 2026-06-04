@@ -54,7 +54,7 @@
       },
       "argument2": {
         "type": "minecraft:mul",
-        "argument1": 0.5,
+        "argument1": 0.8,
         "argument2": "aeroland:smooth_noodle"
       }
     }

@@ -55,6 +55,12 @@ ServerEvents.tags('item', e => {
     e.add('kubejs:airstone','kubejs:airstone_tiles')
     e.add('kubejs:airstone','kubejs:airstone_bricks')
 
+    e.add('kubejs:pitchstone','kubejs:inset_pitchstone')
+    e.add('kubejs:pitchstone','kubejs:chiseled_pitchstone')
+    e.add('kubejs:pitchstone','kubejs:polished_pitchstone')
+    e.add('kubejs:pitchstone','kubejs:pitchstone_tiles')
+    e.add('kubejs:pitchstone','kubejs:pitchstone_bricks')
+
     e.add('c:stones','kubejs:airstone')
     e.add('c:cobblestones','kubejs:cobbled_airstone')
 

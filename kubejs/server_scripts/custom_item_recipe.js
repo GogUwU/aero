@@ -221,6 +221,227 @@ ServerEvents.recipes(e => {
     e.stonecutting('kubejs:polished_airstone','kubejs:airstone')
     e.stonecutting('kubejs:inset_airstone','kubejs:airstone')
 
+    //crafting recipes pitchstone blocks
+    e.smelting('kubejs:pitchstone', 'kubejs:cobble_pitchstone')
+
+    e.shaped(
+    Item.of('kubejs:polished_pitchstone', 4),
+    [
+        'aa',
+        'aa'
+    ],
+    {
+        a: 'kubejs:pitchstone'
+    }
+    )
+
+        e.shaped(
+    Item.of('kubejs:pitchstone_tiles', 4),
+    [
+        'aa',
+        'aa'
+    ],
+    {
+        a: 'kubejs:pitchstone_bricks'
+    }
+    )
+        e.shaped(
+    Item.of('kubejs:pitchstone_bricks', 4),
+    [
+        'aa',
+        'aa'
+    ],
+    {
+        a: 'kubejs:polished_pitchstone'
+    }
+    )
+
+
+        e.shaped(
+    Item.of('kubejs:chiseled_pitchstone'),
+    [
+        'a',
+        'a'
+    ],
+    {
+        a: 'kubejs:pitchstone_bricks_slab'
+    }
+    )
+    //crafting pitchstone stairs/walls/slabs
+        //slabs
+        e.shaped(
+    Item.of('6x kubejs:pitchstone_slab'),
+    [
+        'aaa',
+    ],
+    {
+        a: 'kubejs:pitchstone',
+    }
+    )
+        e.shaped(
+    Item.of('6x kubejs:cobble_pitchstone_slab'),
+    [
+        'aaa',
+    ],
+    {
+        a: 'kubejs:cobble_pitchstone',
+    }
+    )
+        e.shaped(
+    Item.of('6x kubejs:pitchstone_bricks_slab'),
+    [
+        'aaa',
+    ],
+    {
+        a: 'kubejs:pitchstone_bricks',
+    }
+    )
+        e.shaped(
+    Item.of('6x kubejs:pitchstone_tiles_slab'),
+    [
+        'aaa',
+    ],
+    {
+        a: 'kubejs:pitchstone_tiles',
+    }
+    )
+        e.shaped(
+    Item.of('6x kubejs:polished_pitchstone_slab'),
+    [
+        'aaa',
+    ],
+    {
+        a: 'kubejs:polished_pitchstone',
+    }
+    )
+    //stairs
+        e.shaped(
+    Item.of('4x kubejs:pitchstone_stairs'),
+    [
+        'a  ',
+        'aa ',
+        'aaa'
+    ],
+    {
+        a: 'kubejs:pitchstone',
+    }
+    )
+        e.shaped(
+    Item.of('4x kubejs:cobble_pitchstone_stairs'),
+    [
+        'a  ',
+        'aa ',
+        'aaa'
+    ],
+    {
+        a: 'kubejs:cobble_pitchstone',
+    }
+    )
+        e.shaped(
+    Item.of('4x kubejs:pitchstone_brick_stairs'),
+    [
+        'a  ',
+        'aa ',
+        'aaa'
+    ],
+    {
+        a: 'kubejs:pitchstone_bricks',
+    }
+    )
+    e.shaped(Item.of('4x kubejs:pitchstone_tile_stairs'),
+        [
+            'a  ',
+            'aa ',
+            'aaa'
+        ],
+        {
+            a: 'kubejs:pitchstone_tiles',
+        }
+    )
+    e.shaped(Item.of('4x kubejs:polished_pitchstone_stairs'),
+        [
+            'a  ',
+            'aa ',
+            'aaa'
+        ],
+        {
+            a: 'kubejs:polished_pitchstone',
+        }
+    )
+    //walls
+    e.shaped(Item.of('6x kubejs:pitchstone_wall'),
+        [
+            'aaa',
+            'aaa'
+        ],
+        {
+            a: 'kubejs:pitchstone',
+        }
+    )
+    e.shaped(Item.of('6x kubejs:cobble_pitchstone_wall'),
+        [
+            'aaa',
+            'aaa'
+        ],
+        {
+            a: 'kubejs:cobble_pitchstone',
+        }
+    )
+
+    e.shaped(Item.of('6x kubejs:pitchstone_brick_wall'),
+        [
+            'aaa',
+            'aaa'
+        ],
+        {
+            a: 'kubejs:pitchstone_bricks',
+        }
+    )
+
+    e.shaped(Item.of('6x kubejs:polished_pitchstone_wall'),
+        [
+            'aaa',
+            'aaa'
+        ],
+        {
+            a: 'kubejs:polished_pitchstone',
+        }
+    )
+    //stonecutting/ blocks
+    e.stonecutting('kubejs:pitchstone_tiles','#kubejs:pitchstone')
+    e.stonecutting('kubejs:pitchstone_bricks','#kubejs:pitchstone')
+    e.stonecutting('kubejs:chiseled_pitchstone','#kubejs:pitchstone')
+    e.stonecutting('kubejs:polished_pitchstone','#kubejs:pitchstone')
+    e.stonecutting('kubejs:inset_pitchstone','#kubejs:pitchstone')
+    //stairs
+    e.stonecutting('kubejs:pitchstone_stairs','kubejs:pitchstone')
+    e.stonecutting('kubejs:polished_pitchstone_stairs','kubejs:pitchstone')
+    e.stonecutting('kubejs:pitchstone_brick_stairs','kubejs:pitchstone')
+    e.stonecutting('kubejs:pitchstone_brick_stairs','kubejs:pitchstone_bricks')
+    e.stonecutting('kubejs:cobble_pitchstone_stairs','kubejs:cobble_pitchstone')
+    e.stonecutting('kubejs:pitchstone_tile_stairs','kubejs:pitchstone_tiles')
+    e.stonecutting('kubejs:polished_pitchstone_stairs','kubejs:polished_pitchstone')
+    //slabs
+    e.stonecutting('2x kubejs:pitchstone_slab','kubejs:pitchstone')
+    e.stonecutting('2x kubejs:polished_pitchstone_slab','kubejs:pitchstone')
+    e.stonecutting('2x kubejs:cobble_pitchstone_slab','kubejs:cobble_pitchstone')
+    e.stonecutting('2x kubejs:pitchstone_tiles_slab','kubejs:pitchstone_tiles')
+    e.stonecutting('2x kubejs:polished_pitchstone_slab','kubejs:polished_pitchstone')
+    e.stonecutting('2x kubejs:pitchstone_bricks_slab','kubejs:pitchstone')
+    e.stonecutting('2x kubejs:pitchstone_bricks_slab','kubejs:pitchstone_bricks')
+    //walls
+    e.stonecutting('kubejs:pitchstone_wall','kubejs:pitchstone')
+    e.stonecutting('kubejs:cobble_pitchstone_wall','kubejs:cobble_pitchstone')
+    e.stonecutting('kubejs:polished_pitchstone_wall','kubejs:pitchstone')
+    e.stonecutting('kubejs:pitchstone_brick_wall','kubejs:pitchstone')
+    e.stonecutting('kubejs:pitchstone_brick_wall','kubejs:pitchstone_bricks')
+    e.stonecutting('kubejs:polished_pitchstone_wall','kubejs:polished_pitchstone')
+    //idk how to do this better ↓↓↓
+    e.stonecutting('kubejs:pitchstone_tiles','kubejs:pitchstone')
+    e.stonecutting('kubejs:pitchstone_bricks','kubejs:pitchstone')
+    e.stonecutting('kubejs:chiseled_pitchstone','kubejs:pitchstone')
+    e.stonecutting('kubejs:polished_pitchstone','kubejs:pitchstone')
+    e.stonecutting('kubejs:inset_pitchstone','kubejs:pitchstone')
 
 
 //scribe thing
@@ -319,7 +540,27 @@ ServerEvents.recipes(e => {
             },
             {
                 "chance": 0.2,
-                "id": "oreganized:silver_nugget"
+                "id": 'spelunkery:raw_silver_nugget'
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "kubejs:pitchstone"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "chance": 0.4,
+                "id": "create:crushed_raw_lead"
+            },
+            {
+                "chance": 0.4,
+                "id": 'spelunkery:raw_lead_nugget'
             }
         ]
     })
