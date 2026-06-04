@@ -677,10 +677,6 @@ file = "config/nowheel.json"
 hash = "af109ba9ca688ebc3b02c62019633d469e42395f56b56d9ec552b1a1099fd808"
 
 [[files]]
-file = "config/obscuria/accents-common.toml"
-hash = "a65217c1ca62a4b5bc509402ccc9e336169606019fd90fc76534c7751b8afe29"
-
-[[files]]
 file = "config/offroad-server.toml"
 hash = "7dda83d4436419564b495e65b4123ab8453eb926cdd8dabc526e41d3ace6bf40"
 
@@ -1742,7 +1738,7 @@ hash = "23d8bd616e483ed602903ac9e06edfb7cc2a272c811a46243a4f01f650999b69"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/island_coastal.json"
-hash = "54f8416f6c582b9de91bd0471b6b4c4c4b81ccea6cf0e10332e190f367b25ff4"
+hash = "158308fe2ca84f5313165033cec6369892f1dc6fbcd341ae36c488cdf535e401"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/density_function/island_heights.json"
@@ -3130,15 +3126,19 @@ hash = "bc9ccab2ef0d8e958c2d2a310aa8c3ac002e928f454d847268d012a020ae141d"
 
 [[files]]
 file = "kubejs/server_scripts/custom_item_recipe.js"
-hash = "b5642dd1a5513b075f879d32e1ff5fbc17f50916493787c22ae7c5a9b759c0dd"
+hash = "1e6eb4cdb050a573d400fcfada15399445937711d245162c5f6fc65ec9518d00"
+
+[[files]]
+file = "kubejs/server_scripts/oreexcavation.js"
+hash = "61afa6e5f34611a5694e34b304705558cbc4a14f4e74a45b276f4d636586d026"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "8f389973adf176f3068eda497598fcf6dbd7e7aaf24bbe82add46142c445fd79"
+hash = "b31961c982359fb6a551ae61cf7623bf34dc0228c2044d7cd0ceb73fbdc61343"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "deaf7d70a9ce5ca0b6cc9101ebd52a5c76ba9e329c3c718acfb3641260c7a9b9"
+hash = "2e186740dc00f8be89c8ee75ed2788fbb50cdd6d6b6182a5ced1027323506a5b"
 
 [[files]]
 file = "kubejs/server_scripts/unify.js"
@@ -3159,11 +3159,6 @@ hash = "b8eaece658484b15c03888f42b1857bbc1349e20455cca55b4994c2d511d5783"
 [[files]]
 file = "mods/AxesAreWeapons-1.10.2-neoforge-1.21.jar"
 hash = "665cae05ddc3f822ef677829dbca928e0f3f7707f1b1cd33b9fb735e2f18f16b"
-
-[[files]]
-file = "mods/accents.pw.toml"
-hash = "23a56a6a2054167c1b834a8bed6e547369ea171d0a7ba7dc3ebf318bad7c1b45"
-metafile = true
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
@@ -3620,11 +3615,6 @@ metafile = true
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "e55e53e488fa9d5be0cb4352cd399d2b72822f4179f930f6bc742bd3683ddb97"
-metafile = true
-
-[[files]]
-file = "mods/fragmentum.pw.toml"
-hash = "85ba6f016d7447b4ba0013eab45ecfffd4349e99acd892d46c16bf0d2411f8cc"
 metafile = true
 
 [[files]]
