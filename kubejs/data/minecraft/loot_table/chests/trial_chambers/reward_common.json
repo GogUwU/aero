@@ -158,11 +158,6 @@
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:upgrade_base",
 		  "weight": 2
-        },
-		{
-          "type": "minecraft:item",
-          "name": "accents:sewing_kit",
-		  "weight": 2
         }
       ],
       "rolls": 1.0
