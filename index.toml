@@ -1597,6 +1597,10 @@ file = "kubejs/data/aeroland/recipe/scribe/cracked_komatiite_bricks.json"
 hash = "2b6a87ac21821d22f970c094dcbd0a93f307140b4e2b8dadab1d27c2b9cce219"
 
 [[files]]
+file = "kubejs/data/aeroland/recipe/scribe/grooved_glissant.json"
+hash = "313af2b6061384277ae6115c7a47d0427067993b866bfa9f49c5dbe59027d4c0"
+
+[[files]]
 file = "kubejs/data/aeroland/recipe/scribe/inset_komatiite.json"
 hash = "8f93479f0cac34d7ca17231212c6df52a77b84d5e00116882155ff99ac27904c"
 
@@ -1611,6 +1615,10 @@ hash = "32b2135c6c2e1d38d0a278a16920bc362bd5c7e65eaa9602fdc80eacb58962e8"
 [[files]]
 file = "kubejs/data/aeroland/recipe/scribe/polished_komatiite.json"
 hash = "ff311eedcfe922c5cb36a7cfd94c58dbbef6386c2de096e708cec881e6c68325"
+
+[[files]]
+file = "kubejs/data/aeroland/recipe/scribe/polished_komatiite_loop.json"
+hash = "c7ba864ffea20b645449b7a936dbd87336b183908479567c6775321a11ae3cd2"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/customportal/crane/crane.nbt"

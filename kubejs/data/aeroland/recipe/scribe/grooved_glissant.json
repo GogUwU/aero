@@ -1,0 +1,7 @@
+{
+  "type": "oreganized:scribe",
+  "from": {
+    "blocks": "kubejs:glissant"
+  },
+  "to": "kubejs:grooved_glissant"
+}
