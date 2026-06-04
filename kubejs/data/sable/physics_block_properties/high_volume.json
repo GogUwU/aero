@@ -1,0 +1,8 @@
+{
+  "selector": "#sable:high_volume",
+
+  "properties": {
+    "sable:volume": 15,
+	"sable:mass": 2
+  }
+}

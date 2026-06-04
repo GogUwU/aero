@@ -1,0 +1,62 @@
+{
+	"type": "minecraft:equipment",
+	"pools": [
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "minecraft:equipment/trial_chamber"
+				}
+			],
+			"rolls": 1
+		},
+		{
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 8
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trident",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trident",
+					"functions": [
+						{
+							"add": false,
+							"enchantments": {
+								"minecraft:channeling": 1
+							},
+							"function": "minecraft:set_enchantments"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:trident",
+					"functions": [
+						{
+							"add": false,
+							"enchantments": {
+								"minecraft:impaling": 1
+							},
+							"function": "minecraft:set_enchantments"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:fishing_rod",
+					"weight": 2
+				}
+			],
+			"rolls": 1
+		}
+	],
+	"random_sequence": "minecraft:equipment/trial_chamber_melee"
+}
