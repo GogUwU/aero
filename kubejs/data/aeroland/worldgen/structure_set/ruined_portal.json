@@ -3,9 +3,9 @@
     "type": "minecraft:random_spread",
     "frequency_reduction_method": "legacy_type_2",
     "salt": 876435,
-    "separation": 0,
-    "spacing": 1,
-    "frequency": 0.004
+    "separation": 1,
+    "spacing": 4,
+    "frequency": 0.005
   },
   "structures": [
     {
