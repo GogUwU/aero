@@ -1626,7 +1626,7 @@ hash = "0ff5127b6d573c828127a4562d055f1d59fdefef5ec79a56ddc43a1f8d19bb4f"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/customportal/crane/crane_broken_ocean.nbt"
-hash = "417d30f8f5c2271dabbb16f18037ee1075f7cd09a58ae7b77fedfb67a7c3c3d0"
+hash = "5f718f507f333e6f74330498ccfd76403726d6f55d2ac5c20902be8543f79db5"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/customportal/crane/crane_broken_other.nbt"
@@ -3813,7 +3813,7 @@ metafile = true
 
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
-hash = "1ea031f57d05b542ab17ebb644c3f3d1a4a44cb872187a881f3645445b0a1769"
+hash = "b890a73001275f9ff3b80849a7de30f529319759316466cea8fdf79671e58f3e"
 metafile = true
 
 [[files]]
