@@ -3823,7 +3823,7 @@ metafile = true
 
 [[files]]
 file = "mods/oreganized.pw.toml"
-hash = "4a7478d5ebe9b5c2b6699d04854b3400b3fa19fc85056caabe796a285543be32"
+hash = "9fb82912757210859f241e0ac79123032b2d7cb6de727430137ba09f615b74f4"
 metafile = true
 
 [[files]]
@@ -3992,7 +3992,7 @@ metafile = true
 
 [[files]]
 file = "mods/stellarview.pw.toml"
-hash = "858b70ed2f9793012746b8a731f0c5356ebba30ef25ee94c2f240d4a69b922a3"
+hash = "ede817c5ced5f49e62ec91943d0ca1d87eaed273f528f243ef9524712c20f339"
 metafile = true
 
 [[files]]
