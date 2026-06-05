@@ -4077,17 +4077,17 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/computercraft-greentech.pw.toml"
-hash = "4600d9679fc31bdef8415d57c870fdbd4c9b0225b5d3c3d378c1f3458ed55f54"
+hash = "faf1d7ef29bd673efbf3e3116af8b548510278431d905058c7905152c3b6e45f"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fancy-crops.pw.toml"
-hash = "bb1065b7cbbdb82e9f94ae8e31a507918f24e678ef68696e2766d8854a425189"
+hash = "9a7b741c28053b17b6f757bf45efe05a483d39788fa67c848e7f729446f27600"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fluffy-carpets.pw.toml"
-hash = "f62c1e4d5d9d528e6228d72236dfa718650b7bd8af3cdd300224b327906ecf70"
+hash = "b8eea8686bc46500c0d444cb74729b15658081a7ed052f4f916c7962ca4207e0"
 metafile = true
 
 [[files]]
