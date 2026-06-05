@@ -434,7 +434,7 @@ hash = "bc12da9bddcca47a707539db082b0d9b9c367b9be343d5c4521b94ff42644971"
 
 [[files]]
 file = "config/fancymenu/assets/tips.txt"
-hash = "6598b910362f9ad4acc46968db11e13054f20eca9aa2196d5472cd89871f9132"
+hash = "0f941b5a2bf9e1456c4ad87b5f6d00865b428e1009e1de6be880fab0c9627d58"
 
 [[files]]
 file = "config/fancymenu/assets/title.png"
@@ -1622,15 +1622,15 @@ hash = "f470a86bf7fa0296c90c548c1353568ac12343cebb1e85dc9392333da077df6d"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/customportal/crane/crane_broken.nbt"
-hash = "2e7108490bc4d306eec3003521b5ba5477e677bbe7dbe5c1203300c7c1a595df"
+hash = "0ff5127b6d573c828127a4562d055f1d59fdefef5ec79a56ddc43a1f8d19bb4f"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/customportal/crane/crane_broken_ocean.nbt"
-hash = "4d1e5e1fe7145ce2be6786eea8a8834ad0edd4ac8bc9c82d8a6d916228bac5d4"
+hash = "417d30f8f5c2271dabbb16f18037ee1075f7cd09a58ae7b77fedfb67a7c3c3d0"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/customportal/crane/crane_broken_other.nbt"
-hash = "53a1551eb2f649a7a996a3ec74832a5b7cc7c21729b05dba1bdda1c12271bd75"
+hash = "69ebff0c63aaa3f23a3d8e71a3c98b010a5a5569b2aa372b6892c04903ea66d0"
 
 [[files]]
 file = "kubejs/data/aeroland/structure/customportal/crane/crane_ocean.nbt"
@@ -2082,11 +2082,11 @@ hash = "e7fba7bbb768b13880e67106b2695a206d2df4737651b4e6a9f088e3dd75cecf"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/chests/trial_chambers/reward_common.json"
-hash = "7b7bd40801620ebb7a4f73e086f1c18cc5634e48a69c558e363b209b6aa5f727"
+hash = "35901dd545fe2e77698fecf7644fc508f610ac97b1e8d8cd66a880c5e830e8b9"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/chests/trial_chambers/reward_ominous_common.json"
-hash = "ddf6412b9d26c917375e9cc3adae534571bd13084bfe3202a798a789e35bc6e3"
+hash = "a230bd90e0809c08e5d98c56aa52ba2beeab46b299e59983e1fbbd3c735eb300"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber.json"
@@ -2450,11 +2450,11 @@ hash = "9e45031f3e7c75e1928eaf84af52f17e6c8d80ed3033b5e1b8f65bf87bd22b7a"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_redstone.json"
-hash = "0b54bb05ea8a15e41958a121c32177ed283f9fb0725125ba7b7d6d83a801224f"
+hash = "8e9b9d4562f3c9d1438cbddaaa1e4fab979cea444b0fb82edf0bd325beee204d"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_redstone_lower.json"
-hash = "d1db67218647fdff7caa6a4737782e7399db72d1155704f738dd848074ab0ba7"
+hash = "c154e66b4bcaa6a86d413718f7efcd0997fbc9b51eab117629355b6a64df3acf"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/placed_feature/ore_tuff.json"
@@ -3134,7 +3134,7 @@ hash = "61afa6e5f34611a5694e34b304705558cbc4a14f4e74a45b276f4d636586d026"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "b31961c982359fb6a551ae61cf7623bf34dc0228c2044d7cd0ceb73fbdc61343"
+hash = "9fd4243926b09bc04f3cc3b2f30a2061b65e612238fe0a8363688f35befad15c"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
