@@ -318,11 +318,11 @@ hash = "8ecc08b8e1032e00de4dcd9ece3c4734c3e43262ec03d09dc326a6067c6fe622"
 
 [[files]]
 file = "config/fancymenu/assets/background_big.jpg"
-hash = "13b3a63c48bc57fbb609bd354bfd76efc97efc2454815b3bf50a29511952db34"
+hash = "8f4df77ccc6c80fb05b60028816a1e41e0ee9bb4efacdc01822b356389a45c68"
 
 [[files]]
 file = "config/fancymenu/assets/background_small.jpg"
-hash = "ef2f298caa3ba492afca61beb1f830faa05f04f7c9cfdd62565e23411a584cef"
+hash = "ea51b86340806067859d1342c49aa1f83a9d810257a08e4ea65cb0af65b716c8"
 
 [[files]]
 file = "config/fancymenu/assets/exit_button.png"
@@ -401,6 +401,10 @@ file = "config/fancymenu/assets/language_button_hover.png"
 hash = "70f69751c59bfda363148240d413baa1e65f3ff46e050e477431a76076dc9106"
 
 [[files]]
+file = "config/fancymenu/assets/loading.png"
+hash = "771660acb0ece2e454315e18531d62e53074ceb0739d8247dbb7115a4ba99f69"
+
+[[files]]
 file = "config/fancymenu/assets/mods_button.fma"
 hash = "fb371c329141169d844f87725912e0d2e6cbbe0ad9900d4a89cab6984a6da46a"
 
@@ -434,7 +438,7 @@ hash = "bc12da9bddcca47a707539db082b0d9b9c367b9be343d5c4521b94ff42644971"
 
 [[files]]
 file = "config/fancymenu/assets/tips.txt"
-hash = "4ba35ec0de27c7cf5211e03d405d7d2e5d2a7625ed6e951e085a707952918aab"
+hash = "6a700dc84a35be13c361d4e2eed5b63fbd231d51d6e069bb21b40bde03a34cbd"
 
 [[files]]
 file = "config/fancymenu/assets/title.png"
@@ -454,11 +458,15 @@ hash = "7d4410bcfc1dcf3265c53842a57f0f9d95a07131d4de67116a9f65def0bcf54a"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "9fc7d8b2d509a002e34344dfe565f9f14641b1884168ed1d389a42e143055a4c"
+hash = "45c929ae3376928e6a9c6b0139dae067e7a0d5e690ff8022cbdf63869bdfd896"
+
+[[files]]
+file = "config/fancymenu/customization/loading_background.txt"
+hash = "fdd419358bd71d9333338b28be104613e03fa611d9fd0a46e2e03547d7ae8454"
 
 [[files]]
 file = "config/fancymenu/customization/loading_tip.txt"
-hash = "58d951183b4f25d7a2e62d8978f237e65cab996c4c01fa8a993ab4c87f6e2ae5"
+hash = "fa02e249a347ed765e44f46d4ccc2494a7ca4c01703f426fcbf83cc60f086270"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
@@ -478,7 +486,7 @@ hash = "878c9368bec63cd86822b28ceca345704ebaa411f7b72dd0bb4e682235b790e1"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "91106e70386e065126c5ab53150cd615cfb16995be51ee183630c85a21ab7dc3"
+hash = "c35607af7c2d0130e785a081b3ba03c6d899dd81bbc6c4dd53468fba7cd4a8e2"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -1838,11 +1846,11 @@ hash = "96cd4b5651dddcd6fd467af42b0dddb256e9242b5f21f7375a89439330c4dd75"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/structure_set/flying_trial.json"
-hash = "41241a2bb0ab8f46785ec64ac875d42c2f632a4393ccd79a37c7e49e107078b2"
+hash = "502b3082f5ecac53625049f717eca5e473e29031dee651c2a3832758622f111f"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/structure_set/ruined_portal.json"
-hash = "23b4cfb57068c8d3e78f2f8e6156336dd48bcebaea94aaf307ceb790d48cdc40"
+hash = "7db6745e080ff4503aa320bcf34cbde83862f84a3c57f494d78161887f984020"
 
 [[files]]
 file = "kubejs/data/aeroland/worldgen/template_pool/flying_trial.json"
@@ -2605,6 +2613,18 @@ file = "kubejs/data/nomansland/worldgen/structure/small_dungeon.json"
 hash = "12b6d5397d30b0ad85cc0f7b96d7d9eef0bcfee68d66e7245a2feceef3cf0ea4"
 
 [[files]]
+file = "kubejs/data/oreganized/worldgen/configured_feature/silver_ore.json"
+hash = "8e9ad0971d51b9a03b0dbbf2b6c40a8d0742a1fedf6f41a01b6e924ce52525de"
+
+[[files]]
+file = "kubejs/data/oreganized/worldgen/placed_feature/silver_ore.json"
+hash = "8526cefd8a3ca6b5ec032397f01923cc7c3ab40591cdfda23ffad86dde5d7e08"
+
+[[files]]
+file = "kubejs/data/oreganized/worldgen/placed_feature/silver_ore_extra.json"
+hash = "9b532070414e61bbc1d7b08473f7f747f821d1b3856d3ae3bbbb461495d5d36b"
+
+[[files]]
 file = "kubejs/data/regions_unexplored/worldgen/biomes/alpha_grove.json"
 hash = "de75dfafc0172faa2a9686f3316fee9a6936c4b940d35f5761ad5d905446424f"
 
@@ -3126,7 +3146,7 @@ hash = "7d9112416f172f6d89d14a7136aa5621ffdb037421742be6a0a191e59a2c3bd1"
 
 [[files]]
 file = "kubejs/server_scripts/custom_item_recipe.js"
-hash = "8779c785f53a99bc0179dba90d7c0a9afefe4485db5c6d76d3237c3e9c5673c0"
+hash = "1e600936f4c74a327bfcdd6763cbe9daa7859c9e955c438c2520741ba98e4f6f"
 
 [[files]]
 file = "kubejs/server_scripts/oreexcavation.js"
