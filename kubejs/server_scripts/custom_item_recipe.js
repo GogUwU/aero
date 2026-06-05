@@ -535,11 +535,11 @@ ServerEvents.recipes(e => {
         "processing_time": 250,
         "results": [
             {
-                "chance": 0.2,
+                "chance": 0.05,
                 "id": "create:crushed_raw_silver"
             },
             {
-                "chance": 0.2,
+                "chance": 0.05,
                 "id": 'spelunkery:raw_silver_nugget'
             }
         ]
