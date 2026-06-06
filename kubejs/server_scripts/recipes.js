@@ -774,4 +774,6 @@ ServerEvents.recipes(e => {
             }
         ]
     })
+
+    e.smelting('minecraft:ink_sac', 'minecraft:glow_ink_sac')
 })
