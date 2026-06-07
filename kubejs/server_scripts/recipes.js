@@ -45,7 +45,7 @@ ServerEvents.recipes(e => {
         'Q',
         'S'
     ], {
-        Q: 'create:rose_quartz',
+        Q: 'create:polished_rose_quartz',
         S: 'kubejs:silver_sheet'
     })
 
@@ -776,4 +776,42 @@ ServerEvents.recipes(e => {
     })
 
     e.smelting('minecraft:ink_sac', 'minecraft:glow_ink_sac')
+
+    e.remove({id: 'oreganized:mixing/electrum_ingot'})
+    e.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [
+            {
+            "tag": "c:ingots/silver"
+            },
+            {
+            "tag": "c:ingots/silver"
+            },
+            {
+            "tag": "c:ingots/silver"
+            },
+            {
+            "tag": "c:ingots/silver"
+            },
+            {
+            "tag": "c:ingots/silver"
+            },
+            {
+            "tag": "c:ingots/gold"
+            },
+            {
+            "tag": "c:ingots/gold"
+            },
+            {
+            "tag": "c:ingots/gold"
+            }
+        ],
+        "results": [
+            {
+                "count": 4,
+                "id": "oreganized:electrum_ingot"
+            }
+        ]
+    })
 })
