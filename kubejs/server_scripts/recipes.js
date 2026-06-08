@@ -108,9 +108,9 @@ ServerEvents.recipes(e => {
 
     e.remove({id: 'computercraft:pocket_computer_advanced'})
     e.shaped('computercraft:pocket_computer_advanced', [
-        'B',
+        'B ',
         'EP',
-        'G'
+        'G '
     ], {
         E: 'powergrid:electrical_gizmo',
         G: 'minecraft:tinted_glass',
@@ -242,7 +242,7 @@ ServerEvents.recipes(e => {
             "C": {"item": "computercraft:computer_advanced"},
             "I": {"tag": "kubejs:portable_engines"}
         },
-        "pattern": [" # ", "C", " I "],
+        "pattern": [" # ", " C ", " I "],
         "result": {"count": 1, "id": "computercraft:turtle_advanced"}
     })
 
