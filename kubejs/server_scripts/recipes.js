@@ -77,9 +77,9 @@ ServerEvents.recipes(e => {
 
     e.remove({output: 'computercraft:computer_advanced'})
     e.shaped('computercraft:computer_advanced', [
-        'PPP',
-        'PEP',
-        'PGP'
+        'P',
+        'E',
+        'G'
     ], {
         E: 'powergrid:electrical_gizmo',
         G: 'minecraft:tinted_glass',
@@ -91,7 +91,7 @@ ServerEvents.recipes(e => {
         "category": "redstone",
         "function": [{"type": "computercraft:copy_components", "from": {"item": "computercraft:computer_normal"}}],
         "key": {"#": {"tag": "c:ingots/electrum"}, "C": {"item": "computercraft:computer_normal"}, "E": {"item": "powergrid:electrical_gizmo"}},
-        "pattern": ["###", "#C#", "#E#"],
+        "pattern": ["#", "C", "E"],
         "result": {"count": 1, "id": "computercraft:computer_advanced"}
     })
 
@@ -102,19 +102,19 @@ ServerEvents.recipes(e => {
             {"type": "computercraft:copy_components", "from": {"item": "computercraft:pocket_computer_normal"}}
         ],
         "key": {"#": {"tag": "c:ingots/electrum"}, "C": {"item": "computercraft:pocket_computer_normal"}, "E": {"item": "powergrid:electrical_gizmo"}},
-        "pattern": ["# #", "#C#", "#E#"],
+        "pattern": ["#", "C", "E"],
         "result": {"count": 1, "id": "computercraft:pocket_computer_advanced"}
     })
 
     e.remove({id: 'computercraft:pocket_computer_advanced'})
     e.shaped('computercraft:pocket_computer_advanced', [
-        'PBP',
-        'PEP',
-        'PGP'
+        'B',
+        'EP',
+        'G'
     ], {
         E: 'powergrid:electrical_gizmo',
         G: 'minecraft:tinted_glass',
-        P: 'create:brass_ingot',
+        P: 'oreganized:electrum_ingot',
         B: 'powergrid:battery'
     })
 
@@ -242,7 +242,7 @@ ServerEvents.recipes(e => {
             "C": {"item": "computercraft:computer_advanced"},
             "I": {"tag": "kubejs:portable_engines"}
         },
-        "pattern": ["#C#", "#I#"],
+        "pattern": [" # ", "C", " I "],
         "result": {"count": 1, "id": "computercraft:turtle_advanced"}
     })
 
@@ -252,11 +252,10 @@ ServerEvents.recipes(e => {
         "function": [{"type": "computercraft:copy_components", "from": {"item": "computercraft:turtle_normal"}}],
         "key": {
             "#": {"tag": "c:ingots/electrum"},
-            "B": {"tag": "c:storage_blocks/electrum"},
             "C": {"item": "computercraft:turtle_normal"},
             "E": {"item": "powergrid:electrical_gizmo"}
         },
-        "pattern": [" B ","#C#", " E "],
+        "pattern": [" # "," C ", " E "],
         "result": {"count": 1, "id": "computercraft:turtle_advanced"}
     })
 
