@@ -2090,11 +2090,11 @@ hash = "e7fba7bbb768b13880e67106b2695a206d2df4737651b4e6a9f088e3dd75cecf"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/chests/trial_chambers/reward_common.json"
-hash = "35901dd545fe2e77698fecf7644fc508f610ac97b1e8d8cd66a880c5e830e8b9"
+hash = "3d12c560ebdc37bec42aebb8082b6704653834aa5b0a58afd7aecb6b51d34c71"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/chests/trial_chambers/reward_ominous_common.json"
-hash = "a230bd90e0809c08e5d98c56aa52ba2beeab46b299e59983e1fbbd3c735eb300"
+hash = "1a8ee3aa7305af9790540d35610458717da380f28bd8ef949c6699e1dd44836e"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber.json"
@@ -3154,7 +3154,7 @@ hash = "61afa6e5f34611a5694e34b304705558cbc4a14f4e74a45b276f4d636586d026"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "b28fb63f45de763ad8929a453077af322bbf23f16fa85987ddcca9970f6896b2"
+hash = "921c2d84140818dae61c7167e1451c98f34a510aeebf7509ff6662d55c9f13c4"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
