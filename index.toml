@@ -3133,6 +3133,38 @@ file = "kubejs/data/sable/tags/item/paddles.json"
 hash = "4132cb6ceeda5f044aa0f13e1fbf9fe6354d20c6cd104d60217c46d6c00edbf7"
 
 [[files]]
+file = "kubejs/data/scriptor/scriptor/artifacts/banish_me.json"
+hash = "cc2b8cfc5c2eb050ea32cb29bf20a357dcec054d980d018eaae4053766180254"
+
+[[files]]
+file = "kubejs/data/scriptor/scriptor/artifacts/storm.json"
+hash = "ce8e3f67e53133eab29913567c31b38397a45ac58b21f77d39429cc8487e94e7"
+
+[[files]]
+file = "kubejs/data/scriptor/scriptor/engravings/call_lightning.json"
+hash = "30d0b0bfc4a1c9ed6eb9c6df0df0c8346c57f7c9f0652f04d3b968ea40bf4603"
+
+[[files]]
+file = "kubejs/data/scriptor/scriptor/engravings/clear_weather.json"
+hash = "484d184ece1d630761dbbfb6fe3ea7e6fe10a30d976a862ae29b87fc276dffa8"
+
+[[files]]
+file = "kubejs/data/scriptor/scriptor/engravings/day.json"
+hash = "f98f4adc932ca0db55cec36b0f60ef87c2417df3e9ee3e2fa88fdc2034b8ddf1"
+
+[[files]]
+file = "kubejs/data/scriptor/scriptor/tomes/tier4/advance_time.json"
+hash = "2d1d0e20d9e609ca70995c98b076df6d9b920e3ee4784d30984db51df8aced85"
+
+[[files]]
+file = "kubejs/data/scriptor/scriptor/tomes/tier4/conjure_rain.json"
+hash = "a15e9e1fb20060d3c84e29f42163652eecda827152a259e09f4bc87a5183141e"
+
+[[files]]
+file = "kubejs/data/scriptor/scriptor/villager_engravings/day.json"
+hash = "ce38e59fc79f4abe6dba843192f243364d71cb76646261863d22726231b43313"
+
+[[files]]
 file = "kubejs/data/scriptor/tags/worldgen/biome/has_structure/engravings.json"
 hash = "03b40da27fc3e38045dffe96e1a9b0b3abfca2216020e87d3ab18165274eecc0"
 

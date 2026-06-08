@@ -1,0 +1,24 @@
+{
+  "disabled": true,
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "time",
+        "descriptors": [
+          "stacking_strong",
+          "stacking_strong",
+          "stacking_strong",
+          "stacking_strong",
+          "stacking_strong",
+          "stacking_strong",
+          "stacking_strong",
+          "stacking_strong",
+          "stacking_strong",
+          "strong",
+          "night"
+        ]
+      }
+    ]
+  }
+}

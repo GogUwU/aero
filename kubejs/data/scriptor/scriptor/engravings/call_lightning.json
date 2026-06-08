@@ -1,0 +1,17 @@
+{
+  "disabled": true,
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "smite",
+        "descriptors": [
+          "copy_left",
+          "copy_right",
+          "copy_forwards",
+          "copy_backwards"
+        ]
+      }
+    ]
+  }
+}

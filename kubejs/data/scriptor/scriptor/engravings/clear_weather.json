@@ -1,0 +1,16 @@
+{
+  "disabled": true,
+  "spell": {
+    "subject": "self",
+    "spells": [
+      {
+        "action": "clear_weather",
+        "descriptors": [
+          "stacking_strong",
+          "strong",
+          "rain"
+        ]
+      }
+    ]
+  }
+}
