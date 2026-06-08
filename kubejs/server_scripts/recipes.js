@@ -628,8 +628,8 @@ ServerEvents.recipes(e => {
     {
         e.remove({id: 'sophisticatedbackpacks:advanced_'+ID+'_upgrade'})
         e.shaped('sophisticatedbackpacks:advanced_'+ID+'_upgrade', [
-            ' D ',
-            'EUE',
+            ' E ',
+            'DUD',
             'PBP'
         ], {
             U: 'sophisticatedbackpacks:'+ID+'_upgrade',
