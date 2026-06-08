@@ -3891,7 +3891,7 @@ metafile = true
 
 [[files]]
 file = "mods/portalnator-1.0.0.jar"
-hash = "6b14fd90616133e90c1aeb56168efd3b20a7d9b5962bc17ff5448d04b13530c0"
+hash = "864020d8d99815072284879b61054e9aabec0178b152100273b3534775fb7a3a"
 
 [[files]]
 file = "mods/portfolio.pw.toml"
