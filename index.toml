@@ -937,30 +937,6 @@ file = "config/vista-common.toml"
 hash = "f0cb05d89267d5b983bb2fc921c5bb005d7868e3256ac7a445f7c95a06ec447a"
 
 [[files]]
-file = "config/voicechat/category-volumes.properties"
-hash = "3747c48bcb3a60834f88f056ee9b3a025153b11f6ca88652b4bddebb77cea009"
-
-[[files]]
-file = "config/voicechat/player-volumes.properties"
-hash = "cd385ca1eeda4df612631e2713cc6d503793157ef8bd5518d736429e6c1ae474"
-
-[[files]]
-file = "config/voicechat/translations.properties"
-hash = "b258a94a5ed60fbf93b66c452c3d6e36b044f630741f90e5b13852a4805b235e"
-
-[[files]]
-file = "config/voicechat/username-cache.json"
-hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "config/voicechat/voicechat-client.properties"
-hash = "db10173f38e1689dbbf8630b92cc4484bbe215bb78819f923d3dd23544018158"
-
-[[files]]
-file = "config/voicechat/voicechat-server.properties"
-hash = "608786349573d05ed6c27f068955a7a9f2e7d832719bd635888606a2d1db4282"
-
-[[files]]
 file = "config/xaero/lib/client.cfg"
 hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
 
@@ -1578,7 +1554,7 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
-hash = "42e78c31d3dcb1680e6a8c29c17b08fb922bd8d3235031647481562c547df327"
+hash = "0d849419f9e7acc3a672d65f13a6b5de7f4367f498189e6b0feb2cfa72a521ac"
 
 [[files]]
 file = "kubejs/config/packicon.png"
@@ -3186,7 +3162,7 @@ hash = "61afa6e5f34611a5694e34b304705558cbc4a14f4e74a45b276f4d636586d026"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "9bccfa7919c883f62d995581173b95cc1b09b065c0b351e6753aa08967b676f1"
+hash = "e91c3b3db6bc8db091e2c3bfb8dbb37db171688b8df1132ebbc7b5e2a0c2e5c2"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
