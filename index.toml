@@ -3158,7 +3158,7 @@ hash = "61afa6e5f34611a5694e34b304705558cbc4a14f4e74a45b276f4d636586d026"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "c3d8741871e57871cb6e4a10b8a41c4aa4b5612e90bc4ae8008010b8fd530391"
+hash = "8c7532dd18b18e4cf054990b3a8e630db2b33d948b62c465bc72903be63c7edb"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
