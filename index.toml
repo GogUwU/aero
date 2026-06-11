@@ -881,14 +881,6 @@ file = "config/spelunkery-common.toml"
 hash = "d0e58947a3b9803a3cea95fa1e0f1b567c595f18fb262969f40973aeda2eca54"
 
 [[files]]
-file = "config/staaaaaaaaaaaack-client.toml"
-hash = "226b90c5a4379ecda568e8ead39249ba8a50b1ec7d40839cd15391cdb8a2191f"
-
-[[files]]
-file = "config/staaaaaaaaaaaack-common.toml"
-hash = "bb88987e2b3e240e7bb1db75ef1a3b364576d74952644f92d5e0e18925d00760"
-
-[[files]]
 file = "config/stellarview-client.toml"
 hash = "e31597e3eae7ef7777e5a2a0c96c429fb72061447b03422a809c47781150a6ef"
 
@@ -3158,7 +3150,7 @@ hash = "61afa6e5f34611a5694e34b304705558cbc4a14f4e74a45b276f4d636586d026"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "8c7532dd18b18e4cf054990b3a8e630db2b33d948b62c465bc72903be63c7edb"
+hash = "c34b907a2654b7013d30df558ca70c4685515c3f619ecca8d69366d35afe5c76"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
