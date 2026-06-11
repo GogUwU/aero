@@ -529,7 +529,7 @@ ServerEvents.recipes(e => {
         "type": "create:crushing",
         "ingredients": [
             {
-                "item": "kubejs:airstone"
+                "tag": "kubejs:airstone"
             }
         ],
         "processing_time": 250,
@@ -549,7 +549,7 @@ ServerEvents.recipes(e => {
         "type": "create:crushing",
         "ingredients": [
             {
-                "item": "kubejs:pitchstone"
+                "tag": "kubejs:pitchstone"
             }
         ],
         "processing_time": 250,

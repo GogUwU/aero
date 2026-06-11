@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 	
 	event.recipes.createoreexcavation.vein('{"text": "Asurine"}', 'create:asurine')
 		.placement(128, 8, 64825185)
-		.id("kubejs:azurine")
+		.id("kubejs:asurine")
 
     event.recipes.createoreexcavation.vein('{"text": "Crimsite"}', 'create:crimsite')
 		.placement(128, 8, 2187496)
@@ -23,4 +23,23 @@ ServerEvents.recipes(event => {
     event.recipes.createoreexcavation.vein('{"text": "Pitchstone"}', 'kubejs:pitchstone')
 		.placement(128, 8, 2466125)
 		.id("kubejs:pitchstone")
+
+    event.recipes.createoreexcavation.drilling('create:asurine', 'kubejs:asurine', 150)
+		.id("kubejs:asurine1");
+
+    event.recipes.createoreexcavation.drilling('create:crimsite', 'kubejs:crimsite', 150)
+		.id("kubejs:crimsite1");
+
+    event.recipes.createoreexcavation.drilling('create:ochrum', 'kubejs:ochrum', 150)
+		.id("kubejs:ochrum1");
+
+    event.recipes.createoreexcavation.drilling('create:veridium', 'kubejs:veridium', 150)
+		.id("kubejs:veridium1");
+
+    event.recipes.createoreexcavation.drilling('kubejs:airstone', 'kubejs:airstone', 150)
+		.id("kubejs:airstone1");
+
+    event.recipes.createoreexcavation.drilling('kubejs:pitchstone', 'kubejs:pitchstone', 150)
+		.id("kubejs:pitchstone1");
+
 });
