@@ -2109,6 +2109,10 @@ file = "kubejs/data/minecraft/structure/trial_chambers/spawner/small_melee/baby_
 hash = "29a0975f8acf63733093befa70c2e2d82be055f968bab74bd9fd7724cba22f23"
 
 [[files]]
+file = "kubejs/data/minecraft/tags/block/mineable/pickaxe.json"
+hash = "5611134d0f20f80fc361b6c72c70ae518ab1ffab0770bb541b7c62011b4e0f08"
+
+[[files]]
 file = "kubejs/data/minecraft/tags/worldgen/biome/has_structure/buried_treasure.json"
 hash = "def63b0fb90b66a774072b367bfdd7757c597faf5994460e27ebd2b9309170f2"
 
