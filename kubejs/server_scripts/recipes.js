@@ -5,6 +5,8 @@ ServerEvents.recipes(e => {
     e.remove({id:'galosphere:rope_dart'})
     e.remove({id:'accents:sewing_kit'})
     e.remove({id:'sophisticatedbackpacks:upgrade_base'})
+    e.remove({id:'sophisticatedbackpacks:mob_catcher_upgrade'})
+    e.remove({id:'sophisticatedbackpacks:advanced_mob_catcher_upgrade'})
     e.remove({id:'spelunkery:compression_blast_miner'})
 	
 	//remove ore veins

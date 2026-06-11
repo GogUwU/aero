@@ -47,7 +47,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","black_icons","file/Fancy Crops v1.3.zip","file/Fluffy Carpets v1.1.zip","scholar:colored_books","scholar:chiseled_bookshelf_colored_books"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","black_icons","file/Fancy Crops v1.3.zip","file/Fluffy Carpets v1.1.zip","scholar:colored_books","scholar:chiseled_bookshelf_colored_books","file/CC Greentech V2.0.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
