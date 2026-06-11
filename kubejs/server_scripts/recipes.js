@@ -38,6 +38,23 @@ ServerEvents.recipes(e => {
     e.remove({id:'createoreexcavation:drilling/emerald'})
     e.remove({id:'createoreexcavation:drilling/iron'})
 
+    // spelunkery
+    for (let path of [
+        'asurine',
+        'crimsite',
+        'crimsite_recycling',
+        'diamond_ore',
+        'emerald_ore',
+        'lapis_ore',
+        'ochrum',
+        'ochrum_recycling',
+        'redstone_ore',
+        'tuff',
+        'tuff_recycling',
+        'veridium',
+        'veridium_recycling',
+    ]) e.remove({ id: `create:crushing/${path}` })
+
     // rebalances
 
     e.remove({id: 'create:crafting/materials/electron_tube'})
