@@ -549,7 +549,47 @@ ServerEvents.recipes(e => {
         "type": "create:crushing",
         "ingredients": [
             {
+                "tag": "kubejs:cobbled_airstone"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "chance": 0.1,
+                "id": "create:crushed_raw_silver"
+            },
+            {
+                "chance": 0.1,
+                "id": 'spelunkery:raw_silver_nugget'
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
                 "tag": "kubejs:pitchstone"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "chance": 0.4,
+                "id": "create:crushed_raw_lead"
+            },
+            {
+                "chance": 0.4,
+                "id": 'spelunkery:raw_lead_nugget'
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "tag": "kubejs:cobbled_pitchstone"
             }
         ],
         "processing_time": 250,
