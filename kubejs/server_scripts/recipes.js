@@ -799,7 +799,7 @@ ServerEvents.recipes(e => {
     e.remove({id: 'oreganized:mixing/electrum_ingot'})
     e.custom({
         "type": "create:mixing",
-        "heat_requirement": "heated",
+        "heat_requirement": "superheated",
         "ingredients": [
             {
             "tag": "c:ingots/silver"
@@ -832,5 +832,241 @@ ServerEvents.recipes(e => {
                 "id": "oreganized:electrum_ingot"
             }
         ]
+    })
+
+    e.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [
+            {
+                "id": "light_blue_stained_glass"
+            },
+            {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "id": "dustydecorations:cerulean_seaglass"
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [
+            {
+                "id": "green_stained_glass"
+            },
+            {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "id": "dustydecorations:teal_seaglass"
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [
+            {
+                "id": "lime_stained_glass"
+            },
+            {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "id": "dustydecorations:mint_seaglass"
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [
+            {
+                "id": "light_blue_stained_glass"
+            },
+            {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "id": "dustydecorations:hazel_seaglass"
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [
+            {
+                "id": "white_stained_glass"
+            },
+            {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "id": "dustydecorations:frosted_seaglass"
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [
+            {
+                "id": "red_stained_glass"
+            },
+            {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "id": "dustydecorations:scarlet_seaglass"
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [
+            {
+                "id": "yellow_stained_glass"
+            },
+            {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "id": "dustydecorations:honey_seaglass"
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [
+            {
+                "id": "purple_stained_glass"
+            },
+            {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "id": "dustydecorations:taupe_seaglass"
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [
+            {
+                "id": "brown_stained_glass"
+            },
+            {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "id": "dustydecorations:mocha_seaglass"
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:mixing",
+        "heat_requirement": "heated",
+        "ingredients": [
+            {
+                "id": "black_stained_glass"
+            },
+            {
+            "type": "neoforge:single",
+            "amount": 250,
+            "fluid": "minecraft:water"
+            }
+        ],
+        "results": [
+            {
+                "id": "dustydecorations:liquorice_seaglass"
+            }
+        ]
+    })
+
+    e.remove({id:"data/brewinandchewin/recipe/cooking/fiery_fondue_pot"})
+    e.custom({
+    "type": "farmersdelight:cooking",
+    "container": {
+        "count": 1,
+        "id": "minecraft:cauldron"
+    },
+    "cookingtime": 400,
+    "experience": 2.0,
+    "ingredients": [
+        {
+        "item": "farmersdelight:tomato_sauce"
+        },
+        {
+        "tag": "c:crops/potato"
+        },
+        {
+        "tag": "c:drinks/milk"
+        },
+        {
+        "item": "brewinandchewin:scarlet_cheese_wheel"
+        },
+        {
+        "item": "farmersdelight:ham"
+        },
+        {
+        "tag": "c:foods/bread"
+        }
+    ],
+    "recipe_book_tab": "meals",
+    "result": {
+        "count": 1,
+        "id": "brewinandchewin:fiery_fondue_pot"
+    }
     })
 })
