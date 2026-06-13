@@ -839,7 +839,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "minecraft:light_blue_stained_glass"
+                "item": "minecraft:light_blue_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -859,7 +859,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "minecraft:green_stained_glass"
+                "item": "minecraft:green_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -879,7 +879,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "minecraft:lime_stained_glass"
+                "item": "minecraft:lime_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -899,7 +899,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "minecraft:light_blue_stained_glass"
+                "item": "minecraft:light_blue_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -919,7 +919,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "minecraft:white_stained_glass"
+                "item": "minecraft:white_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -939,7 +939,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "minecraft:red_stained_glass"
+                "item": "minecraft:red_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -959,7 +959,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "minecraft:yellow_stained_glass"
+                "item": "minecraft:yellow_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -979,7 +979,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "minecraft:purple_stained_glass"
+                "item": "minecraft:purple_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -999,7 +999,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "minecraft:brown_stained_glass"
+                "item": "minecraft:brown_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -1019,7 +1019,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "minecraft:black_stained_glass"
+                "item": "minecraft:black_stained_glass"
             },
             {
             "type": "neoforge:single",
