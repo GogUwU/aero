@@ -3150,7 +3150,7 @@ hash = "bc9ccab2ef0d8e958c2d2a310aa8c3ac002e928f454d847268d012a020ae141d"
 
 [[files]]
 file = "kubejs/server_scripts/custom_item_recipe.js"
-hash = "465b54c3e5705e9d80765b17fbd9d2461ba09972df62e2c93ef885898de02230"
+hash = "409db1cd4e2ab2e5027d993b3a5098038c5aa2e57de0669900d3a3003fe63dde"
 
 [[files]]
 file = "kubejs/server_scripts/oreexcavation.js"
@@ -3158,11 +3158,11 @@ hash = "074b5b9e23e40c26cdcf55ff57d544dd6586acc3ba9ea5bdbfaf2ad80b18341e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "a210ef7292c1565b192b15f958e1ba23253fb27bb0692244978f3f4fbf6f119f"
+hash = "4d00d1f99d1482696f6679320f8e9222d2ab691a1ee1cb697158647ccc03ac9e"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "2e186740dc00f8be89c8ee75ed2788fbb50cdd6d6b6182a5ced1027323506a5b"
+hash = "b65a3666fd7e820b02a3282b99b62c5337fcea27f51dbf40f8b2820f276c68d5"
 
 [[files]]
 file = "kubejs/server_scripts/unify.js"
