@@ -138,7 +138,7 @@ hash = "1c632f62c30f4e1223669267196d2ff1a2c03e400bf565ff4fe81e20c7cd2bdf"
 
 [[files]]
 file = "config/create-server.toml"
-hash = "7ce70a77188abf7f977c7e8de2db26503430191809cdf5aec832ac67352bf5a1"
+hash = "96ab7db9af10ae28a604c39d432a3bc6acc55e6e168fa2bc5237e7a84e09c548"
 
 [[files]]
 file = "config/create_connected-common-1.toml.bak"
@@ -3158,11 +3158,11 @@ hash = "074b5b9e23e40c26cdcf55ff57d544dd6586acc3ba9ea5bdbfaf2ad80b18341e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "22dc70658158f53ad2d9725bcdc63598b9df6d7951b5bd126bd5dfa6cd816e43"
+hash = "bc93e1458dee3f1b34559ad9e12ffd5b4c0b7301e67679649d1a3fe99742b9bb"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "b65a3666fd7e820b02a3282b99b62c5337fcea27f51dbf40f8b2820f276c68d5"
+hash = "60a8f6b05923e6480e24fafa5990e99142a507697fa02fc19036bd2c6dd4b375"
 
 [[files]]
 file = "kubejs/server_scripts/unify.js"

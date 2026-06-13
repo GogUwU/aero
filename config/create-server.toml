@@ -458,19 +458,19 @@
 	#The amount of Schematics a player can upload until previous ones are overwritten.
 	# Default: 10
 	# Range: > 1
-	maxSchematics = 10
+	maxSchematics = 5
 	#.
 	#[in KiloBytes]
 	#The maximum allowed file size of uploaded Schematics.
 	# Default: 256
 	# Range: > 16
-	maxTotalSchematicSize = 256
+	maxTotalSchematicSize = 2048
 	#.
 	#[in Bytes]
 	#The maximum packet size uploaded Schematics are split into.
 	# Default: 1024
 	# Range: 256 ~ 32767
-	maxSchematicPacketSize = 4096
+	maxSchematicPacketSize = 16384
 	#.
 	#Amount of game ticks without new packets arriving until an active schematic upload process is discarded.
 	# Default: 600
@@ -484,7 +484,7 @@
 		#Amount of game ticks between shots of the cannon. Higher => Slower
 		# Default: 10
 		# Range: > 1
-		schematicannonDelay = 10
+		schematicannonDelay = 1
 		#.
 		#Amount of blocks a Schematicannon can print per Gunpowder item provided.
 		# Default: 400
@@ -542,7 +542,7 @@
 	#Maximum length of track that can be placed as one batch or turn.
 	# Default: 32
 	# Range: 16 ~ 128
-	maxTrackPlacementLength = 32
+	maxTrackPlacementLength = 128
 	#.
 	#Maximum length of a Train Stations' assembly track.
 	# Default: 128
@@ -567,19 +567,19 @@
 		#The top speed of any assembled Train.
 		# Default: 28.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTopSpeed = 28.0
+		trainTopSpeed = 35.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of Trains during a turn.
 		# Default: 14.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainTurningTopSpeed = 14.0
+		trainTurningTopSpeed = 24.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of any assembled Train.
 		# Default: 3.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		trainAcceleration = 3.0
+		trainAcceleration = 3.5
 
 	#.
 	#Powered Trains
@@ -589,16 +589,16 @@
 		#The top speed of powered Trains.
 		# Default: 40.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTopSpeed = 40.0
+		poweredTrainTopSpeed = 45.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of powered Trains during a turn.
 		# Default: 20.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTurningTopSpeed = 20.0
+		poweredTrainTurningTopSpeed = 33.0
 		#.
 		#[in Blocks/Second²]
 		#The acceleration of powered Trains.
 		# Default: 3.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainAcceleration = 3.0
+		poweredTrainAcceleration = 4.5

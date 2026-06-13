@@ -45,6 +45,12 @@ ServerEvents.tags('block', e => {
     e.add('spelunkery:chisel_immune', '#aeronautics:levitite')
     //clay
     e.add('minecraft:stone_ore_replaceables', 'minecraft:clay')
+
+    //lazy shafts/cogs
+    e.add('sable:light', 'createadditionallogistics:lazy_shaft')
+    e.add('sable:light', 'createadditionallogistics:lazy_large_cogwheel')
+    e.add('sable:light', 'createadditionallogistics:lazy_cogwheel')
+
 })
 
 ServerEvents.tags('item', e => {
