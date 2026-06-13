@@ -949,7 +949,7 @@ ServerEvents.recipes(e => {
         ],
         "results": [
             {
-                "id": "dustydecorations:scarlet_seaglass"
+                "id": "dustydecorations:scarlett_seaglass"
             }
         ]
     })
@@ -1036,37 +1036,41 @@ ServerEvents.recipes(e => {
 
     e.remove({id:"brewinandchewin:recipe/cooking/fiery_fondue_pot"})
     e.custom({
-    "type": "farmersdelight:cooking",
-    "container": {
-        "count": 1,
-        "id": "minecraft:cauldron"
-    },
-    "cookingtime": 400,
-    "experience": 2.0,
-    "ingredients": [
-        {
-        "item": "farmersdelight:tomato_sauce"
+        "type": "farmersdelight:cooking",
+        "container": {
+            "count": 1,
+            "id": "minecraft:cauldron"
         },
-        {
-        "tag": "c:crops/potato"
-        },
-        {
-        "tag": "c:drinks/milk"
-        },
-        {
-        "item": "brewinandchewin:scarlet_cheese_wheel"
-        },
-        {
-        "item": "farmersdelight:ham"
-        },
-        {
-        "tag": "c:foods/bread"
+        "cookingtime": 400,
+        "experience": 2.0,
+        "ingredients": [
+            {
+            "item": "farmersdelight:tomato_sauce"
+            },
+            {
+            "tag": "c:crops/potato"
+            },
+            {
+            "tag": "c:drinks/milk"
+            },
+            {
+            "item": "brewinandchewin:scarlet_cheese_wheel"
+            },
+            {
+            "item": "farmersdelight:ham"
+            },
+            {
+            "tag": "c:foods/bread"
+            }
+        ],
+        "recipe_book_tab": "meals",
+        "result": {
+            "count": 1,
+            "id": "brewinandchewin:fiery_fondue_pot"
         }
-    ],
-    "recipe_book_tab": "meals",
-    "result": {
-        "count": 1,
-        "id": "brewinandchewin:fiery_fondue_pot"
-    }
     })
+
+    e.shapeless('create:shaft', 'createadditionallogistics:lazy_shaft')
+    e.shapeless('create:cogwheel', 'createadditionallogistics:lazy_cogwheel')
+    e.shapeless('create:lage_cogwheel', 'createadditionallogistics:lazy_large_cogwheel')
 })
