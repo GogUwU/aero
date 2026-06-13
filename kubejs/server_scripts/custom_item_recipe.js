@@ -549,7 +549,7 @@ ServerEvents.recipes(e => {
         "type": "create:crushing",
         "ingredients": [
             {
-                "tag": "kubejs:cobbled_airstone"
+                "item": "kubejs:cobble_airstone"
             }
         ],
         "processing_time": 250,
@@ -589,7 +589,7 @@ ServerEvents.recipes(e => {
         "type": "create:crushing",
         "ingredients": [
             {
-                "tag": "kubejs:cobbled_pitchstone"
+                "item": "kubejs:cobble_pitchstone"
             }
         ],
         "processing_time": 250,
