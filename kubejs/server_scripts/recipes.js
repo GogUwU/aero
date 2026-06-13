@@ -839,7 +839,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "light_blue_stained_glass"
+                "id": "minecraft:light_blue_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -859,7 +859,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "green_stained_glass"
+                "id": "minecraft:green_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -879,7 +879,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "lime_stained_glass"
+                "id": "minecraft:lime_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -899,7 +899,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "light_blue_stained_glass"
+                "id": "minecraft:light_blue_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -919,7 +919,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "white_stained_glass"
+                "id": "minecraft:white_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -939,7 +939,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "red_stained_glass"
+                "id": "minecraft:red_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -959,7 +959,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "yellow_stained_glass"
+                "id": "minecraft:yellow_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -979,7 +979,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "purple_stained_glass"
+                "id": "minecraft:purple_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -999,7 +999,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "brown_stained_glass"
+                "id": "minecraft:brown_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -1019,7 +1019,7 @@ ServerEvents.recipes(e => {
         "heat_requirement": "heated",
         "ingredients": [
             {
-                "id": "black_stained_glass"
+                "id": "minecraft:black_stained_glass"
             },
             {
             "type": "neoforge:single",
@@ -1034,7 +1034,7 @@ ServerEvents.recipes(e => {
         ]
     })
 
-    e.remove({id:"data/brewinandchewin/recipe/cooking/fiery_fondue_pot"})
+    e.remove({id:"brewinandchewin:recipe/cooking/fiery_fondue_pot"})
     e.custom({
     "type": "farmersdelight:cooking",
     "container": {
