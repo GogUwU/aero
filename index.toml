@@ -3158,11 +3158,11 @@ hash = "074b5b9e23e40c26cdcf55ff57d544dd6586acc3ba9ea5bdbfaf2ad80b18341e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "bc93e1458dee3f1b34559ad9e12ffd5b4c0b7301e67679649d1a3fe99742b9bb"
+hash = "ae4449e897f208e76d4f4406a820f13f57a062d05ab2c7b9e87a9d4d5a4c2f80"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "60a8f6b05923e6480e24fafa5990e99142a507697fa02fc19036bd2c6dd4b375"
+hash = "94a49b27b7a8a17d9165da10659ff8e7c9d16eaa9cb60ac96a28145e2fc11209"
 
 [[files]]
 file = "kubejs/server_scripts/unify.js"

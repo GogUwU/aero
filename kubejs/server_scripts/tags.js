@@ -71,6 +71,7 @@ ServerEvents.tags('item', e => {
 
     e.add('c:stones','kubejs:airstone')
     e.add('c:cobblestones','kubejs:cobbled_airstone')
+    e.add('kubejs:airstone','kubejs:cobbled_airstone')
 
     // stupid engines
     e.add('kubejs:portable_engines', 'simulated:white_portable_engine')

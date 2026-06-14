@@ -8,6 +8,7 @@ ServerEvents.recipes(e => {
     e.remove({id:'sophisticatedbackpacks:mob_catcher_upgrade'})
     e.remove({id:'sophisticatedbackpacks:advanced_mob_catcher_upgrade'})
     e.remove({id:'spelunkery:compression_blast_miner'})
+    e.remove({id:'create:splashing/gravel'})
 	
 	//remove ore veins
     e.remove({id:'createoreexcavation:ore_vein_type/coal'})
@@ -1072,5 +1073,581 @@ ServerEvents.recipes(e => {
 
     e.shapeless('create:shaft', 'createadditionallogistics:lazy_shaft')
     e.shapeless('create:cogwheel', 'createadditionallogistics:lazy_cogwheel')
-    e.shapeless('create:lage_cogwheel', 'createadditionallogistics:lazy_large_cogwheel')
+    e.shapeless('create:large_cogwheel', 'createadditionallogistics:lazy_large_cogwheel')
+    //spelunkery crushing
+    //coal
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:andesite_coal_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "minecraft:coal"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "minecraft:coal"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:andesite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:granite_coal_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "minecraft:coal"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "minecraft:coal"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:granite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:tuff_coal_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "minecraft:coal"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "minecraft:coal"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:tuff"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:diorite_coal_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "minecraft:coal"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "minecraft:coal"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:diorite"
+            }
+        ]
+    })
+    //iron
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:andesite_iron_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "create:crushed_raw_iron"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:crushed_raw_iron"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:andesite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:diorite_iron_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "create:crushed_raw_iron"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:crushed_raw_iron"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:diorite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:granite_iron_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "create:crushed_raw_iron"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:crushed_raw_iron"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:granite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:tuff_iron_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "create:crushed_raw_iron"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:crushed_raw_iron"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:tuff"
+            }
+        ]
+    })
+    //gold
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:andesite_gold_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "create:crushed_raw_gold"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:crushed_raw_gold"
+            },
+            {
+                "count": 2,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:andesite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:diorite_gold_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "create:crushed_raw_gold"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:crushed_raw_gold"
+            },
+            {
+                "count": 2,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:diorite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:granite_gold_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "create:crushed_raw_gold"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:crushed_raw_gold"
+            },
+            {
+                "count": 2,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:granite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:tuff_gold_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "create:crushed_raw_gold"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:crushed_raw_gold"
+            },
+            {
+                "count": 2,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:tuff"
+            }
+        ]
+    })
+    //zinc
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:andesite_zinc_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "create:crushed_raw_zinc"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:crushed_raw_zinc"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:andesite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:diorite_zinc_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "create:crushed_raw_zinc"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:crushed_raw_zinc"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:diorite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:granite_zinc_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 1,
+                "id": "create:crushed_raw_zinc"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:crushed_raw_zinc"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:granite"
+            }
+        ]
+    })
+    //copper
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:andesite_copper_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 5,
+                "id": "create:crushed_raw_copper"
+            },
+            {
+                "count": 1,
+                "chance": 0.25,
+                "id": "create:crushed_raw_copper"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:andesite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:diorite_copper_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 5,
+                "id": "create:crushed_raw_copper"
+            },
+            {
+                "count": 1,
+                "chance": 0.25,
+                "id": "create:crushed_raw_copper"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:diorite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:granite_copper_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 5,
+                "id": "create:crushed_raw_copper"
+            },
+            {
+                "count": 1,
+                "chance": 0.25,
+                "id": "create:crushed_raw_copper"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:granite"
+            }
+        ]
+    })
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "spelunkery:tuff_copper_ore"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "count": 5,
+                "id": "create:crushed_raw_copper"
+            },
+            {
+                "count": 1,
+                "chance": 0.25,
+                "id": "create:crushed_raw_copper"
+            },
+            {
+                "count": 1,
+                "chance": 0.75,
+                "id": "create:experience_nugget"
+            },
+            {
+                "count": 1,
+                "chance": 0.12,
+                "id": "minecraft:tuff"
+            }
+        ]
+    })
 })
