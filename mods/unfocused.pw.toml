@@ -1,21 +1,12 @@
-filename = 'unfocused-neoforge-0.3.2-1.21.1-sgd.jar'
-name = 'Unfocused'
-side = ''
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '0.3.2-1.21.1-neoforge'
+name = "Unfocused"
+filename = "unfocused-neoforge-0.3.3-1.21.1-sgd.jar"
 
 [download]
-hash = '0103f0ad85abd0562443cfd3d69918139dae9d2415c1583b92140b320f13d927172ee9f13fa90af284ce1fe4e9936e95b0f6d2f0c0afa4201c519454f7910aab'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/BvsO32QY/versions/ncYxOQeH/unfocused-neoforge-0.3.2-1.21.1-sgd.jar'
+url = "https://cdn.modrinth.com/data/BvsO32QY/versions/EG3CD3wY/unfocused-neoforge-0.3.3-1.21.1-sgd.jar"
+hash-format = "sha512"
+hash = "fd3f6779f44eb46c4b508d5877b6be69f315c776b7636013b0cd7bbef8a9eb0a7ed26dbd88fe5a6c2674ae332864bf0aecc810399e5aa2593c0e18aca2c1f6c9"
 
+[update]
 [update.modrinth]
-mod-id = 'BvsO32QY'
-version = 'ncYxOQeH'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'ordsPcFz'
-type = 'REQUIRED'
+mod-id = "BvsO32QY"
+version = "EG3CD3wY"
