@@ -3368,7 +3368,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-x-curios-api-compat.pw.toml"
-hash = "18a234289ea5a4d7055a0d892e69651f6d556bdff40f98f959827e43aa70182d"
+hash = "d7ea619e60b3c7eea10edcd20ffc57bb2a8ec1193b6bfa94a558bc5dd8cdeca3"
 metafile = true
 
 [[files]]
@@ -3408,7 +3408,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-enchantment-industry.pw.toml"
-hash = "20c7c03d0e2b9ded9ba79431c57a5a51cb2302e343b6ae215d39ea7a59e54249"
+hash = "9632e3a695f69473d879e285e46007fd5037cb5abc8db02a8bec79689864d0fc"
 metafile = true
 
 [[files]]
@@ -3864,7 +3864,7 @@ metafile = true
 
 [[files]]
 file = "mods/reconnectible-chains.pw.toml"
-hash = "2c33f4dbea7b8dad69add94b8248b6c59b28212eaf5990761339e7d2912bfa6d"
+hash = "976e84d7166de460e1d0375bd435e564e0564bfd5729a53afeab75729fd8dafb"
 metafile = true
 
 [[files]]
@@ -3914,7 +3914,7 @@ metafile = true
 
 [[files]]
 file = "mods/scholar.pw.toml"
-hash = "b42c4d9cbb6dd7c3125f7cd368902cc4c29de45d9ca80997f805951077ac3c42"
+hash = "a3212eba03e0f0f934ae288a7fae8d953c0236fc77bf46c6083cd69229c2d54d"
 metafile = true
 
 [[files]]
@@ -3979,7 +3979,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "3ca1065861e5f6eaf045ba3708ad53332167d00feb04651bab75305385ade67f"
+hash = "e5ef2755794f4dea869c09ab06865a0586fc9f487077bca86843cdc8520e10fd"
 metafile = true
 
 [[files]]
