@@ -470,7 +470,7 @@ hash = "9bd7d2fc1dd8f8e94af259bf3bc4f5eafd8c5a399f5d9df91cd229fafa7306e4"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "46ab3f1cbd9396b14c5d2c42e392502067fd99493e27065faff5c306ff0bf35e"
+hash = "3bed49f8418e7c7433addbea1e090f39a01c0a3c42d9e4775ad71829fa61f1db"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -791,14 +791,6 @@ hash = "ebc51d51254af9d388d7cba28314eb216db21746e82da841376d8e77f86c0f37"
 [[files]]
 file = "config/scholar-common.toml"
 hash = "814259c47ca4c640032cc7878d3ce08437d880ef7b23729f9b795841372dabed"
-
-[[files]]
-file = "config/scriptor.cfg"
-hash = "d7dbf84d3d217d82fac55e79a2c7f951c5f8fdaa9bd84f0cf0722d76ebca336e"
-
-[[files]]
-file = "config/scriptor_cost.cfg"
-hash = "b64203ce52ced3beeca74645f76d0803199eec668f0a5ed0be976db2f3d1b518"
 
 [[files]]
 file = "config/servercore/config.yml"
@@ -3105,50 +3097,6 @@ file = "kubejs/data/sable/tags/item/paddles.json"
 hash = "4132cb6ceeda5f044aa0f13e1fbf9fe6354d20c6cd104d60217c46d6c00edbf7"
 
 [[files]]
-file = "kubejs/data/scriptor/scriptor/artifacts/banish_me.json"
-hash = "cc2b8cfc5c2eb050ea32cb29bf20a357dcec054d980d018eaae4053766180254"
-
-[[files]]
-file = "kubejs/data/scriptor/scriptor/artifacts/storm.json"
-hash = "ce8e3f67e53133eab29913567c31b38397a45ac58b21f77d39429cc8487e94e7"
-
-[[files]]
-file = "kubejs/data/scriptor/scriptor/engravings/call_lightning.json"
-hash = "30d0b0bfc4a1c9ed6eb9c6df0df0c8346c57f7c9f0652f04d3b968ea40bf4603"
-
-[[files]]
-file = "kubejs/data/scriptor/scriptor/engravings/clear_weather.json"
-hash = "484d184ece1d630761dbbfb6fe3ea7e6fe10a30d976a862ae29b87fc276dffa8"
-
-[[files]]
-file = "kubejs/data/scriptor/scriptor/engravings/day.json"
-hash = "f98f4adc932ca0db55cec36b0f60ef87c2417df3e9ee3e2fa88fdc2034b8ddf1"
-
-[[files]]
-file = "kubejs/data/scriptor/scriptor/tomes/tier4/advance_time.json"
-hash = "2d1d0e20d9e609ca70995c98b076df6d9b920e3ee4784d30984db51df8aced85"
-
-[[files]]
-file = "kubejs/data/scriptor/scriptor/tomes/tier4/conjure_rain.json"
-hash = "a15e9e1fb20060d3c84e29f42163652eecda827152a259e09f4bc87a5183141e"
-
-[[files]]
-file = "kubejs/data/scriptor/scriptor/villager_engravings/day.json"
-hash = "ce38e59fc79f4abe6dba843192f243364d71cb76646261863d22726231b43313"
-
-[[files]]
-file = "kubejs/data/scriptor/tags/worldgen/biome/has_structure/engravings.json"
-hash = "03b40da27fc3e38045dffe96e1a9b0b3abfca2216020e87d3ab18165274eecc0"
-
-[[files]]
-file = "kubejs/data/scriptor/worldgen/structure/artifact_chamber.json"
-hash = "2b29997186065920dc6251358c7ae1eedf6c8e8f9ab646da2ce22abb5c5d87d1"
-
-[[files]]
-file = "kubejs/data/scriptor/worldgen/structure_set/artifact_chamber.json"
-hash = "bc9ccab2ef0d8e958c2d2a310aa8c3ac002e928f454d847268d012a020ae141d"
-
-[[files]]
 file = "kubejs/server_scripts/custom_item_recipe.js"
 hash = "409db1cd4e2ab2e5027d993b3a5098038c5aa2e57de0669900d3a3003fe63dde"
 
@@ -3158,7 +3106,7 @@ hash = "074b5b9e23e40c26cdcf55ff57d544dd6586acc3ba9ea5bdbfaf2ad80b18341e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "ae4449e897f208e76d4f4406a820f13f57a062d05ab2c7b9e87a9d4d5a4c2f80"
+hash = "44e4111b3c61e4dd2edc8c9d99845298963bcb683825b9d44f72329448a238a8"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -3762,11 +3710,6 @@ hash = "a42ea2b48f7cdad8ddce048e95a3d3cdad56ba7b9e0a7b779134c907e994100b"
 metafile = true
 
 [[files]]
-file = "mods/latin-scriptor.pw.toml"
-hash = "6a7c81bf32f2789e26793b453cc565e919842c7464df458575d75a65719af46c"
-metafile = true
-
-[[files]]
 file = "mods/lithium.pw.toml"
 hash = "066f6a045997818a603a1733d13115c17f9dc7b0c91e6a976ba3734dc8071d36"
 metafile = true
@@ -3957,11 +3900,6 @@ metafile = true
 [[files]]
 file = "mods/scholar.pw.toml"
 hash = "b42c4d9cbb6dd7c3125f7cd368902cc4c29de45d9ca80997f805951077ac3c42"
-metafile = true
-
-[[files]]
-file = "mods/scriptor-magicae.pw.toml"
-hash = "42c64b3d1f39b06516357113fff0c0ebd66b6d8baaf90025e19acabddc086d42"
 metafile = true
 
 [[files]]

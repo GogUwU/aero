@@ -9,6 +9,8 @@ ServerEvents.recipes(e => {
     e.remove({id:'sophisticatedbackpacks:advanced_mob_catcher_upgrade'})
     e.remove({id:'spelunkery:compression_blast_miner'})
     e.remove({id:'create:splashing/gravel'})
+    e.remove({id:'advancedperipherals:chat_box'})
+    e.remove({id:'advancedperipherals:inventory_manager'})
 	
 	//remove ore veins
     e.remove({id:'createoreexcavation:ore_vein_type/coal'})
