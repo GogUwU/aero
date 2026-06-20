@@ -43,22 +43,16 @@ ServerEvents.recipes(e => {
     e.remove({id:'createoreexcavation:drilling/emerald'})
     e.remove({id:'createoreexcavation:drilling/iron'})
 
-    // spelunkery
-    // for (let path of [
-    //     'asurine',
-    //     'crimsite',
-    //     'crimsite_recycling',
-    //     'diamond_ore',
-    //     'emerald_ore',
-    //     'lapis_ore',
-    //     'ochrum',
-    //     'ochrum_recycling',
-    //     'redstone_ore',
-    //     'tuff',
-    //     'tuff_recycling',
-    //     'veridium',
-    //     'veridium_recycling',
-    // ]) e.remove({ id: `create:crushing/${path}` })
+    //remove some crushing stuff
+    e.remove({id:'create:crushing/ochrum'})
+    e.remove({id:'create:crushing/ochrum_recycling'})
+    e.remove({id:'create:crushing/crimsite'})
+    e.remove({id:'create:crushing/crimsite_recycling'})
+    e.remove({id:'create:crushing/veridium'})
+    e.remove({id:'create:crushing/veridium_recycling'})
+    e.remove({id:'create:crushing/asurine'})
+    e.remove({id:'create:crushing/asurine_recycling'})
+
 
     // rebalances
 

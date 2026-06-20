@@ -2017,6 +2017,10 @@ file = "kubejs/data/galosphere/placed_feature/lumiere_floor_crystals.json"
 hash = "4436173c1618eac75cf63ea3371a467240ed5ebbd85149a6474abbbbf4eced54"
 
 [[files]]
+file = "kubejs/data/galosphere/recipe/tuff_dirt.json"
+hash = "20781e3c8cf552b283b37e2f186342c26c81a684e1e5b8d35c3cdcce16021de3"
+
+[[files]]
 file = "kubejs/data/galosphere/tags/worldgen/biome/has_structure/forgotten_ruin.json"
 hash = "35d3c12981d0038f93525a8db80e0be982816838c43abff8ccd8c4055c74a432"
 
@@ -3106,7 +3110,7 @@ hash = "074b5b9e23e40c26cdcf55ff57d544dd6586acc3ba9ea5bdbfaf2ad80b18341e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "44e4111b3c61e4dd2edc8c9d99845298963bcb683825b9d44f72329448a238a8"
+hash = "dd970bfbe9e0bfb5f3ab3803d746510df8e2d057a78f926375ff5119fad28777"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -3899,7 +3903,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "c968d0c7268650af5f26ca6289b25cd189efeb9513641129bd7c51a28d4740b2"
+hash = "44703ac94e51d4ad7b984d37bca0348ad169ae773e3c88d0400a21cfa66856a8"
 metafile = true
 
 [[files]]
