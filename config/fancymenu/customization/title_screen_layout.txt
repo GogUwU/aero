@@ -1116,7 +1116,7 @@ element {
 
 element {
   interactable = false
-  source = |||%n%Aeroland Modpack V1.2.0%n%{"placeholder":"loadername"} {"placeholder":"loaderver"}%n%{"placeholder":"loadedmods"} Mods Loaded%n%|||
+  source = |||%n%Aeroland Modpack V1.3.0%n%{"placeholder":"loadername"} {"placeholder":"loaderver"}%n%{"placeholder":"loadedmods"} Mods Loaded%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
