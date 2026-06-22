@@ -2610,7 +2610,7 @@ hash = "6b1d9b0ae05c6c3177c3bcff2466191eb3ce2deda9e5b19ee2d4600548db6c05"
 
 [[files]]
 file = "kubejs/data/oxide/loot_table/blocks/brown_corrugated_iron_slab.json"
-hash = "2d093381334ee5294ee30dff156544e358ee67691e16f3418ef7062b84f1e693"
+hash = "a492d0ef534315133afc8713dc86a16401aebafe378a0b0f3f01add92ca01ed0"
 
 [[files]]
 file = "kubejs/data/regions_unexplored/worldgen/biomes/alpha_grove.json"
