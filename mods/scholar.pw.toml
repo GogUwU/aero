@@ -1,5 +1,6 @@
 name = "Scholar"
 filename = "scholar-neoforge-1.21.1-1.2.3.jar"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/fX4dIQCo/versions/cgEfPOsX/scholar-neoforge-1.21.1-1.2.3.jar"

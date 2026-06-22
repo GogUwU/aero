@@ -94,7 +94,7 @@
 		{
           "type": "minecraft:item",
           "name": "sophisticatedbackpacks:upgrade_base",
-		  "weight": 2
+		  "weight": 3
         },
         {
           "type": "minecraft:item",

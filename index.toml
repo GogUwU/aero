@@ -1185,6 +1185,10 @@ file = "kubejs/assets/kubejs/textures/block/pontoon_top.png"
 hash = "b3b2314bf0069adb8b955a95bcc4db1231f6ba420102b1c9a51a266cb8c9eb1b"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/spider_eye_block.png"
+hash = "293560ff9ba195eb1252bc4a041a5668eec390022039e771fded6871fd27bfcf"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/broken_scribe.png"
 hash = "5f2070e503128f9113311199f08a5821cc7aacda165793fbce76f78b038807fc"
 
@@ -2070,7 +2074,7 @@ hash = "3d12c560ebdc37bec42aebb8082b6704653834aa5b0a58afd7aecb6b51d34c71"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/chests/trial_chambers/reward_ominous_common.json"
-hash = "1a8ee3aa7305af9790540d35610458717da380f28bd8ef949c6699e1dd44836e"
+hash = "22ee458aa784c63b2e623c5a445ec2276981cae38942353b33fe58926f6df427"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/equipment/trial_chamber.json"
@@ -3126,7 +3130,7 @@ hash = "074b5b9e23e40c26cdcf55ff57d544dd6586acc3ba9ea5bdbfaf2ad80b18341e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "752486ec37e874deb17bb627162ab04342010b71f2d46b83a390e4b3c2791714"
+hash = "490e541ec17f6bb17cf7e4e318ea7f18af048d59a0d2ac5758d0a2f887aa98c6"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -3138,7 +3142,7 @@ hash = "e211550799ef7cae4ba82fb2d729225a1f72a95d4c2c90f29098599bf074e99b"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "9cabdeafe1bbfa760b15106fc36ccb3d39acba1e74a4ee2c2f1bef4acce0f28b"
+hash = "d8a8d5c03f87de623bccca74bd6844fdb400e035ede9812d317bff89c92c3e2b"
 
 [[files]]
 file = "kubejs/startup_scripts/create_madness.js"
@@ -3701,7 +3705,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "d1eb3f2f1b0edabe0a2c5a3b604eaf29a4f73577827be1716eb4092e343e6c09"
+hash = "a28c70d2b3cdd535beae2007a4b7f77a8572b786c7e2d8a92f33ffbeddf1c2be"
 metafile = true
 
 [[files]]
@@ -3752,11 +3756,6 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "a42ea2b48f7cdad8ddce048e95a3d3cdad56ba7b9e0a7b779134c907e994100b"
-metafile = true
-
-[[files]]
-file = "mods/linear-bearing.pw.toml"
-hash = "e92248ff7e47d94175ee315550946858967e9f1076653468a1d10a6aa53a4d82"
 metafile = true
 
 [[files]]
@@ -3959,7 +3958,7 @@ metafile = true
 
 [[files]]
 file = "mods/scholar.pw.toml"
-hash = "c46f3bf6d0d61b6cefdff02bc28efd60ce4a0cad37b04ec8639938764c4d8f7d"
+hash = "9236aaac552861f727a9a3baaf2d535eb45ccb5103a6f87a6c56653039f83c6c"
 metafile = true
 
 [[files]]
