@@ -1097,6 +1097,10 @@ file = "kubejs/assets/kubejs/textures/block/counterweight/weight_top.png"
 hash = "c2c695f7579c7d48f8e7aeb2a5e92f60d498bc1fb38a134684df724350008518"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/g.png"
+hash = "bdc6bc0d90face76d061c34a22bf7d20c0f5165047734a3833d468f9fd0d742a"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/glissant.png"
 hash = "4d5c4a5ec7dfa01287f80f373e2988cd9a7c89c81b13ffa281f02739e409b5a1"
 
@@ -2601,6 +2605,10 @@ file = "kubejs/data/oreganized/worldgen/placed_feature/silver_ore_extra.json"
 hash = "6b1d9b0ae05c6c3177c3bcff2466191eb3ce2deda9e5b19ee2d4600548db6c05"
 
 [[files]]
+file = "kubejs/data/oxide/loot_table/blocks/brown_corrugated_iron_slab.json"
+hash = "2d093381334ee5294ee30dff156544e358ee67691e16f3418ef7062b84f1e693"
+
+[[files]]
 file = "kubejs/data/regions_unexplored/worldgen/biomes/alpha_grove.json"
 hash = "92cec5473a4c6a931fecc9d483a1762fd313f34e8b6180964774034868a9dc5c"
 
@@ -3118,7 +3126,7 @@ hash = "074b5b9e23e40c26cdcf55ff57d544dd6586acc3ba9ea5bdbfaf2ad80b18341e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "dd970bfbe9e0bfb5f3ab3803d746510df8e2d057a78f926375ff5119fad28777"
+hash = "752486ec37e874deb17bb627162ab04342010b71f2d46b83a390e4b3c2791714"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -3130,7 +3138,7 @@ hash = "e211550799ef7cae4ba82fb2d729225a1f72a95d4c2c90f29098599bf074e99b"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "c50f67fafd57c1a1b6b201b4601468cca407e9499aa7f972210b605fe4038e3c"
+hash = "9cabdeafe1bbfa760b15106fc36ccb3d39acba1e74a4ee2c2f1bef4acce0f28b"
 
 [[files]]
 file = "kubejs/startup_scripts/create_madness.js"
@@ -3177,6 +3185,11 @@ metafile = true
 [[files]]
 file = "mods/allurement!.pw.toml"
 hash = "c8287f18eadcbc88c6226abeef1be831cb8a3c353602e1f546f191b0d1daca90"
+metafile = true
+
+[[files]]
+file = "mods/alternate-current.pw.toml"
+hash = "18cf2b63d293ba0738c1073690fbd2c62305b161f76d346a551a66a9bbf8af32"
 metafile = true
 
 [[files]]
@@ -3688,7 +3701,7 @@ metafile = true
 
 [[files]]
 file = "mods/ixeris.pw.toml"
-hash = "0841fdf677773e332ea0cb44ea2dbc462c97e15270d0c6047957c5fa6c79e578"
+hash = "d1eb3f2f1b0edabe0a2c5a3b604eaf29a4f73577827be1716eb4092e343e6c09"
 metafile = true
 
 [[files]]
@@ -3931,7 +3944,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable-ragdolls.pw.toml"
-hash = "fe14391e73d2d18ccd52bc9ddd3fe98127568355d8c5f7726004344a45d13209"
+hash = "40ba7036effaabdc8a656e3bea11f0f8712740ebe0e8119c2d1179b968659934"
 metafile = true
 
 [[files]]

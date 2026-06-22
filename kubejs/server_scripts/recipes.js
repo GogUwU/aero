@@ -1,4 +1,7 @@
 ServerEvents.recipes(e => {
+    // G
+    e.shapeless('kubejs:g', ['minecraft:tropical_fish', 'minecraft:pufferfish', 'minecraft:cod', 'minecraft:salmon', 'nomansland:billhook_bass'])
+    e.shapeless('9x minecraft:spider_eye', 'kubejs:spider_eye_block')
 
     //remove
     e.remove({id:'createadditionallogistics:crafting/kinetics/flexible_shaft'})
@@ -528,7 +531,19 @@ ServerEvents.recipes(e => {
             "id": "simulated:incomplete_gyroscopic_mechanism"
         }
     })
+    // eye
+    e.shaped('kubejs:spider_eye_block',
+             [
+             'SSS',
+             'SSS',
+             'SSS'
+             ],
+             {
+                 S: 'minecraft:spider_eye'
+             }
+    ).id("kubejs:spider_eye_block")
 
+    //
     e.remove({id: 'create_mobile_packages:bee_port'})
     e.shaped('create_mobile_packages:bee_port', [
         'III',
