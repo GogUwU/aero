@@ -1993,6 +1993,10 @@ file = "kubejs/data/createdieselgenerators/createdieselgenerators/fuel_type/plan
 hash = "fac183e34364600215d4c729ec2b479bea148971b4dbede46b2d75bcfb633bf8"
 
 [[files]]
+file = "kubejs/data/darkerdepths/enchantment/quick_dash.json"
+hash = "dcb94c8b1e389fc59a7fc4bd9968d60facbd1544e6af4d2270e772a3c7c54e19"
+
+[[files]]
 file = "kubejs/data/dustydecorations/advancement/welcome_to_dusty_decor.json"
 hash = "c2ec95b94655b76850865603e0b4e5c8922ca1b43452c5d6b8d18fca6ccf9493"
 
