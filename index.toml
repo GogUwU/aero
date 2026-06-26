@@ -2006,19 +2006,19 @@ hash = "ad927484caa59fc3b19651a06c4bc371910d83b08ffa42be28fc14c9dffd1332"
 
 [[files]]
 file = "kubejs/data/exposure_polaroid/recipe/high_sensitivity_instant_black_and_white_slide.json"
-hash = "e6f035c72251b70fe99ef015e21f455aeae37ebeb36b3f58cf194f413246275f"
+hash = "5ef7b557cbf7cf72317e8c1265d76bda52d46ecdc309e6d7e70710f0790c4f76"
 
 [[files]]
 file = "kubejs/data/exposure_polaroid/recipe/high_sensitivity_instant_color_slide.json"
-hash = "77d33c38e9d4b0f98b877b9b1c8e6a66429640db73e58d3ae508e41872b00046"
+hash = "d4c0c96e33aa6c55a2a6701e6e060afe8f46cac4c1f3ae1fa478f0cd80afdf00"
 
 [[files]]
 file = "kubejs/data/exposure_polaroid/recipe/instant_black_and_white_slide.json"
-hash = "de0a7e9650512135ab98b55c40351099fde7add7f8a072ea2afebec761ee643c"
+hash = "ffd6b05debdbed16821b5058cd6595272b9239cec0404e3a7125887f041674eb"
 
 [[files]]
 file = "kubejs/data/exposure_polaroid/recipe/instant_color_slide.json"
-hash = "a5a8dbd7984e8d6fa62a93e9b670580d4adfd11ee652ca39bf1fecf52a45ee87"
+hash = "70ff28962f8f4dc76f1ee75e152f8b08f16e304e50ee2622e08f6784ed54bf53"
 
 [[files]]
 file = "kubejs/data/galosphere/placed_feature/allurite_ceiling_crystals.json"
