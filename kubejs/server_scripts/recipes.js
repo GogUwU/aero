@@ -14,6 +14,13 @@ ServerEvents.recipes(e => {
     e.remove({id:'create:splashing/gravel'})
     e.remove({id:'advancedperipherals:chat_box'})
     e.remove({id:'advancedperipherals:inventory_manager'})
+    e.remove({id:'aeronautics_utility_objects:damping_stress_bearing'})
+    e.remove({id:'createpropulsion:crafting/coral_generator'})
+    e.remove({id:'createpropulsion:crafting/cable'})
+    e.remove({id:'createpropulsion:crafting/cable_relay'})
+    e.remove({id:'createpropulsion:mixing/turpentine'})
+    e.remove({id:'createpropulsion:crushing/spruce_log'})
+    e.remove({id:'createpropulsion:mixing/coral'})
 	
 	//remove ore veins
     e.remove({id:'createoreexcavation:ore_vein_type/coal'})
