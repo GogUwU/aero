@@ -37,6 +37,10 @@ file = "config/betterf3.toml"
 hash = "f408d758b0809d559fc418c25262516a7487784f5843ca27b7fa96d0963b84b6"
 
 [[files]]
+file = "config/betterinvisibility-common.toml"
+hash = "357f5b85147b26722153f0133a6b27fb7c36c9d39fefca1dbd0c60f812be35aa"
+
+[[files]]
 file = "config/biome_replacer.properties"
 hash = "7f8e99a4f7d8a7f4d189c6c197709600c8385329b715121243d36c6a6351991d"
 
@@ -1205,6 +1209,10 @@ file = "kubejs/assets/kubejs/textures/item/electrum_sheet.png"
 hash = "a7e011628a641d6c65dc01981eccfc294a397cc2da38922d8165b99b43ee1a84"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/palladium_sheet.png"
+hash = "d90adf2b5e344be49377ab55ba83b8c8e92c67f8cdcd475dcc12fd5f21ae92fb"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/silver_sheet.png"
 hash = "8c52bc370359fa479d98f0731fd1cedcdd8d57c57fedef07e2e3908e1dd01dfb"
 
@@ -1554,7 +1562,7 @@ hash = "295286594417fa20273451eb6a70536c3396210b6c4b208be3d5e8b7cdfdbae7"
 
 [[files]]
 file = "kubejs/config/common.json"
-hash = "249e5b59ba852d896a8a77a2d4e5642c69b2e832e83bc6a19572471995db69e9"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
@@ -1999,6 +2007,22 @@ hash = "d0f27ac2a0c7af5e52b978814ee69c51ebcfabae8af2870e4588c92fd1ca0603"
 [[files]]
 file = "kubejs/data/createdieselgenerators/createdieselgenerators/fuel_type/plant_oil.json"
 hash = "fac183e34364600215d4c729ec2b479bea148971b4dbede46b2d75bcfb633bf8"
+
+[[files]]
+file = "kubejs/data/createpropulsion/worldgen/placed_feature/ore_platinum.json"
+hash = "03e001401e873632dd4e1f063e4bf7f81abb84e50eba598774dffd8a465804d4"
+
+[[files]]
+file = "kubejs/data/createpropulsion/worldgen/placed_feature/ore_platinum_buried.json"
+hash = "f1fbe86e53a678f1a5e9e916b69e80d050795f1babd596f415d5f10391ed905c"
+
+[[files]]
+file = "kubejs/data/createpropulsion/worldgen/placed_feature/ore_platinum_large.json"
+hash = "f1134eb261e52a99c158ab5493a35808f08a1cfcc0e8a00aa3c6372ae32f729a"
+
+[[files]]
+file = "kubejs/data/createpropulsion/worldgen/placed_feature/ore_platinum_medium.json"
+hash = "ef2e6b8a435cd50a8fbbc26ce7f4ec5e1dc81afe2d9e11b747929ea64c0e463d"
 
 [[files]]
 file = "kubejs/data/darkerdepths/enchantment/quick_dash.json"
@@ -3150,7 +3174,7 @@ hash = "6945ad5cba8ae9eb1605cdc36c330059c76bd8da43dba791c9acaacbcf114c29"
 
 [[files]]
 file = "kubejs/server_scripts/custom_item_recipe.js"
-hash = "c7fc6eef10c39c221a29db8a1f9ddcf15f8a7b91fd68135294d6072f258af729"
+hash = "aa90478d6f33bc1ba3a09054505930ab028e2dadfc38c9b038e2ecfd27eb8a7c"
 
 [[files]]
 file = "kubejs/server_scripts/oreexcavation.js"
@@ -3158,11 +3182,11 @@ hash = "c781eb6cff34a0be7102c116d2c64ed1f9f51972e6892866ab1d1f35815bd527"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
-hash = "ec2762aa284983529c89875776e67854765df9d308f0c7287cee8f99e929c33a"
+hash = "46394e193a735975910787164552c9794922304bab23a1d43c6fbd5bee7cb58b"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "250e6f560c43f82cfb50354fa6cdc4c413e8a33fd662356dc46aa316bf0d95fb"
+hash = "f9a1ddc68d61d5502a2b22ad128fd3823ff267e21d0954aef7a34bc0aedae6c7"
 
 [[files]]
 file = "kubejs/server_scripts/unify.js"
@@ -3178,7 +3202,7 @@ hash = "364a26b7c6fc5fc34d11b08b8afc048d75b98b56731be1fce9f495f197c7c52c"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "6e4e059938b20cfb2b857fbbf04b6ab098587676d9a5ce5396e0c5d89222315e"
+hash = "01c1e6c0764edf626fd7146e7f75f1ddb3810d675cd4782471cbd5b9d2466371"
 
 [[files]]
 file = "mods/AxesAreWeapons-1.10.2-neoforge-1.21.jar"
@@ -3226,7 +3250,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "326c6258cee08aceaf001993f374a3b0ec8ffc81b37c58e47eae1660540d155c"
+hash = "3d1b2ddd461a5d281ec6e22902cce6406081e929a58b4f106af36e024fae37ed"
 metafile = true
 
 [[files]]

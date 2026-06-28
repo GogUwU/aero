@@ -499,6 +499,20 @@ ServerEvents.recipes(e => {
         ]
     })
 
+    e.custom({
+        "type": "create:pressing",
+        "ingredients": [
+            {
+            "tag": "c:ingots/palladium"
+            }
+        ],
+        "results": [
+            {
+            "id": "kubejs:palladium_sheet"
+            }
+        ]
+    })
+
     // counterweights
     e.shaped('kubejs:dumbell', [
         'III',

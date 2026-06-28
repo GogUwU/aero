@@ -21,6 +21,7 @@ ServerEvents.recipes(e => {
     e.remove({id:'createpropulsion:mixing/turpentine'})
     e.remove({id:'createpropulsion:crushing/spruce_log'})
     e.remove({id:'createpropulsion:mixing/coral'})
+    e.remove({id:'createpropulsion:crafting/platinum_fluid_tank'})
 	
 	//remove ore veins
     e.remove({id:'createoreexcavation:ore_vein_type/coal'})
@@ -62,6 +63,28 @@ ServerEvents.recipes(e => {
     e.remove({id:'create:crushing/veridium_recycling'})
     e.remove({id:'create:crushing/asurine'})
     e.remove({id:'create:crushing/asurine_recycling'})
+
+    //propulsion simulated
+    e.remove({id:'createpropulsion:crafting/vector_thruster'})
+    e.shaped('createpropulsion:vector_thruster', [
+        'pip',
+        'ngn'
+    ], {
+        p: 'kubejs:palladium_sheet',
+        n: 'galosphere:palladium_nugget',
+        g: 'simulated:gimbal_sensor',
+        i: 'createpropulsion:ion_thruster'
+    })
+    e.remove({id:'createpropulsion:crafting/redstone_converter'})
+    e.shaped('createpropulsion:redstone_converter', [
+        'tpt',
+        'dad'
+    ], {
+        p: 'kubejs:palladium_sheet',
+        t: 'minecraft:redstone_torch',
+        d: 'minecraft:redstone',
+        a: 'simulated:redstone_accumulator'
+    })
 
 
     // rebalances
