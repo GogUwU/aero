@@ -238,7 +238,7 @@ hash = "cf6916bf5d6b55af5dff068b1827ce42d01bf4487df349c2ce055070c46d325a"
 
 [[files]]
 file = "config/createlazytick-server.toml"
-hash = "d18cb01d29d718d72fddafc6bd6d371e54995a06877f71d66f05ca132391a565"
+hash = "c5d44c0c3281c2ab44f981915744d8be19089ab4b12b8faff4fe6a2b1d55bf74"
 
 [[files]]
 file = "config/createmetalogistics-server.toml"

@@ -32,7 +32,7 @@
 	#Delay ticks for fluid system.(Large number is not recommended.)
 	# Default: 5
 	# Range: 1 ~ 10
-	Fluid_delay_max = 1
+	Fluid_delay_max = 4
 
 #Logistics Blocks Settings
 [logistics]
@@ -45,7 +45,7 @@
 	#max delay tick if funnel is rest
 	# Default: 60
 	# Range: > 20
-	funnel_delay_max = 60
+	funnel_delay_max = 40
 	#
 	#--------------------------------------------------------------------------
 	#Whether to enable chute lazy tick
@@ -65,7 +65,7 @@
 	#max delay tick if belt is rest
 	# Default: 60
 	# Range: > 20
-	belt_delay_max = 60
+	belt_delay_max = 100
 
 #Processing Blocks Settings
 [processing]
