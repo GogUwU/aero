@@ -4026,6 +4026,11 @@ hash = "e9f23afbe98e73c840223344d8e62b4417f7b753b5fe0c681d124be64d475960"
 metafile = true
 
 [[files]]
+file = "mods/sable-cleanup.pw.toml"
+hash = "68371510cc1684d2320bbff83280f8e775fb5fa6d00252b0e3d7a893a18690ca"
+metafile = true
+
+[[files]]
 file = "mods/sable-ragdolls.pw.toml"
 hash = "bf3c84eff52457596d58a73882e72759804117f0731a0fde343cfd54d33e55ba"
 metafile = true
