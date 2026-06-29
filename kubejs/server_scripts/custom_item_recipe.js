@@ -629,5 +629,109 @@ ServerEvents.recipes(e => {
             "count": 1,
             "id": "kubejs:glissant"
         }
+       
     })
+    
+    //sad Additions
+
+    e.custom({
+        "type": "architects_palette:warping",
+        "dimension": "minecraft:the_nether",
+        "ingredient": {
+            "item": "kubejs:g"
+        },
+        "result": {
+            "count": 1,
+            "id": "kubejs:evil_g"
+        }
+    })
+
+    e.remove({ output: 'createdieselgenerators:oil_barrel' })
+
+    e.shaped(
+    Item.of('createdieselgenerators:oil_barrel', 1),
+    [
+        '  i',
+        ' b ',
+        'i  '
+    ],
+    {
+        i: 'create:iron_sheet',
+        b: 'minecraft:barrel'
+    }
+    )
+
+    e.shaped(
+    Item.of('desire:scute_shingles', 1),
+    [
+        'aa',
+        'aa'
+    ],
+    { 
+        a: 'minecraft:armadillo_scute' 
+    })
+
+    e.shaped(
+    Item.of('desire:scute_shingle_stairs', 4),
+    [
+        's  ',
+        'ss ',
+        'sss'
+    ],
+    { 
+        s: 'desire:scute_shingles' 
+    })
+
+    e.shaped(
+    Item.of('desire:scute_shingle_slab', 6),
+    [
+        'aaa'
+    ],
+    { 
+        a: 'desire:scute_shingles' 
+    })
+
+    //painted recipes
+	Color.DYE.forEach(color => {
+		e.shapeless(`desire:${color}_scute_shingles`, ['8x #kubejs:scute_shingle_block', `minecraft:${color}_dye`])
+        e.shapeless(`desire:${color}_scute_shingle_stairs`, ['#kubejs:scute_shingle_stairs', `minecraft:${color}_dye`])
+        e.shapeless(`desire:${color}_scute_shingle_slab`, ['#kubejs:scute_shingle_slabs', `minecraft:${color}_dye`])
+		e.shapeless(`regions_unexplored:${color}_painted_planks`, ['8x #kubejs:painted_planks', `minecraft:${color}_dye`])
+		e.shapeless(`regions_unexplored:${color}_painted_stairs`, ['#kubejs:painted_stairs', `minecraft:${color}_dye`])
+        e.shapeless(`regions_unexplored:${color}_painted_slab`, ['#kubejs:painted_slabs', `minecraft:${color}_dye`])
+        })
+    Color.DYE.forEach(color => {
+        e.shaped(
+            Item.of(`desire:${color}_scute_shingle_stairs`, 4),
+            [
+                'a  ',
+                'aa ',
+                'aaa'
+            ],
+            {
+                a: `desire:${color}_scute_shingles`
+            }
+        )
+        e.shaped(
+            Item.of(`desire:${color}_scute_shingle_slab`, 6),
+            [
+                'aaa'
+            ],
+            {
+                a: `desire:${color}_scute_shingles`
+            }
+        )
+    })
+    //new fixes
+    e.remove({ output: 'copycats:copycat_vertical_stairs' })
+    e.shaped(
+    Item.of('copycats:copycat_vertical_stairs'),
+    [
+        'a'
+    ],
+    {
+        a: 'copycats:copycat_stairs'
+    }
+    )
+    e.stonecutting('copycats:copycat_vertical_stairs', '#c:ingots/zinc')
 })
