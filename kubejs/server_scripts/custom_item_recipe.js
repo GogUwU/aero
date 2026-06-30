@@ -734,4 +734,27 @@ ServerEvents.recipes(e => {
     }
     )
     e.stonecutting('copycats:copycat_vertical_stairs', '#c:ingots/zinc')
+        
+    //damn locometal fix
+    e.stonecutting('2x railways:hinged_locometal_door', 'minecraft:iron_block')
+    e.stonecutting('2x railways:sliding_locometal_door', 'minecraft:iron_block')
+    e.stonecutting('2x railways:folding_locometal_door', 'minecraft:iron_block')
+    e.stonecutting('railways:hazard_stripes_diagonal_on_black', '#railways:palettes/cycle_groups/netherite/base')
+    e.shapeless('railways:riveted_locometal', 'railways:hazard_stripes_diagonal_on_black')
+    e.stonecutting('6x railways:locometal_end_ladder', '#railways:palettes/cycle_groups/netherite/base')
+    e.stonecutting('3x railways:locometal_trapdoor', '#railways:palettes/cycle_groups/netherite/base')
+
+    e.shaped(
+    Item.of('4x railways:single_pane_locometal_window'),
+    [
+        'bbb',
+        'bab',
+        'bbb'
+    ],
+    {
+        a: 'minecraft:glass_pane',
+        b: 'minecraft:iron_ingot'
+    })
+
+
 })
