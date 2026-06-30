@@ -3186,7 +3186,7 @@ hash = "12ec5344168fccda55ce025823f45f3a9df9da9d0516f658b5d4234314715dc0"
 
 [[files]]
 file = "kubejs/server_scripts/custom_item_recipe.js"
-hash = "57dd0930a918233ab0dae3090b99183e0f30485b544937481193fc01a6aa312a"
+hash = "4464ee3d81ef0530db593deaf8dd75dd0371aaa8a82c6066a32ade1391562147"
 
 [[files]]
 file = "kubejs/server_scripts/oreexcavation.js"
