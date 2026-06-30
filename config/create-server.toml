@@ -7,7 +7,7 @@
 	#These packets help animations to be more accurate when tps is below 20.
 	# Default: 20
 	# Range: > 5
-	tickrateSyncTimer = 20
+	tickrateSyncTimer = 60
 
 #.
 #Packmakers' control panel for internal recipe compat
@@ -377,7 +377,7 @@
 	hosePulleyBlockThreshold = 10000
 	#.
 	#Whether hose pulleys should continue filling up above-threshold sources.
-	fillInfinite = false
+	fillInfinite = true
 	#.
 	#Configure which fluids can be drained infinitely.
 	#Allowed Values: ALLOW_ALL, DENY_ALL, ALLOW_BY_TAG, DENY_BY_TAG

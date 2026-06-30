@@ -50,6 +50,7 @@ ServerEvents.tags('block', e => {
     e.add('sable:light', 'createadditionallogistics:lazy_shaft')
     e.add('sable:light', 'createadditionallogistics:lazy_large_cogwheel')
     e.add('sable:light', 'createadditionallogistics:lazy_cogwheel')
+    
 
 })
 
@@ -72,6 +73,13 @@ ServerEvents.tags('item', e => {
     e.add('c:stones','kubejs:airstone')
     e.add('c:cobblestones','kubejs:cobbled_airstone')
     e.add('kubejs:airstone','kubejs:cobbled_airstone')
+    //sheets
+    e.add('c:plates', 'kubejs:palladium_sheet')
+    e.add('c:plates/palladium', 'kubejs:palladium_sheet')
+    e.add('c:plates', 'kubejs:electrum_sheet')
+    e.add('c:plates/electrum', 'kubejs:electrum_sheet')
+    e.add('c:plates', 'kubejs:silver_sheet')
+    e.add('c:plates/silver', 'kubejs:silver_sheet')
 
     // stupid engines
     e.add('kubejs:portable_engines', 'simulated:white_portable_engine')
