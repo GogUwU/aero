@@ -720,4 +720,23 @@ ServerEvents.recipes(e => {
     }
     )
     e.stonecutting('copycats:copycat_vertical_stairs', '#c:ingots/zinc')
+        
+    //damn locometal fix
+    e.stonecutting('railways:hinged_locometal_door', 'minecraft:iron_block')
+    e.stonecutting('railways:sliding_locometal_door', 'minecraft:iron_block')
+    e.stonecutting('railways:folding_locometal_door', 'minecraft:iron_block')
+
+    e.shaped(
+    Item.of('railways:single_pane_locometal_window'),
+    [
+        'bbb',
+        'bab',
+        'bbb'
+    ],
+    {
+        a: 'minecraft:glass_pane',
+        b: 'minecraft:iron_ingot'
+    })
+
+
 })
