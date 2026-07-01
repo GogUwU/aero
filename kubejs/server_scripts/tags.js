@@ -33,6 +33,7 @@ ServerEvents.tags('block', e => {
     e.add('sable:light', 'oreganized:lead_door')
     e.add('sable:light', 'oreganized:lead_bars')
     e.add('sable:light', 'oreganized:lead_trapdoor')
+    e.add('sable:light', '#c:skulls')
 
     e.add('sable:heavy', 'create:steam_engine')
 
@@ -50,6 +51,42 @@ ServerEvents.tags('block', e => {
     e.add('sable:light', 'createadditionallogistics:lazy_shaft')
     e.add('sable:light', 'createadditionallogistics:lazy_large_cogwheel')
     e.add('sable:light', 'createadditionallogistics:lazy_cogwheel')
+
+
+    //Adding #wrenchable to create and other stuff
+
+    //Glass
+    e.add('create:wrench_pickup', '#c:glass_blocks')
+    e.add('create:wrench_pickup', '#c:glass_panes')
+    e.add('create:wrench_pickup', '#railways:palettes/dye_groups/round_pane_window')
+    e.add('create:wrench_pickup', '#railways:palettes/dye_groups/single_pane_window')
+    e.add('create:wrench_pickup', '#railways:palettes/dye_groups/two_pane_window')
+    e.add('create:wrench_pickup', '#railways:palettes/dye_groups/four_pane_window')
+
+    //(trap)Doors
+    e.add('create:wrench_pickup', '#minecraft:doors')
+    e.add('create:wrench_pickup', '#minecraft:trapdoors')
+
+    //Other (too little to separate)
+    e.add('create:wrench_pickup', ['minecraft:anvil', 'minecraft:chipped_anvil', 'minecraft:damaged_anvil'])
+    e.add('create:wrench_pickup', ['architects_palette:nether_brass_lantern', 'minecraft:lantern', 'minecraft:soul_lantern', 'suppsquared:copper_lantern', 'suppsquared:crimson_lantern', 
+        'enderscape:void_lantern', 'enderscape:bulb_lantern', 'darkerdepths:glowshroom_lantern', 'dustydecorations:pillager_paper_lantern', 'architects_palette:redstone_cage_lantern', 
+        'architects_palette:glowstone_cage_lantern', 'architects_palette:algal_cage_lantern', 'dustydecorations:paper_lantern', 'dustydecorations:creeper_paper_lantern', 
+        'dustydecorations:sakura_paper_lantern', 'dustydecorations:warden_paper_lantern', 'dustydecorations:villager_paper_lantern', 'dustydecorations:panda_paper_lantern', 
+        'dustydecorations:taiga_paper_lantern', 'dustydecorations:orchid_paper_lantern', 'dustydecorations:chicken_jockey_paper_lantern'])
+    e.add('create:wrench_pickup', ['minecraft:torch', 'minecraft:soul_torch', 'enderscape:void_torch', 'minecraft:redstone_torch', 'nomansland:sconce_torch', 'nomansland:sconce_soul_torch', 
+        'architects_palette:nether_brass_torch', 'darkerdepths:void_soul_torch'])
+    e.add('create:wrench_pickup', ['kubejs:pontoon', 'kubejs:dumbell', 'kubejs:counterweight_20', 'kubejs:counterweight_40'])
+    e.add('create:wrench_pickup', 'minecraft:lightning_rod')
+    e.add('create:wrench_pickup', 'minecraft:end_rod')
+    e.add('create:wrench_pickup', '#minecraft:all_signs')
+    e.add('create:wrench_pickup', '#minecraft:shulker_boxes')
+    e.add('create:wrench_pickup', '#c:ladders')
+    e.add('create:wrench_pickup', '#create:seats')
+    e.add('create:wrench_pickup', 'create:analog_lever')
+
+    //Create Deco
+    e.add('create:wrench_pickup', '#createdeco:supports')
     
 
 })
