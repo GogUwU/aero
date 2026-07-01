@@ -64,6 +64,17 @@ ServerEvents.recipes(e => {
     e.remove({id:'create:crushing/asurine'})
     e.remove({id:'create:crushing/asurine_recycling'})
 
+    //mirror block
+    e.remove({id:'vista:mirror'})
+    e.shaped('vista:mirror', [
+        'ggg',
+        'gsg',
+        'ggg'
+    ], {
+        g: 'minecraft:glass',
+        s: '#c:plates/silver'
+    })
+
     //propulsion simulated
     e.remove({id:'createpropulsion:crafting/vector_thruster'})
     e.shaped('createpropulsion:vector_thruster', [
