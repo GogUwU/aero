@@ -646,6 +646,20 @@ ServerEvents.recipes(e => {
         }
     })
 
+    e.custom({
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "kubejs:evil_g"
+    }
+  ],
+  "results": [
+    {
+      "id": "kubejs:blue_g"
+    }]})
+
+    e.shapeless('kubejs:yellow_g', ['kubejs:g','kubejs:evil_g'])
+
     e.remove({ output: 'createdieselgenerators:oil_barrel' })
 
     e.shaped(

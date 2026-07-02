@@ -508,6 +508,20 @@ StartupEvents.registry('block', e => {
         .fullBlock(true)
         .texture('kubejs:block/evil_g')
 
+        e.create('blue_g')
+        .displayName('blue G')
+        .stoneSoundType()
+        .hardness(1).resistance(1)
+        .fullBlock(true)
+        .texture('kubejs:block/blue_g')
+
+        e.create('yellow_g')
+        .displayName('yellow G')
+        .stoneSoundType()
+        .hardness(1).resistance(1)
+        .fullBlock(true)
+        .texture('kubejs:block/yellow_g')
+
         e.create('spider_eye_block') // Create a new block
         .displayName('Block of Spider Eye') // Set a custom name
         .mapColor("crimson_hyphae").soundType(SoundType.WART_BLOCK)
