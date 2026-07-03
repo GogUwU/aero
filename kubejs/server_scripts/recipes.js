@@ -1702,4 +1702,6 @@ ServerEvents.recipes(e => {
             }
         ]
     })
+	e.shaped('create:cogwheel', ['x'], {x: 'create_connected:crank_wheel'}).replaceIngredient('create_connected:crank_wheel', 'create:hand_crank')
+    e.shaped('create:large_cogwheel', ['x'], {x: 'create_connected:large_crank_wheel'}).replaceIngredient('create_connected:large_crank_wheel', 'create:hand_crank')
 })
