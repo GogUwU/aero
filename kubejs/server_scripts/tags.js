@@ -201,6 +201,9 @@ ServerEvents.tags('item', e => {
     e.add('kubejs:painted_slabs', 'regions_unexplored:green_painted_slab')
     e.add('kubejs:painted_slabs', 'regions_unexplored:red_painted_slab')
     e.add('kubejs:painted_slabs', 'regions_unexplored:black_painted_slab')
+
+    //enchants
+    e.add('minecraft:enchantable/sword','create:cardboard_sword')
 })
 
 
