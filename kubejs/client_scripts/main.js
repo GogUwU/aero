@@ -6,4 +6,5 @@ ItemEvents.modifyTooltips(e => {
     e.add(['kubejs:pontoon'], '§8Extremely buoyant')
 
     e.add(['kubejs:evil_g',], '§4Feels evil')
+
 })

@@ -697,6 +697,7 @@ ServerEvents.recipes(e => {
         e.shapeless(`desire:${color}_scute_shingle_stairs`, ['#kubejs:scute_shingle_stairs', `minecraft:${color}_dye`])
         e.shapeless(`desire:${color}_scute_shingle_slab`, ['#kubejs:scute_shingle_slabs', `minecraft:${color}_dye`])
 		e.shapeless(`regions_unexplored:${color}_painted_planks`, ['8x #kubejs:painted_planks', `minecraft:${color}_dye`])
+        e.shapeless(`regions_unexplored:${color}_painted_planks`, ['8x #minecraft:planks', `minecraft:${color}_dye`])
 		e.shapeless(`regions_unexplored:${color}_painted_stairs`, ['#kubejs:painted_stairs', `minecraft:${color}_dye`])
         e.shapeless(`regions_unexplored:${color}_painted_slab`, ['#kubejs:painted_slabs', `minecraft:${color}_dye`])
         })
@@ -755,6 +756,6 @@ ServerEvents.recipes(e => {
         a: 'minecraft:glass_pane',
         b: 'minecraft:iron_ingot'
     })
-
+    
 
 })
