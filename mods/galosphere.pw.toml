@@ -1,12 +1,12 @@
 name = "Galosphere"
-filename = "Galosphere-1.21.1-1.5.4-Neoforge.jar"
+filename = "Galosphere-1.21.1-1.5.5-NeoForge.jar"
 
 [download]
-url = "https://cdn.modrinth.com/data/Kn7xyQ1v/versions/TrgZK6ni/Galosphere-1.21.1-1.5.4-Neoforge.jar"
+url = "https://cdn.modrinth.com/data/Kn7xyQ1v/versions/IgULrnXA/Galosphere-1.21.1-1.5.5-NeoForge.jar"
 hash-format = "sha512"
-hash = "a5f49118bbf055210f82cd50e32a6827929ea03aebfabb252cbe882f4503318fac2f4703e14a938e9bbbeb8d391bc7792b4c0dd71623b90919252f3994117a60"
+hash = "2ac38a71cae2adbad3f9891c2ec038b626c384e750f83c535810f1b234e3b78f80863b6089de9fbb92e3ba479a130d9e3d7f64cf6a4f11bd9cb4e01ce5d7e97d"
 
 [update]
 [update.modrinth]
 mod-id = "Kn7xyQ1v"
-version = "TrgZK6ni"
+version = "IgULrnXA"

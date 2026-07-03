@@ -493,4 +493,25 @@ StartupEvents.registry('block', e => {
         .tagBlock('minecraft:needs_wodden_tool').requiresTool(true)
         .fullBlock(true)
         .texture('kubejs:block/grooved_glissant')
+    // G
+        e.create('g')
+        .displayName('G')
+        .stoneSoundType()
+        .hardness(1).resistance(1)
+        .fullBlock(true)
+        .texture('kubejs:block/g')
+
+        e.create('evil_g')
+        .displayName('evil G')
+        .stoneSoundType()
+        .hardness(1).resistance(1)
+        .fullBlock(true)
+        .texture('kubejs:block/evil_g')
+
+        e.create('spider_eye_block') // Create a new block
+        .displayName('Block of Spider Eye') // Set a custom name
+        .mapColor("crimson_hyphae").soundType(SoundType.WART_BLOCK)
+        .hardness(0.4) // Set hardness (affects mining time)
+        .resistance(0.4) // Set resistance (to explosions, etc)
+        .texture('kubejs:block/spider_eye_block')
 })

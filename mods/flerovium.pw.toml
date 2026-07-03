@@ -1,18 +1,12 @@
-filename = 'flerovium-neoforge-1.21.1-1.0.18-all.jar'
-name = 'Flerovium'
-side = ''
-x-prismlauncher-dependencies = []
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '1.0.18'
+name = "Flerovium"
+filename = "flerovium-neoforge-1.21.1-1.1.1-all.jar"
 
 [download]
-hash = 'ee04af8b67868d8a1f128eb1f2bcb533f06ed239f6d347aa2c73a8cd4af2194852188db1da8ae4322a85095401369b1835300cdf82500a6f4722d7db9dabaacf'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/4Rh1Mobu/versions/ROADZx1W/flerovium-neoforge-1.21.1-1.0.18-all.jar'
+url = "https://cdn.modrinth.com/data/4Rh1Mobu/versions/Q5w50Bcp/flerovium-neoforge-1.21.1-1.1.1-all.jar"
+hash-format = "sha512"
+hash = "327449811b116832bc4f873d252b1c39460c8897383de0a2b35e2f7bfad6e0ec7744cf0b4ab6449bce06ba1a3046faa8f708c1b4c2787068705b2f81ee7fe1c5"
 
+[update]
 [update.modrinth]
-mod-id = '4Rh1Mobu'
-version = 'ROADZx1W'
+mod-id = "4Rh1Mobu"
+version = "Q5w50Bcp"

@@ -1,0 +1,13 @@
+name = "Animal Pens"
+filename = "animal_pen-neoforge-1.21-2.4.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/K5CAV4wi/versions/XrbBFtbw/animal_pen-neoforge-1.21-2.4.2.jar"
+hash-format = "sha512"
+hash = "31adcd09cef47e2da0c9bb5c017a34e3540a15bc0a57e45cce9a746d3ecca3748588ba1d924d2780896dbab05c40ab24943fea41dcad2c281d7f1cf2f506127d"
+
+[update]
+[update.modrinth]
+mod-id = "K5CAV4wi"
+version = "XrbBFtbw"

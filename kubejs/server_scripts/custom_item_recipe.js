@@ -499,6 +499,20 @@ ServerEvents.recipes(e => {
         ]
     })
 
+    e.custom({
+        "type": "create:pressing",
+        "ingredients": [
+            {
+            "tag": "c:ingots/palladium"
+            }
+        ],
+        "results": [
+            {
+            "id": "kubejs:palladium_sheet"
+            }
+        ]
+    })
+
     // counterweights
     e.shaped('kubejs:dumbell', [
         'III',
@@ -549,7 +563,47 @@ ServerEvents.recipes(e => {
         "type": "create:crushing",
         "ingredients": [
             {
+                "item": "kubejs:cobble_airstone"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "chance": 0.1,
+                "id": "create:crushed_raw_silver"
+            },
+            {
+                "chance": 0.1,
+                "id": 'spelunkery:raw_silver_nugget'
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
                 "tag": "kubejs:pitchstone"
+            }
+        ],
+        "processing_time": 250,
+        "results": [
+            {
+                "chance": 0.4,
+                "id": "create:crushed_raw_lead"
+            },
+            {
+                "chance": 0.4,
+                "id": 'spelunkery:raw_lead_nugget'
+            }
+        ]
+    })
+
+    e.custom({
+        "type": "create:crushing",
+        "ingredients": [
+            {
+                "item": "kubejs:cobble_pitchstone"
             }
         ],
         "processing_time": 250,
@@ -575,5 +629,133 @@ ServerEvents.recipes(e => {
             "count": 1,
             "id": "kubejs:glissant"
         }
+       
     })
+    
+    //sad Additions
+
+    e.custom({
+        "type": "architects_palette:warping",
+        "dimension": "minecraft:the_nether",
+        "ingredient": {
+            "item": "kubejs:g"
+        },
+        "result": {
+            "count": 1,
+            "id": "kubejs:evil_g"
+        }
+    })
+
+    e.remove({ output: 'createdieselgenerators:oil_barrel' })
+
+    e.shaped(
+    Item.of('createdieselgenerators:oil_barrel', 1),
+    [
+        '  i',
+        ' b ',
+        'i  '
+    ],
+    {
+        i: 'create:iron_sheet',
+        b: 'minecraft:barrel'
+    }
+    )
+
+    e.shaped(
+    Item.of('desire:scute_shingles', 1),
+    [
+        'aa',
+        'aa'
+    ],
+    { 
+        a: 'minecraft:armadillo_scute' 
+    })
+
+    e.shaped(
+    Item.of('desire:scute_shingle_stairs', 4),
+    [
+        's  ',
+        'ss ',
+        'sss'
+    ],
+    { 
+        s: 'desire:scute_shingles' 
+    })
+
+    e.shaped(
+    Item.of('desire:scute_shingle_slab', 6),
+    [
+        'aaa'
+    ],
+    { 
+        a: 'desire:scute_shingles' 
+    })
+
+    //painted recipes
+	Color.DYE.forEach(color => {
+		e.shapeless(`desire:${color}_scute_shingles`, ['8x #kubejs:scute_shingle_block', `minecraft:${color}_dye`])
+        e.shapeless(`desire:${color}_scute_shingle_stairs`, ['#kubejs:scute_shingle_stairs', `minecraft:${color}_dye`])
+        e.shapeless(`desire:${color}_scute_shingle_slab`, ['#kubejs:scute_shingle_slabs', `minecraft:${color}_dye`])
+		e.shapeless(`regions_unexplored:${color}_painted_planks`, ['8x #kubejs:painted_planks', `minecraft:${color}_dye`])
+        e.shapeless(`regions_unexplored:${color}_painted_planks`, ['8x #minecraft:planks', `minecraft:${color}_dye`])
+		e.shapeless(`regions_unexplored:${color}_painted_stairs`, ['#kubejs:painted_stairs', `minecraft:${color}_dye`])
+        e.shapeless(`regions_unexplored:${color}_painted_slab`, ['#kubejs:painted_slabs', `minecraft:${color}_dye`])
+        })
+    Color.DYE.forEach(color => {
+        e.shaped(
+            Item.of(`desire:${color}_scute_shingle_stairs`, 4),
+            [
+                'a  ',
+                'aa ',
+                'aaa'
+            ],
+            {
+                a: `desire:${color}_scute_shingles`
+            }
+        )
+        e.shaped(
+            Item.of(`desire:${color}_scute_shingle_slab`, 6),
+            [
+                'aaa'
+            ],
+            {
+                a: `desire:${color}_scute_shingles`
+            }
+        )
+    })
+    //new fixes
+    e.remove({ output: 'copycats:copycat_vertical_stairs' })
+    e.shaped(
+    Item.of('copycats:copycat_vertical_stairs'),
+    [
+        'a'
+    ],
+    {
+        a: 'copycats:copycat_stairs'
+    }
+    )
+    e.stonecutting('copycats:copycat_vertical_stairs', '#c:ingots/zinc')
+        
+    //damn locometal fix
+    e.stonecutting('2x railways:hinged_locometal_door', 'minecraft:iron_block')
+    e.stonecutting('2x railways:sliding_locometal_door', 'minecraft:iron_block')
+    e.stonecutting('2x railways:folding_locometal_door', 'minecraft:iron_block')
+    e.stonecutting('railways:hazard_stripes_diagonal_on_black', '#railways:palettes/cycle_groups/netherite/base')
+    e.shapeless('railways:riveted_locometal', 'railways:hazard_stripes_diagonal_on_black')
+    e.stonecutting('6x railways:locometal_end_ladder', '#railways:palettes/cycle_groups/netherite/base')
+    e.stonecutting('3x railways:locometal_trapdoor', '#railways:palettes/cycle_groups/netherite/base')
+
+    e.shaped(
+    Item.of('4x railways:single_pane_locometal_window'),
+    [
+        'bbb',
+        'bab',
+        'bbb'
+    ],
+    {
+        a: 'minecraft:glass_pane',
+        b: 'minecraft:iron_ingot'
+    })
+    
+
 })

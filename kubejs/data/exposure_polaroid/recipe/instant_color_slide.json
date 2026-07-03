@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:green_dye"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "RGB",
+    "PPP"
+  ],
+  "result": {
+    "id": "exposure_polaroid:instant_color_slide",
+    "count": 3
+  }
+}
