@@ -22,8 +22,8 @@ ServerEvents.recipes(e => {
     e.remove({id:'createpropulsion:crushing/spruce_log'})
     e.remove({id:'createpropulsion:mixing/coral'})
     e.remove({id:'createpropulsion:crafting/platinum_fluid_tank'})
-	
-	//remove ore veins
+
+    //remove ore veins
     e.remove({id:'createoreexcavation:ore_vein_type/coal'})
     e.remove({id:'createoreexcavation:ore_vein_type/lapis'})
     e.remove({id:'createoreexcavation:ore_vein_type/redstone'})
@@ -111,7 +111,7 @@ ServerEvents.recipes(e => {
     })
 
     //e.remove({mod: 'computercraft'})
-    
+
     e.remove({output: 'computercraft:computer_normal'})
     e.shaped('computercraft:computer_normal', [
         'PPP',
@@ -357,102 +357,102 @@ ServerEvents.recipes(e => {
     })
 
     /*e.remove('create:sequenced_assembly/precision_mechanism')
-    e.custom({
-    "type": "create:sequenced_assembly",
-    "ingredient": {
-        "item": "kubejs:electrum_sheet"
-    },
-    "loops": 5,
-    "results": [
-        {
-        "chance": 120.0,
-        "id": "create:precision_mechanism"
-        },
-        {
-        "chance": 8.0,
-        "id": "kubejs:electrum_sheet"
-        },
-        {
-        "chance": 8.0,
-        "id": "create:andesite_alloy"
-        },
-        {
-        "chance": 5.0,
-        "id": "create:cogwheel"
-        },
-        {
-        "chance": 3.0,
-        "id": "oreganized:electrum_nugget"
-        },
-        {
-        "chance": 2.0,
-        "id": "create:shaft"
-        },
-        {
-        "chance": 2.0,
-        "id": "create:crushed_raw_gold"
-        },
-        {
-        "id": "minecraft:iron_ingot"
-        },
-        {
-        "id": 'oreganized:speedometer'
-        }
-    ],
-    "sequence": [
-        {
-        "type": "create:deploying",
-        "ingredients": [
-            {
-            "item": "create:incomplete_precision_mechanism"
-            },
-            {
-            "item": "create:cogwheel"
-            }
-        ],
-        "results": [
-            {
-            "id": "create:incomplete_precision_mechanism"
-            }
-        ]
-        },
-        {
-        "type": "create:deploying",
-        "ingredients": [
-            {
-            "item": "create:incomplete_precision_mechanism"
-            },
-            {
-            "item": "create:large_cogwheel"
-            }
-        ],
-        "results": [
-            {
-            "id": "create:incomplete_precision_mechanism"
-            }
-        ]
-        },
-        {
-        "type": "create:deploying",
-        "ingredients": [
-            {
-            "item": "create:incomplete_precision_mechanism"
-            },
-            {
-            "tag": "c:nuggets/iron"
-            }
-        ],
-        "results": [
-            {
-            "id": "create:incomplete_precision_mechanism"
-            }
-        ]
-        }
-    ],
-    "transitional_item": {
-        "id": "create:incomplete_precision_mechanism"
-    }
-    })*/
+     *    e.custom({
+     *    "type": "create:sequenced_assembly",
+     *    "ingredient": {
+     *        "item": "kubejs:electrum_sheet"
+},
+"loops": 5,
+"results": [
+{
+"chance": 120.0,
+"id": "create:precision_mechanism"
+},
+{
+"chance": 8.0,
+"id": "kubejs:electrum_sheet"
+},
+{
+"chance": 8.0,
+"id": "create:andesite_alloy"
+},
+{
+"chance": 5.0,
+"id": "create:cogwheel"
+},
+{
+"chance": 3.0,
+"id": "oreganized:electrum_nugget"
+},
+{
+"chance": 2.0,
+"id": "create:shaft"
+},
+{
+"chance": 2.0,
+"id": "create:crushed_raw_gold"
+},
+{
+"id": "minecraft:iron_ingot"
+},
+{
+"id": 'oreganized:speedometer'
+}
+],
+"sequence": [
+{
+"type": "create:deploying",
+"ingredients": [
+{
+"item": "create:incomplete_precision_mechanism"
+},
+{
+"item": "create:cogwheel"
+}
+],
+"results": [
+{
+"id": "create:incomplete_precision_mechanism"
+}
+]
+},
+{
+"type": "create:deploying",
+"ingredients": [
+{
+"item": "create:incomplete_precision_mechanism"
+},
+{
+"item": "create:large_cogwheel"
+}
+],
+"results": [
+{
+"id": "create:incomplete_precision_mechanism"
+}
+]
+},
+{
+"type": "create:deploying",
+"ingredients": [
+{
+"item": "create:incomplete_precision_mechanism"
+},
+{
+"tag": "c:nuggets/iron"
+}
+],
+"results": [
+{
+"id": "create:incomplete_precision_mechanism"
+}
+]
+}
+],
+"transitional_item": {
+"id": "create:incomplete_precision_mechanism"
+}
+})*/
 
     e.remove({id: "simulated:redstone_magnet"})
     e.shapeless('simulated:redstone_magnet', ['create:industrial_iron_block','powergrid:copper_coil','minecraft:redstone'])
@@ -485,87 +485,87 @@ ServerEvents.recipes(e => {
 
     e.remove({id: 'simulated:sequenced_assembly/gyroscopic_mechanism'})
     e.custom({
-    "type": "create:sequenced_assembly",
-    "ingredient": {
-        "item": "kubejs:electrum_sheet"
-    },
-    "loops": 3,
-    "results": [
-        {
-            "chance": 200.0,
-            "id": "simulated:gyroscopic_mechanism"
+        "type": "create:sequenced_assembly",
+        "ingredient": {
+            "item": "kubejs:electrum_sheet"
         },
-        {
-            "chance": 8.0,
-            "id": "kubejs:electrum_sheet"
-        },
-        {
-            "chance": 7.0,
-            "id": "create:andesite_alloy"
-        },
-        {
-            "chance": 3.0,
-            "id": "create:brass_nugget"
-        },
-        {
-            "chance": 2.0,
-            "id": "create:crushed_raw_iron"
-        },
-        {
-            "id": "oreganized:speedometer"
-        },
-        {
-            "id": "minecraft:clock"
-        }
-    ],
-    "sequence": [
-        {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "simulated:incomplete_gyroscopic_mechanism"
-                },
-                {
-                    "item": "create:gearbox"
-                }
-            ],
-            "results": [
-                {
-                    "id": "simulated:incomplete_gyroscopic_mechanism"
-                }
-            ]
+        "loops": 3,
+        "results": [
+            {
+                "chance": 200.0,
+                "id": "simulated:gyroscopic_mechanism"
             },
             {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "simulated:incomplete_gyroscopic_mechanism"
-                },
-                {
-                    "item": "minecraft:compass"
-                }
-            ],
-            "results": [
-                {
-                    "id": "simulated:incomplete_gyroscopic_mechanism"
-                }
-            ]
+                "chance": 8.0,
+                "id": "kubejs:electrum_sheet"
             },
             {
-            "type": "create:deploying",
-            "ingredients": [
-                {
-                    "item": "simulated:incomplete_gyroscopic_mechanism"
-                },
-                {
-                    "item": "create:brass_nugget"
-                }
-            ],
-            "results": [
-                {
-                    "id": "simulated:incomplete_gyroscopic_mechanism"
-                }
-            ]
+                "chance": 7.0,
+                "id": "create:andesite_alloy"
+            },
+            {
+                "chance": 3.0,
+                "id": "create:brass_nugget"
+            },
+            {
+                "chance": 2.0,
+                "id": "create:crushed_raw_iron"
+            },
+            {
+                "id": "oreganized:speedometer"
+            },
+            {
+                "id": "minecraft:clock"
+            }
+        ],
+        "sequence": [
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "simulated:incomplete_gyroscopic_mechanism"
+                    },
+                    {
+                        "item": "create:gearbox"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "simulated:incomplete_gyroscopic_mechanism"
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "simulated:incomplete_gyroscopic_mechanism"
+                    },
+                    {
+                        "item": "minecraft:compass"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "simulated:incomplete_gyroscopic_mechanism"
+                    }
+                ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    {
+                        "item": "simulated:incomplete_gyroscopic_mechanism"
+                    },
+                    {
+                        "item": "create:brass_nugget"
+                    }
+                ],
+                "results": [
+                    {
+                        "id": "simulated:incomplete_gyroscopic_mechanism"
+                    }
+                ]
             }
         ],
         "transitional_item": {
@@ -575,7 +575,7 @@ ServerEvents.recipes(e => {
     // eye
     e.shaped('kubejs:spider_eye_block',
              [
-             'SSS',
+                 'SSS',
              'SSS',
              'SSS'
              ],
@@ -727,62 +727,62 @@ ServerEvents.recipes(e => {
     backpackUpgrade('alchemy')
 
     /*e.remove({id: 'create:industrial_iron_block_from_ingots_iron_stonecutting'})
-    e.custom({
-        "type": "create:compacting",
-        "ingredients": [
-            {
-                "tag": "c:plates/iron"
-            },
-            {
-                "tag": "c:plates/iron"
-            },
-            {
-                "item": "create:andesite_alloy"
-            }
-        ],
-        "results": [
-            {
-            "count": 3,
-            "id": 'createdeco:industrial_iron_ingot'
-            }
-        ]
-    })
+     *    e.custom({
+     *        "type": "create:compacting",
+     *        "ingredients": [
+     *            {
+     *                "tag": "c:plates/iron"
+},
+{
+"tag": "c:plates/iron"
+},
+{
+"item": "create:andesite_alloy"
+}
+],
+"results": [
+{
+"count": 3,
+"id": 'createdeco:industrial_iron_ingot'
+}
+]
+})
 
-    e.custom({
-        "type": "create:compacting",
-        "ingredients": [
-            {
-                "tag": "c:ingots/cast_iron"
-            },
-            {
-                "item": "create:andesite_alloy"
-            }
-        ],
-        "results": [
-            {
-            "count": 6,
-            "id": 'createdeco:industrial_iron_ingot'
-            }
-        ]
-    })*/
+e.custom({
+"type": "create:compacting",
+"ingredients": [
+{
+"tag": "c:ingots/cast_iron"
+},
+{
+"item": "create:andesite_alloy"
+}
+],
+"results": [
+{
+"count": 6,
+"id": 'createdeco:industrial_iron_ingot'
+}
+]
+})*/
 
     // prismarine recycling
     e.custom({
         "type": "create:crushing",
         "ingredients": [
             {
-            "item": "minecraft:prismarine"
+                "item": "minecraft:prismarine"
             }
         ],
         "processing_time": 150,
         "results": [
             {
-            "count": 3,
-            "id": "minecraft:prismarine_shard"
+                "count": 3,
+                "id": "minecraft:prismarine_shard"
             },
             {
-            "chance": 0.5,
-            "id": "minecraft:prismarine_shard"
+                "chance": 0.5,
+                "id": "minecraft:prismarine_shard"
             }
         ]
     })
@@ -791,7 +791,7 @@ ServerEvents.recipes(e => {
         "type": "create:crushing",
         "ingredients": [
             {
-            "item": "minecraft:prismarine_bricks"
+                "item": "minecraft:prismarine_bricks"
             }
         ],
         "processing_time": 150,
@@ -837,12 +837,12 @@ ServerEvents.recipes(e => {
         "processing_time": 250,
         "results": [
             {
-            "chance": 0.8,
-            "id": "create:crushed_raw_lead"
+                "chance": 0.8,
+                "id": "create:crushed_raw_lead"
             },
             {
-            "chance": 0.8,
-            "id": 'spelunkery:raw_lead_nugget'
+                "chance": 0.8,
+                "id": 'spelunkery:raw_lead_nugget'
             }
         ]
     })
@@ -855,28 +855,28 @@ ServerEvents.recipes(e => {
         "heat_requirement": "superheated",
         "ingredients": [
             {
-            "tag": "c:ingots/silver"
+                "tag": "c:ingots/silver"
             },
             {
-            "tag": "c:ingots/silver"
+                "tag": "c:ingots/silver"
             },
             {
-            "tag": "c:ingots/silver"
+                "tag": "c:ingots/silver"
             },
             {
-            "tag": "c:ingots/silver"
+                "tag": "c:ingots/silver"
             },
             {
-            "tag": "c:ingots/silver"
+                "tag": "c:ingots/silver"
             },
             {
-            "tag": "c:ingots/gold"
+                "tag": "c:ingots/gold"
             },
             {
-            "tag": "c:ingots/gold"
+                "tag": "c:ingots/gold"
             },
             {
-            "tag": "c:ingots/gold"
+                "tag": "c:ingots/gold"
             }
         ],
         "results": [
@@ -895,9 +895,9 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:light_blue_stained_glass"
             },
             {
-            "type": "neoforge:single",
-            "amount": 250,
-            "fluid": "minecraft:water"
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "minecraft:water"
             }
         ],
         "results": [
@@ -915,9 +915,9 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:green_stained_glass"
             },
             {
-            "type": "neoforge:single",
-            "amount": 250,
-            "fluid": "minecraft:water"
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "minecraft:water"
             }
         ],
         "results": [
@@ -935,9 +935,9 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:lime_stained_glass"
             },
             {
-            "type": "neoforge:single",
-            "amount": 250,
-            "fluid": "minecraft:water"
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "minecraft:water"
             }
         ],
         "results": [
@@ -955,9 +955,9 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:light_blue_stained_glass"
             },
             {
-            "type": "neoforge:single",
-            "amount": 250,
-            "fluid": "minecraft:water"
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "minecraft:water"
             }
         ],
         "results": [
@@ -975,9 +975,9 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:white_stained_glass"
             },
             {
-            "type": "neoforge:single",
-            "amount": 250,
-            "fluid": "minecraft:water"
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "minecraft:water"
             }
         ],
         "results": [
@@ -995,9 +995,9 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:red_stained_glass"
             },
             {
-            "type": "neoforge:single",
-            "amount": 250,
-            "fluid": "minecraft:water"
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "minecraft:water"
             }
         ],
         "results": [
@@ -1015,9 +1015,9 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:yellow_stained_glass"
             },
             {
-            "type": "neoforge:single",
-            "amount": 250,
-            "fluid": "minecraft:water"
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "minecraft:water"
             }
         ],
         "results": [
@@ -1035,9 +1035,9 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:purple_stained_glass"
             },
             {
-            "type": "neoforge:single",
-            "amount": 250,
-            "fluid": "minecraft:water"
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "minecraft:water"
             }
         ],
         "results": [
@@ -1055,9 +1055,9 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:brown_stained_glass"
             },
             {
-            "type": "neoforge:single",
-            "amount": 250,
-            "fluid": "minecraft:water"
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "minecraft:water"
             }
         ],
         "results": [
@@ -1075,9 +1075,9 @@ ServerEvents.recipes(e => {
                 "item": "minecraft:black_stained_glass"
             },
             {
-            "type": "neoforge:single",
-            "amount": 250,
-            "fluid": "minecraft:water"
+                "type": "neoforge:single",
+                "amount": 250,
+                "fluid": "minecraft:water"
             }
         ],
         "results": [
@@ -1098,22 +1098,22 @@ ServerEvents.recipes(e => {
         "experience": 2.0,
         "ingredients": [
             {
-            "item": "farmersdelight:tomato_sauce"
+                "item": "farmersdelight:tomato_sauce"
             },
             {
-            "tag": "c:crops/potato"
+                "tag": "c:crops/potato"
             },
             {
-            "tag": "c:drinks/milk"
+                "tag": "c:drinks/milk"
             },
             {
-            "item": "brewinandchewin:scarlet_cheese_wheel"
+                "item": "brewinandchewin:scarlet_cheese_wheel"
             },
             {
-            "item": "farmersdelight:ham"
+                "item": "farmersdelight:ham"
             },
             {
-            "tag": "c:foods/bread"
+                "tag": "c:foods/bread"
             }
         ],
         "recipe_book_tab": "meals",
@@ -1702,6 +1702,6 @@ ServerEvents.recipes(e => {
             }
         ]
     })
-	e.shaped('create:cogwheel', ['x'], {x: 'create_connected:crank_wheel'}).replaceIngredient('create_connected:crank_wheel', 'create:hand_crank')
+    e.shaped('create:cogwheel', ['x'], {x: 'create_connected:crank_wheel'}).replaceIngredient('create_connected:crank_wheel', 'create:hand_crank')
     e.shaped('create:large_cogwheel', ['x'], {x: 'create_connected:large_crank_wheel'}).replaceIngredient('create_connected:large_crank_wheel', 'create:hand_crank')
 })
