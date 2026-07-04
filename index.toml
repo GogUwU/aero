@@ -486,7 +486,7 @@ hash = "71501a5dab3b5c10c0eea41e14e58b4ceed6b1bcf7e641bcec66e0f0496ab903"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "18f9e961c38c3c0c53bd6ca3e2221f4b327ed5962db9531e0b9baa46a7d532b5"
+hash = "3937507d6f3f85e4663e9c8d031323f7a1c76efa7cf0ca7aa1b6d8d4338dd4fe"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -4023,6 +4023,11 @@ metafile = true
 [[files]]
 file = "mods/rpl.pw.toml"
 hash = "e9f23afbe98e73c840223344d8e62b4417f7b753b5fe0c681d124be64d475960"
+metafile = true
+
+[[files]]
+file = "mods/sable-aabb-fix.pw.toml"
+hash = "3446e0295165ca5d5a2ac6d6b04c6cf08bfe88f7f217074036de2c00d149cb19"
 metafile = true
 
 [[files]]
