@@ -632,7 +632,7 @@ ServerEvents.recipes(e => {
        
     })
     
-    //sad Additions
+    //sad additions
 
     e.custom({
         "type": "architects_palette:warping",
@@ -690,6 +690,9 @@ ServerEvents.recipes(e => {
     { 
         a: 'desire:scute_shingles' 
     })
+
+    e.remove({ output:'glow:glowstone_prism'})
+    e.shaped(Item.of('glow:glowstone_prism', 1),['g','g','g'],{g: 'minecraft:glowstone_dust'})
 
     //painted recipes
 	Color.DYE.forEach(color => {
@@ -757,25 +760,7 @@ ServerEvents.recipes(e => {
         b: 'minecraft:iron_ingot'
     })
     
-    //Bulk fermenter shinenigans
-    e.custom({
-        type: 'createdieselgenerators:bulk_fermenting',
-        ingredients: [
-            {
-                item: 'minecraft:glow_berries'
-            },
-            {
-                tag: 'c:cobblestones'
-            }
-        ],
-        processing_time: 400,
-        results: [
-            {
-                id: 'minecraft:glowstone',
-                amount: 1
-            }
-        ]})
-
+    //bulk fermenter shinenigans
         e.custom({
         type: 'createdieselgenerators:bulk_fermenting',
         ingredients: [
@@ -980,7 +965,7 @@ ServerEvents.recipes(e => {
             }
         ]})
 
-        //Non-bulk fermenter shinenigans
+        //non-bulk fermenter shinenigans
         e.custom({
         "type": "create:compacting",
         "ingredients": [
@@ -1040,16 +1025,67 @@ ServerEvents.recipes(e => {
             "id": 'nomansland:silt',
             "chance": 1.0
             },{
-            "id": 'minecraft:flint',
-            "chance": 0.1
+            "id":'spelunkery:raw_magnetite_nugget',
+            "chance": 0.8
             },{
             "id": 'spelunkery:basalt_pebble',
             "chance": 0.5
+            },{
+            "id": 'minecraft:flint',
+            "chance": 0.1
             }
             ]
         })
+        e.custom({
+        "type": "create:crushing", 
+        "ingredients": [
+            {
+            "item": 'nomansland:silt'
+            }
+            ],
+            "results": [
+            {
+            "id": 'minecraft:red_sand',
+            "chance": 1.0
+            },{
+            "id": 'minecraft:sand',
+            "chance": 0.3
+            },{
+            "id":'minecraft:quartz',
+            "chance": 0.08
+            }
+            ]
+        })
+
         //im going insane
         e.custom({"type":"create:crushing","ingredients":[{"item":'create:limestone'}],"results":[{"id":"minecraft:quartz","chance":0.24},{"id":'minecraft:bone_meal',"chance":0.12}]})
         e.custom({"type":"create:crushing","ingredients":[{"item":'minecraft:grass_block'}],"results":[{"id":'minecraft:dirt'},{"id":'minecraft:wheat_seeds',"chance":0.02},{"id":'minecraft:beetroot_seeds',"chance":0.02},{"id":'supplementaries:flax_seeds',"chance":0.02},{"id":'farmersdelight:rice',"chance":0.02},{"id":'farmersdelight:cabbage_seeds',"chance":0.02},{"id":'farmersdelight:tomato_seeds',"chance":0.02}]})
+
+        //ending recipes
+        e.custom({
+            "type": "create_dragons_plus:ending",
+            "ingredients": [{
+              "item": "minecraft:calcite"
+            }],
+            "results": [{
+              "id": 'enderscape:veradite'
+        }]})
+        e.custom({
+            "type": "create_dragons_plus:ending",
+            "ingredients": [{
+              "item": "create:limestone"
+            }],
+            "results": [{
+              "id": 'enderscape:mirestone'
+        }]})
+        e.custom({
+            "type": "create_dragons_plus:ending",
+            "ingredients": [{
+              "item": "create:scoria"
+            }],
+            "results": [{
+              "id": 'enderscape:kurodite'
+        }]})
+
 
 })
