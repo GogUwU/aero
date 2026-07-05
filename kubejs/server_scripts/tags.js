@@ -1,6 +1,6 @@
 ServerEvents.tags('block', e => {
     
-    //Komatiite portal frame
+    //komatiite portal frame
     e.add('frame_changer:portal_frames', 'kubejs:komatiite')
     e.add('frame_changer:portal_frames', 'kubejs:polished_komatiite')
     e.add('frame_changer:portal_frames', 'kubejs:inset_komatiite')
@@ -9,22 +9,22 @@ ServerEvents.tags('block', e => {
     e.add('frame_changer:portal_frames', 'kubejs:komatiite_tiles')
     e.add('minecraft:features_cannot_replace', 'kubejs:komatiite')
 
-    //Airstone
+    //airstone
     e.add('c:stones','kubejs:airstone')
     e.add('c:cobblestones','kubejs:cobbled_airstone')
 
-    //Pitchstone
+    //pitchstone
     e.add('c:stones','kubejs:pitchstone')
     e.add('c:cobblestones','kubejs:cobbled_pitchstone')
 
-    //Remove obsidian from portal frame
+    //remove obsidian from portal frame
     e.remove('frame_changer:portal_frames', 'minecraft:obsidian')
     e.remove('frame_changer:portal_frames', 'frame_changer:obsidian_bricks')
     e.remove('frame_changer:portal_frames', 'frame_changer:polished_obsidian')
     e.remove('frame_changer:portal_frames', 'frame_changer:chiseled_obsidian')
     e.remove('frame_changer:portal_frames', 'frame_changer:obsidian_pillar')
 
-    //Physics
+    //physics
     e.add('sable:ultra_heavy', 'oreganized:lead_block')
     e.add('sable:ultra_heavy', 'oreganized:cut_lead')
     e.add('sable:ultra_heavy', 'oreganized:lead_pillar')
@@ -42,10 +42,10 @@ ServerEvents.tags('block', e => {
     e.add('sable:heavy', 'createdieselgenerators:modular_diesel_engine')
     e.add('sable:ultra_heavy', 'createdieselgenerators:huge_diesel_engine')
 
-    //Spelunkery stuff
+    //spelunkery stuff
     e.add('spelunkery:chisel_immune', '#frame_changer:portal_frames')
     e.add('spelunkery:chisel_immune', '#aeronautics:levitite')
-    //Clay
+    //clay
     e.add('minecraft:stone_ore_replaceables', 'minecraft:clay')
 
     //lazy shafts/cogs
@@ -54,9 +54,9 @@ ServerEvents.tags('block', e => {
     e.add('sable:light', 'createadditionallogistics:lazy_cogwheel')
 
 
-    //Adding #wrenchable to create and other stuff
+    //adding #wrenchable to create and other stuff
 
-    //Glass
+    //glass
     e.add('create:wrench_pickup', '#c:glass_blocks')
     e.add('create:wrench_pickup', '#c:glass_panes')
     e.add('create:wrench_pickup', '#railways:palettes/dye_groups/round_pane_window')
@@ -64,11 +64,11 @@ ServerEvents.tags('block', e => {
     e.add('create:wrench_pickup', '#railways:palettes/dye_groups/two_pane_window')
     e.add('create:wrench_pickup', '#railways:palettes/dye_groups/four_pane_window')
 
-    //(trap)Doors
+    //(trap)doors
     e.add('create:wrench_pickup', '#minecraft:doors')
     e.add('create:wrench_pickup', '#minecraft:trapdoors')
 
-    //Other (too little to separate)
+    //other (doesnt group well)
     e.add('create:wrench_pickup', ['minecraft:anvil', 'minecraft:chipped_anvil', 'minecraft:damaged_anvil'])
     e.add('create:wrench_pickup', ['architects_palette:nether_brass_lantern', 'minecraft:lantern', 'minecraft:soul_lantern', 'suppsquared:copper_lantern', 'suppsquared:crimson_lantern', 
         'enderscape:void_lantern', 'enderscape:bulb_lantern', 'darkerdepths:glowshroom_lantern', 'dustydecorations:pillager_paper_lantern', 'architects_palette:redstone_cage_lantern', 
@@ -86,14 +86,14 @@ ServerEvents.tags('block', e => {
     e.add('create:wrench_pickup', '#create:seats')
     e.add('create:wrench_pickup', 'create:analog_lever')
 
-    //Create Deco
+    //create deco
     e.add('create:wrench_pickup', '#createdeco:supports')
     
 
 })
 
 ServerEvents.tags('item', e => {
-    //Airstone
+    //airstone
     e.add('kubejs:airstone','kubejs:inset_airstone')
     e.add('kubejs:airstone','kubejs:chiseled_airstone')
     e.add('kubejs:airstone','kubejs:polished_airstone')
@@ -111,7 +111,7 @@ ServerEvents.tags('item', e => {
     e.add('c:stones','kubejs:airstone')
     e.add('c:cobblestones','kubejs:cobbled_airstone')
     e.add('kubejs:airstone','kubejs:cobbled_airstone')
-    //Sheets
+    //sheets
     e.add('c:plates', 'kubejs:palladium_sheet')
     e.add('c:plates/palladium', 'kubejs:palladium_sheet')
     e.add('c:plates', 'kubejs:electrum_sheet')
@@ -188,7 +188,7 @@ ServerEvents.tags('item', e => {
     e.add('kubejs:scute_shingle_slabs', 'desire:purple_scute_shingle_slab')
     e.add('kubejs:scute_shingle_slabs', 'desire:magenta_scute_shingle_slab')
     e.add('kubejs:scute_shingle_slabs', 'desire:pink_scute_shingle_slab')
-    //Painted Planks, Stairs and Slabs
+    //painted planks, stairs and slabs
     e.add('kubejs:painted_planks', 'regions_unexplored:white_painted_planks')
     e.add('kubejs:painted_planks', 'regions_unexplored:orange_painted_planks')
     e.add('kubejs:painted_planks', 'regions_unexplored:magenta_painted_planks')
@@ -242,7 +242,7 @@ ServerEvents.tags('item', e => {
 
     e.add('createdieselgenerators:fermentable', 'regions_unexplored:salmonberry')
 
-    //Enchants
+    //enchants
     e.add('minecraft:enchantable/sword','create:cardboard_sword')
 })
 
