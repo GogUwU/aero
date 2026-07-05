@@ -964,6 +964,33 @@ ServerEvents.recipes(e => {
                 count: 3
             }
         ]})
+        
+        e.custom({
+        type: 'createdieselgenerators:bulk_fermenting',
+        ingredients: [
+            {
+                item: 'minecraft:bone_meal'
+            },{
+                item: 'minecraft:bone_meal'
+            },{
+                item: 'minecraft:bone_meal'
+            },{
+                item: 'minecraft:bone_meal'
+            },
+            {
+                type: "fluid_stack",
+                fluid: 'minecraft:water',
+                amount: 250
+            }
+        ],
+        processing_time: 800,
+        heat_requirement: "heated",
+        results: [
+            {
+                id: 'sliceanddice:fertilizer',
+                amount: 250
+            }
+        ]})
 
         //non-bulk fermenter shinenigans
         e.custom({
