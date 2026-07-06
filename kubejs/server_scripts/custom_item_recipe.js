@@ -926,10 +926,10 @@ ServerEvents.recipes(e => {
             {
                 type: "fluid_stack",
                 fluid: 'minecraft:water',
-                amount: 250
+                amount: 500
             }
         ],
-        processing_time: 1200,
+        processing_time: 2400,
         results: [
             {
                 id: 'farmersdelight:organic_compost'
@@ -961,7 +961,7 @@ ServerEvents.recipes(e => {
         results: [
             {
                 id: 'minecraft:dirt',
-                count: 3
+                count: 2
             }
         ]})
         
@@ -993,32 +993,33 @@ ServerEvents.recipes(e => {
         ]})
 
         //non-bulk fermenter shinenigans
-        e.custom({
-        "type": "create:compacting",
-        "ingredients": [
-          {
-            "item": "minecraft:sea_pickle"
-          },
-          {
-            "item": "minecraft:sea_pickle"
-          },
-          {
-            "item": "minecraft:sea_pickle"
-          },
-          {
-            "item": "minecraft:sea_pickle"
-          }
-         ],
-          "results": [
-            {
-                "id": "minecraft:wet_sponge"
-            },
-            {
-                "id": "minecraft:water",
-                "amount": 25
-            }
-          ]
-        })
+        // e.custom({
+        // "type": "create:compacting",
+        // "ingredients": [
+        //   {
+        //     "item": "minecraft:sea_pickle"
+        //   },
+        //   {
+        //     "item": "minecraft:sea_pickle"
+        //   },
+        //   {
+        //     "item": "minecraft:sea_pickle"
+        //   },
+        //   {
+        //     "item": "minecraft:sea_pickle"
+        //   }
+        //  ],
+        //   "results": [
+        //     {
+        //         "id": "minecraft:wet_sponge"
+        //     },
+        //     {
+        //         "id": "minecraft:water",
+        //         "amount": 25
+        //     }
+        //   ]
+        // })
+		// i will make a different sponge recipe this is a bit too easy -gog
         e.custom({
         "type": "create:mixing",
         "ingredients": [
@@ -1032,6 +1033,7 @@ ServerEvents.recipes(e => {
             "tag": "c:storage_blocks/coal"
           }
          ],
+		  "processing_time": 100,
           "heat_requirement": "heated",
           "results": [
             {
@@ -1053,7 +1055,7 @@ ServerEvents.recipes(e => {
             "chance": 1.0
             },{
             "id":'spelunkery:raw_magnetite_nugget',
-            "chance": 0.8
+            "chance": 0.3
             },{
             "id": 'spelunkery:basalt_pebble',
             "chance": 0.5
@@ -1063,29 +1065,30 @@ ServerEvents.recipes(e => {
             }
             ]
         })
-        e.custom({
-        "type": "create:crushing", 
-        "ingredients": [
-            {
-            "item": 'nomansland:silt'
-            }
-            ],
-            "results": [
-            {
-            "id": 'minecraft:red_sand',
-            "chance": 1.0
-            },{
-            "id": 'minecraft:sand',
-            "chance": 0.3
-            },{
-            "id":'minecraft:quartz',
-            "chance": 0.08
-            }
-            ]
-        })
-
+        // e.custom({
+        // "type": "create:crushing", 
+        // "ingredients": [
+        //     {
+        //     "item": 'nomansland:silt'
+        //     }
+        //     ],
+        //     "results": [
+        //     {
+        //     "id": 'minecraft:red_sand',
+        //     "chance": 1.0
+        //     },{
+        //     "id": 'minecraft:sand',
+        //     "chance": 0.3
+        //     },{
+        //     "id":'minecraft:quartz',
+        //     "chance": 0.08
+        //     }
+        //     ]
+        // })
+		//this recipe is stupid -gog
         //im going insane
-        e.custom({"type":"create:crushing","ingredients":[{"item":'create:limestone'}],"results":[{"id":"minecraft:quartz","chance":0.24},{"id":'minecraft:bone_meal',"chance":0.12}]})
+        //e.custom({"type":"create:crushing","ingredients":[{"item":'create:limestone'}],"results":[{"id":"minecraft:quartz","chance":0.24},{"id":'minecraft:bone_meal',"chance":0.12}]})
+		//don't see a reason for this recipe
         e.custom({"type":"create:crushing","ingredients":[{"item":'minecraft:grass_block'}],"results":[{"id":'minecraft:dirt'},{"id":'minecraft:wheat_seeds',"chance":0.02},{"id":'minecraft:beetroot_seeds',"chance":0.02},{"id":'supplementaries:flax_seeds',"chance":0.02},{"id":'farmersdelight:rice',"chance":0.02},{"id":'farmersdelight:cabbage_seeds',"chance":0.02},{"id":'farmersdelight:tomato_seeds',"chance":0.02}]})
 
         //ending recipes
