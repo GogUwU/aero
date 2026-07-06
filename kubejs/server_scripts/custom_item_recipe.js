@@ -889,7 +889,7 @@ ServerEvents.recipes(e => {
             {
                 type: "fluid_stack",
                 fluid: 'minecraft:water',
-                amount: 250
+                amount: 500
             }
         ],
         processing_time: 3800,
