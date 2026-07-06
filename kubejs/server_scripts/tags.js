@@ -38,6 +38,8 @@ ServerEvents.tags('block', e => {
 
     e.add('sable:heavy', 'create:steam_engine')
 
+    e.add('sable:slippery', 'supplementaries:soap_block')
+
     e.add('sable:heavy', 'createdieselgenerators:diesel_engine')
     e.add('sable:heavy', 'createdieselgenerators:modular_diesel_engine')
     e.add('sable:ultra_heavy', 'createdieselgenerators:huge_diesel_engine')
