@@ -632,7 +632,7 @@ ServerEvents.recipes(e => {
        
     })
     
-    //sad Additions
+    //sad additions
 
     e.custom({
         "type": "architects_palette:warping",
@@ -690,6 +690,9 @@ ServerEvents.recipes(e => {
     { 
         a: 'desire:scute_shingles' 
     })
+
+    e.remove({ output:'glow:glowstone_prism'})
+    e.shaped(Item.of('glow:glowstone_prism', 1),['g','g','g'],{g: 'minecraft:glowstone_dust'})
 
     //painted recipes
 	Color.DYE.forEach(color => {
@@ -757,5 +760,362 @@ ServerEvents.recipes(e => {
         b: 'minecraft:iron_ingot'
     })
     
+    //bulk fermenter shinenigans
+        e.custom({
+        type: 'createdieselgenerators:bulk_fermenting',
+        ingredients: [
+            {
+                item: 'minecraft:glowstone'
+            },
+            {
+                item: 'minecraft:magma_cream'
+            }
+        ],
+        processing_time: 400,
+        results: [
+            {
+                id: 'minecraft:ochre_froglight',
+                amount: 1
+            }
+        ]})
+        e.custom({
+        type: 'createdieselgenerators:bulk_fermenting',
+        ingredients: [
+            {
+                item: 'minecraft:ochre_froglight'
+            }
+        ],
+        processing_time: 400,
+        results: [
+            {
+                id: 'minecraft:verdant_froglight',
+                amount: 1
+            }
+        ]})
+        e.custom({
+        type: 'createdieselgenerators:bulk_fermenting',
+        ingredients: [
+            {
+                item: 'minecraft:verdant_froglight'
+            }
+        ],
+        processing_time: 400,
+        results: [
+            {
+                id: 'minecraft:pearlescent_froglight',
+                amount: 1
+            }
+        ]})
+        e.custom({
+        type: 'createdieselgenerators:bulk_fermenting',
+        ingredients: [
+            {
+                item: 'minecraft:pearlescent_froglight'
+            }
+        ],
+        processing_time: 400,
+        results: [
+            {
+                id: 'minecraft:ochre_froglight',
+                amount: 1
+            }
+        ]})
+        e.custom({
+        
+        "type": "createdieselgenerators:bulk_fermenting",
+        "ingredients": [
+          {
+            "type": "fluid_stack",
+            "fluid": "minecraft:water",
+            "amount": 1000
+          },
+          {
+            "type": "fluid_stack",
+            "fluid": "minecraft:lava",
+            "amount": 100
+          }
+          ],
+         "processing_time": 20,
+         "results": [
+           {
+             "id": "minecraft:cobblestone",
+                "amount": 1
+          }]})
+
+          e.custom({
+        "type": "createdieselgenerators:bulk_fermenting",
+        "ingredients": [
+          {
+            "type": "fluid_stack",
+            "fluid": "minecraft:water",
+            "amount": 1000
+          },
+          {
+            "item": "minecraft:iron_nugget"
+          },
+          {
+            "item": "minecraft:iron_nugget"
+          },
+          {
+            "item": "minecraft:iron_nugget"
+          },
+          {
+            "item": "minecraft:iron_nugget"
+          },
+          {
+            "item": "minecraft:iron_nugget"
+          },
+          {
+            "item": "minecraft:iron_nugget"
+          },
+          {
+            "item": "minecraft:nether_wart"
+          }
+          ],
+         "heat_requirement": "heated",
+         "processing_time": 400,
+         "results": [
+           {
+             "id": "createpropulsion:oxidizer",
+                "amount": 1000
+          }]}) 
+          
+          e.custom({
+        type: 'createdieselgenerators:bulk_fermenting',
+        ingredients: [
+            {
+                item: 'farmersdelight:organic_compost'
+            },
+            {
+                type: "fluid_stack",
+                fluid: 'minecraft:water',
+                amount: 500
+            }
+        ],
+        processing_time: 3800,
+        results: [
+            {
+                id: 'farmersdelight:rich_soil'
+            }
+        ]})
+
+        e.custom({
+        type: 'createdieselgenerators:bulk_fermenting',
+        ingredients: [
+            {
+                tag: 'createdieselgenerators:fermentable'
+            },
+            {
+                tag: 'createdieselgenerators:fermentable'
+            },
+            {
+                tag: 'createdieselgenerators:fermentable'
+            },
+            {
+                tag: 'createdieselgenerators:fermentable'
+            },
+            {
+                item: 'farmersdelight:straw'
+            },
+            {
+                item: 'farmersdelight:straw'
+            },
+            {
+                item: "minecraft:dirt"
+            },
+            {
+                type: "fluid_stack",
+                fluid: 'minecraft:water',
+                amount: 500
+            }
+        ],
+        processing_time: 2400,
+        results: [
+            {
+                id: 'farmersdelight:organic_compost'
+            }
+        ]})
+
+        e.custom({
+        type: 'createdieselgenerators:bulk_fermenting',
+        ingredients: [
+            {
+                item: 'create:pulp'
+            },
+            {
+                item: 'create:pulp'
+            },
+            {
+                item: 'create:pulp'
+            },
+            {
+                item: "minecraft:dirt"
+            },
+            {
+                type: "fluid_stack",
+                fluid: 'minecraft:water',
+                amount: 100
+            }
+        ],
+        processing_time: 900,
+        results: [
+            {
+                id: 'minecraft:dirt',
+                count: 2
+            }
+        ]})
+        
+        e.custom({
+        type: 'createdieselgenerators:bulk_fermenting',
+        ingredients: [
+            {
+                item: 'minecraft:bone_meal'
+            },{
+                item: 'minecraft:bone_meal'
+            },{
+                item: 'minecraft:bone_meal'
+            },{
+                item: 'minecraft:bone_meal'
+            },
+            {
+                type: "fluid_stack",
+                fluid: 'minecraft:water',
+                amount: 250
+            }
+        ],
+        processing_time: 800,
+        heat_requirement: "heated",
+        results: [
+            {
+                id: 'sliceanddice:fertilizer',
+                amount: 250
+            }
+        ]})
+
+        //non-bulk fermenter shinenigans
+        // e.custom({
+        // "type": "create:compacting",
+        // "ingredients": [
+        //   {
+        //     "item": "minecraft:sea_pickle"
+        //   },
+        //   {
+        //     "item": "minecraft:sea_pickle"
+        //   },
+        //   {
+        //     "item": "minecraft:sea_pickle"
+        //   },
+        //   {
+        //     "item": "minecraft:sea_pickle"
+        //   }
+        //  ],
+        //   "results": [
+        //     {
+        //         "id": "minecraft:wet_sponge"
+        //     },
+        //     {
+        //         "id": "minecraft:water",
+        //         "amount": 25
+        //     }
+        //   ]
+        // })
+		// i will make a different sponge recipe this is a bit too easy -gog
+        e.custom({
+        "type": "create:mixing",
+        "ingredients": [
+          {
+            "item": "minecraft:iron_block"
+          },
+          {
+            "item": "minecraft:iron_block"
+          },
+          {
+            "tag": "c:storage_blocks/coal"
+          }
+         ],
+		  "processing_time": 100,
+          "heat_requirement": "heated",
+          "results": [
+            {
+                "id": "createbigcannons:steel_block",
+                "amount": 1
+            }
+          ]
+        })
+        e.custom({
+        "type": "create:crushing", 
+        "ingredients": [
+            {
+            "item": 'create:scoria'
+            }
+            ],
+            "results": [
+            {
+            "id": 'nomansland:silt',
+            "chance": 1.0
+            },{
+            "id":'spelunkery:raw_magnetite_nugget',
+            "chance": 0.3
+            },{
+            "id": 'spelunkery:basalt_pebble',
+            "chance": 0.5
+            },{
+            "id": 'minecraft:flint',
+            "chance": 0.1
+            }
+            ]
+        })
+        // e.custom({
+        // "type": "create:crushing", 
+        // "ingredients": [
+        //     {
+        //     "item": 'nomansland:silt'
+        //     }
+        //     ],
+        //     "results": [
+        //     {
+        //     "id": 'minecraft:red_sand',
+        //     "chance": 1.0
+        //     },{
+        //     "id": 'minecraft:sand',
+        //     "chance": 0.3
+        //     },{
+        //     "id":'minecraft:quartz',
+        //     "chance": 0.08
+        //     }
+        //     ]
+        // })
+		//this recipe is stupid -gog
+        //im going insane
+        //e.custom({"type":"create:crushing","ingredients":[{"item":'create:limestone'}],"results":[{"id":"minecraft:quartz","chance":0.24},{"id":'minecraft:bone_meal',"chance":0.12}]})
+		//don't see a reason for this recipe
+        e.custom({"type":"create:crushing","ingredients":[{"item":'minecraft:grass_block'}],"results":[{"id":'minecraft:dirt'},{"id":'minecraft:wheat_seeds',"chance":0.02},{"id":'minecraft:beetroot_seeds',"chance":0.02},{"id":'supplementaries:flax_seeds',"chance":0.02},{"id":'farmersdelight:rice',"chance":0.02},{"id":'farmersdelight:cabbage_seeds',"chance":0.02},{"id":'farmersdelight:tomato_seeds',"chance":0.02}]})
+
+        //ending recipes
+        e.custom({
+            "type": "create_dragons_plus:ending",
+            "ingredients": [{
+              "item": "minecraft:calcite"
+            }],
+            "results": [{
+              "id": 'enderscape:veradite'
+        }]})
+        e.custom({
+            "type": "create_dragons_plus:ending",
+            "ingredients": [{
+              "item": "create:limestone"
+            }],
+            "results": [{
+              "id": 'enderscape:mirestone'
+        }]})
+        e.custom({
+            "type": "create_dragons_plus:ending",
+            "ingredients": [{
+              "item": "create:scoria"
+            }],
+            "results": [{
+              "id": 'enderscape:kurodite'
+        }]})
+
 
 })
