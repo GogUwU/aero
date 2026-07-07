@@ -1,4 +1,6 @@
 ServerEvents.tags('block', e => {
+    //remove
+    e.remove('create:safe_nbt', 'create:clipboard')
     
     //komatiite portal frame
     e.add('frame_changer:portal_frames', 'kubejs:komatiite')
