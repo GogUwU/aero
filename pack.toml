@@ -1,12 +1,12 @@
 name = "Aeroland"
 author = "Gog, PirateSee, bananapix, mnwzrd"
-version = "1.5.0"
+version = "1.6.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "3794126e145f135c692397d51fe5d258e95271557495eef15576b5e3bdb08108"
+hash = "0a23393c07b7d75dfcedfd5ac224a338083e51a5aa305b823670c5ed42f31e48"
 
 [versions]
 minecraft = "1.21.1"

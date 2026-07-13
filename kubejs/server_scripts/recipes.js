@@ -21,7 +21,10 @@ ServerEvents.recipes(e => {
     e.remove({id:'createpropulsion:mixing/turpentine'})
     e.remove({id:'createpropulsion:crushing/spruce_log'})
     e.remove({id:'createpropulsion:mixing/coral'})
-    e.remove({id:'createpropulsion:crafting/platinum_fluid_tank'})
+    e.remove({id:'vsfluidlink:crafting/item_hose_connector'})
+    e.remove({id:'vsfluidlink:crafting/item_magnet_hose_connector'})
+    e.remove({id:'vsfluidlink:crafting/chain_connector'})
+    e.remove({id:'vsfluidlink:crafting/magnet_chain_connector'})
 
     //remove ore veins
     e.remove({id:'createoreexcavation:ore_vein_type/coal'})
@@ -1704,4 +1707,63 @@ e.custom({
     })
     e.shaped('create:cogwheel', ['x'], {x: 'create_connected:crank_wheel'}).replaceIngredient('create_connected:crank_wheel', 'create:hand_crank')
     e.shaped('create:large_cogwheel', ['x'], {x: 'create_connected:large_crank_wheel'}).replaceIngredient('create_connected:large_crank_wheel', 'create:hand_crank')
+
+
+    e.remove({id:'createpropulsion:crafting/platinum_fluid_tank'})
+    e.shaped('createpropulsion:platinum_fluid_tank', [
+        'p',
+        't',
+        'p'
+    ], {
+        t: 'create:fluid_tank',
+        p: '#c:plates/palladium'
+    })
+
+    //mech trowel stuff
+    e.remove({id:'mechtrowel:mech_trowel'})
+    e.shaped('mechtrowel:mech_trowel', [
+        '  i',
+        'pb ',
+        'sp '
+    ], {
+        b: 'create:brass_casing',
+        s: 'minecraft:stick',
+        p: 'create:precision_mechanism',
+        i: 'create:iron_sheet'
+    })
+
+    e.remove({id:'mechtrowel:reach_upgrade_template'})
+    e.shaped('mechtrowel:reach_upgrade_template', [
+        ' m ',
+        ' p ',
+        'ese'
+    ], {
+        m: 'create:extendo_grip',
+        s: 'create:mechanical_piston',
+        p: 'create:precision_mechanism',
+        e: 'create:piston_extension_pole'
+    })
+    e.remove({id:'mechtrowel:wand_capacity_template'})
+    e.shaped('mechtrowel:wand_capacity_template', [
+        ' v ',
+        'viv',
+        ' v '
+    ], {
+        v: 'create:item_vault',
+        i: 'minecraft:netherite_ingot'
+    })
+
+    // e.custom({
+    //     "type": "create:splashing",
+    //     "ingredients": [
+    //         {
+    //             "item": "#createdeco:shipping_containers"
+    //         }
+    //     ],
+    //     "results": [
+    //         {
+    //             "id": "create:item_vault"
+    //         }
+    //         ]
+    // })
 })

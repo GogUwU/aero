@@ -39,6 +39,7 @@ ServerEvents.tags('block', e => {
     e.add('sable:light', '#c:skulls')
 
     e.add('sable:heavy', 'create:steam_engine')
+    e.add('sable:heavy', 'createpropulsion:platinum_fluid_tank')
 
     e.add('sable:slippery', 'supplementaries:soap_block')
 
